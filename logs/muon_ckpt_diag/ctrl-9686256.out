@@ -1,0 +1,458 @@
+2026-08-02 23:00:39.324	babel-s9-20:0	olmo_core.utils:227	INFO	Setting env var 'OMP_NUM_THREADS' to '8'
+2026-08-02 23:00:39.324	babel-s9-20:0	olmo_core.utils:227	INFO	Setting env var 'TOKENIZERS_PARALLELISM' to 'false'
+2026-08-02 23:00:39.330	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:39.913	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:40.765	babel-s9-20:0	__main__:42	INFO	Detected checkpoint in subdirectory, using: gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim
+2026-08-02 23:00:40.765	babel-s9-20:0	__main__:141	INFO	Unsharding checkpoint from: gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim
+2026-08-02 23:00:40.765	babel-s9-20:0	__main__:142	INFO	Output directory: /tmp/adamw_ckpt_ctrl/final-unsharded
+2026-08-02 23:00:40.765	babel-s9-20:0	__main__:143	INFO	Strategy: one_file
+2026-08-02 23:00:40.765	babel-s9-20:0	__main__:144	INFO	Format: PyTorch
+2026-08-02 23:00:40.765	babel-s9-20:0	__main__:146	INFO	Include optimizer: False
+2026-08-02 23:00:40.767	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:41.298	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:42.021	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/.metadata is up-to-date
+2026-08-02 23:00:42.134	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/.metadata is up-to-date
+2026-08-02 23:00:42.204	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.252	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.253	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.256	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.260	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.261	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.265	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.270	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.270	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.270	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.270	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_0.distcp is up-to-date
+2026-08-02 23:00:42.271	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.271	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.284	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.304	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:00:42.333	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.335	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.354	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.379	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.384	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.445	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.453	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.457	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.466	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.467	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.475	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.478	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.500	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.508	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.525	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.531	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.532	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.534	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.535	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.536	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.538	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.546	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.547	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.562	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.570	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.591	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.609	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:00:42.613	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.614	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.618	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.623	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.627	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.640	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.653	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.663	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.681	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.683	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.690	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.692	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.698	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.710	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.720	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.724	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.728	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.731	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.734	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.741	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.749	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.749	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.749	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.754	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.759	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.772	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.782	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.790	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.792	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.796	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.796	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.801	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:00:42.801	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.803	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.816	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.819	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.834	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.838	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.846	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.853	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.859	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.863	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.867	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.871	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.873	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.881	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:42.883	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.888	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.890	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:42.898	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:42.899	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:42.900	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.901	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:42.921	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.922	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:42.925	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.933	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:42.936	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:42.940	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:42.958	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final/model_and_optim/__0_1.distcp is up-to-date
+Unsharding model chunks... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:02
+
+2026-08-02 23:00:44.326	babel-s9-20:0	__main__:162	INFO	
+Unsharding complete!
+2026-08-02 23:00:44.326	babel-s9-20:0	__main__:163	INFO	Model checkpoint: /tmp/adamw_ckpt_ctrl/final-unsharded/model.pt
+2026-08-02 23:00:44.326	babel-s9-20:0	__main__:170	INFO	Model size: 187.55 MB
+2026-08-02 23:00:48.728	babel-s9-20:0	olmo_core.utils:227	INFO	Setting env var 'OMP_NUM_THREADS' to '8'
+2026-08-02 23:00:48.728	babel-s9-20:0	olmo_core.utils:227	INFO	Setting env var 'TOKENIZERS_PARALLELISM' to 'false'
+2026-08-02 23:00:48.732	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:49.200	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:49.958	babel-s9-20:0	__main__:42	INFO	Detected checkpoint in subdirectory, using: gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim
+2026-08-02 23:00:49.958	babel-s9-20:0	__main__:141	INFO	Unsharding checkpoint from: gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim
+2026-08-02 23:00:49.958	babel-s9-20:0	__main__:142	INFO	Output directory: /tmp/adamw_ckpt_ctrl/step7500-unsharded
+2026-08-02 23:00:49.958	babel-s9-20:0	__main__:143	INFO	Strategy: one_file
+2026-08-02 23:00:49.958	babel-s9-20:0	__main__:144	INFO	Format: PyTorch
+2026-08-02 23:00:49.958	babel-s9-20:0	__main__:146	INFO	Include optimizer: False
+2026-08-02 23:00:49.959	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:50.459	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:51.114	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/.metadata is up-to-date
+2026-08-02 23:00:51.227	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/.metadata is up-to-date
+2026-08-02 23:00:51.324	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/d410160c5457b2a161193b31d402e42c8ec58bc112adb56fabc886222ee93868.7b6ff32770fa16c7b22d1c8bb752fb6901e4ae3b696403a38e804f599ea71695
+2026-08-02 23:00:51.339	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/3d37a2080ceb526e258efa43cf48276ed6a7386b5fad0c3c315f29010abc7951.4c50e83e356cdb5a9e7415e34c9c2d0be638ba0f358a5018e803e02f7ef3246c
+2026-08-02 23:00:51.339	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:51.345	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_0.distcp is up-to-date
+2026-08-02 23:00:51.346	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/948f82435bc7db72748b597dd8081628190dc3c12a11048d8134771d435a30be.02826ea0b065b6e64f0e850001c4dab22b047ed132ce0f33ba21e827c5578b32
+2026-08-02 23:00:51.347	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/5ffa2910781e3b04381064801efb1c2cfc76448889edf66cad5354de39cb1723.077a6f9c17bb390b88d0333a2bda25c9052d2588eb6e00cc8356fbf41a55269d
+2026-08-02 23:00:51.349	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:51.353	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/e33250a8753ee7cedef0a3aeaafeca34cda7409e7490f14ae7c0c205e94bb8d8.68451c7ccb28cc33b96238aa9683b10a35a878ffbf15c1764ae0498e3e5885e3
+2026-08-02 23:00:51.357	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:00:51.369	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/067d48a40da8fde2a6dce2b9259149e5c774994f65ce0afe2a34ae4641e7e8f3.70370e068946c96ace8426140abfdc657a49d0983b6056d825fef6dd57ad269d
+2026-08-02 23:00:51.386	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/0759758094a8a08baed8b04c73b1a221c0003385178918341a3e0c164cc56d69.b2f0288c884f62a1015e5e69b14310d6f9a7b99d1d65e92463739aeb7095d99f
+2026-08-02 23:00:51.895	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:51.917	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.001	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/472f8a22713892faeb65ae509799a31c8b9ce5e144855a7feda2ab16225f4fa1.84c7b3ff92590e8a863f86d70b15ad6bac93b14da447cb0ec2a9acb6911cb1bd
+2026-08-02 23:00:52.205	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.212	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.215	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.260	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:52.264	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.283	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.286	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.296	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.323	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.327	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.341	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.372	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.386	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.402	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.443	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.445	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.454	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.469	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.500	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:00:52.509	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:52.524	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.540	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.550	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.563	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.609	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.609	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:52.610	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.615	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.615	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.620	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.624	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.624	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.630	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.641	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.648	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.650	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.668	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.671	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.676	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.679	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.680	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.684	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.684	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.689	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.695	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.697	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.701	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.701	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.705	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.705	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.708	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.716	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.746	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.746	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.746	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:52.749	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.751	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.755	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.763	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.763	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.763	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:00:52.769	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.769	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.773	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.779	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.781	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.807	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:00:52.807	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.811	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.812	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.821	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.823	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.825	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.826	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.831	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:00:52.831	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.836	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:00:52.839	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:00:52.843	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:00:52.845	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.868	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:00:52.877	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.880	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:00:52.880	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.892	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:00:52.892	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_1.distcp is up-to-date
+2026-08-02 23:00:52.910	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:00:52.935	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7500/model_and_optim/__0_10.distcp is up-to-date
+Unsharding model chunks... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:03
+
+2026-08-02 23:00:54.282	babel-s9-20:0	__main__:162	INFO	
+Unsharding complete!
+2026-08-02 23:00:54.282	babel-s9-20:0	__main__:163	INFO	Model checkpoint: /tmp/adamw_ckpt_ctrl/step7500-unsharded/model.pt
+2026-08-02 23:00:54.282	babel-s9-20:0	__main__:170	INFO	Model size: 187.55 MB
+2026-08-02 23:00:58.333	babel-s9-20:0	olmo_core.utils:227	INFO	Setting env var 'OMP_NUM_THREADS' to '8'
+2026-08-02 23:00:58.333	babel-s9-20:0	olmo_core.utils:227	INFO	Setting env var 'TOKENIZERS_PARALLELISM' to 'false'
+2026-08-02 23:00:58.338	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:58.800	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:59.511	babel-s9-20:0	__main__:42	INFO	Detected checkpoint in subdirectory, using: gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim
+2026-08-02 23:00:59.511	babel-s9-20:0	__main__:141	INFO	Unsharding checkpoint from: gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim
+2026-08-02 23:00:59.511	babel-s9-20:0	__main__:142	INFO	Output directory: /tmp/adamw_ckpt_ctrl/step7000-unsharded
+2026-08-02 23:00:59.511	babel-s9-20:0	__main__:143	INFO	Strategy: one_file
+2026-08-02 23:00:59.511	babel-s9-20:0	__main__:144	INFO	Format: PyTorch
+2026-08-02 23:00:59.511	babel-s9-20:0	__main__:146	INFO	Include optimizer: False
+2026-08-02 23:00:59.512	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:00:59.965	babel-s9-20:0	py.warnings:109	WARNING	/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/auth/_default.py:114: UserWarning: Your application has authenticated using end user credentials from Google Cloud SDK without a quota project. You might receive a "quota exceeded" or "API not enabled" error. See the following page for troubleshooting: https://cloud.google.com/docs/authentication/adc-troubleshooting/user-creds. 
+  warnings.warn(_CLOUD_SDK_CREDENTIALS_WARNING)
+
+2026-08-02 23:01:00.614	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/.metadata not found in cache, downloading to /home/catheri4/.cache/cached_path/37ed0f1e08115aaf75c82a6188cd06820dca5e92167926c470f5a51b1841dfc3.b8f4a21566dcf66ef45a3f4cdc93963430c7a4624e2f610fd23317cf7227020e
+2026-08-02 23:01:00.993	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/.metadata is up-to-date
+2026-08-02 23:01:01.072	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/f4a938efdeba086cef7c90598aca95f06d28ceae7666ffbc77e4c8e2c96f7c91.11ee434871171703a58b0f56066258c03c58cf8fe4e91a36f491b6f1475e6648
+2026-08-02 23:01:01.092	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/577ac18d5c5682ae0822aa57d1cca958ccbc4ba6042829bcd68d373c450e7f14.4c33c6be0a1db6173015fa2de63a5a4c074020e30aa809163d1e917a48a8e37c
+2026-08-02 23:01:01.110	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/17bc0bd57a0ef7784a3d7aa7f0c54c5a02807fa6a09898e52aeb8113482cc7d9.8b32ef4e56a4b4912203ef77f5a180c3eab8d2b87c7ca05e3a706a7295ee144c
+2026-08-02 23:01:01.110	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/4b189c47776ba85d2285e37de30ad0224aab76d01f7b180cc83df5b68a62c932.cf6c58ebdce30a988bce5adf31d052985a65dec1bc08a755ed864f611fcf5933
+2026-08-02 23:01:01.113	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/79fbbaabae7cad3fa47d5d193fa5c4038b840ebc9d091edd27b6de3dfa746047.081313f322cf98a9b4e2d5d69338244bf9ec20d7165aa59bf83c01031fe7ddb1
+2026-08-02 23:01:01.119	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_0.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/460343de2c5fc3a2a82bb78a94b803a2f3f08d5ef5bb7156c7c2edc654411d53.ab768073ee861a1a1cb907acedb73db7ca6527641fd2223cbe1eb22756454b75
+2026-08-02 23:01:01.122	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_6.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/079e64174735026be5a3db92798bc6b239884cd132c24dba2922291f9f7aebb4.115afe886eb6b74c498b12d68f4f2374e295db49bdd941371439dc2da5f0fe02
+2026-08-02 23:01:01.122	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/e0dbc9d86536fed1c622d8ac98ec68ff8d64954474330db3e71348882f84cbbc.5e72c64a2d3b98c2182e2882354c3fcffa10107960cc2d0bc786510c195e804e
+2026-08-02 23:01:01.135	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/c20b92970b4e60ac52bae5a3078473fc61baf00149ad223623ca6f961f0e73e2.6091149fe8bd89b9d3c98c64413969c558ec2f00c18ad19b22cf80469242f1dd
+2026-08-02 23:01:01.139	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/b63ef0fcbc0c568b6f07ceac3078c4390e4c93ad01fba9f9c53420d2b30b66b6.4d37bdb7a6c32120bfe1fefbbfb5aa591815fb7e0ba51e6a8b5edef10e297ec6
+2026-08-02 23:01:01.713	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:01:02.092	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.180	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.192	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.192	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.245	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/20bfa8db0852564bfe48c2f6bb94d4a3f038f08c981c7b2a6e555b972241cd46.ca03d0eeb45c5e2df0686da98caee7cee726d7519172b1d08d252c261e628f91
+2026-08-02 23:01:02.250	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:01:02.252	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.304	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.315	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.325	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.342	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.346	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.386	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.389	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.392	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.406	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.412	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.452	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.453	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.464	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.520	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:01:02.527	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.578	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.581	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.587	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:01:02.588	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.594	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.616	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.649	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.654	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.655	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:01:02.685	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.713	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.719	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.721	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.728	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.740	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.744	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.750	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.779	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.794	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.797	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.797	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.801	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.803	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.816	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.846	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:02.848	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.861	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.864	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:02.867	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.873	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.891	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:01:02.910	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:02.922	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:02.941	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_6.distcp is up-to-date
+2026-08-02 23:01:02.943	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:02.943	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:02.950	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:02.994	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:03.014	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:03.020	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:03.023	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:03.048	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:03.064	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:03.076	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_7.distcp is up-to-date
+2026-08-02 23:01:03.104	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:03.115	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:03.136	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_13.distcp is up-to-date
+2026-08-02 23:01:03.138	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:03.163	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_14.distcp is up-to-date
+2026-08-02 23:01:03.187	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_15.distcp is up-to-date
+2026-08-02 23:01:03.215	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_8.distcp is up-to-date
+2026-08-02 23:01:03.228	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:03.252	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.254	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.267	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_10.distcp is up-to-date
+2026-08-02 23:01:03.267	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.268	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.279	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.282	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.284	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.284	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:03.292	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.294	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:03.297	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.314	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_11.distcp is up-to-date
+2026-08-02 23:01:03.317	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_12.distcp is up-to-date
+2026-08-02 23:01:03.329	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.335	babel-s9-20:0	cached_path:367	INFO	cache of gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_9.distcp is up-to-date
+2026-08-02 23:01:03.342	babel-s9-20:0	cached_path:373	INFO	gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/step7000/model_and_optim/__0_1.distcp not found in cache, downloading to /home/catheri4/.cache/cached_path/58b81d18d5bc0e0dfa8e720e90acd446c69a0b1cbeeeb3611d0cba83df47268d.db3237c1f90fa99665cfa3f7a87c21f70f0bd6ecd2ade1fb5d97d52e8f0e6a79
+Unsharding model chunks... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:04
+
+2026-08-02 23:01:05.704	babel-s9-20:0	__main__:162	INFO	
+Unsharding complete!
+2026-08-02 23:01:05.704	babel-s9-20:0	__main__:163	INFO	Model checkpoint: /tmp/adamw_ckpt_ctrl/step7000-unsharded/model.pt
+2026-08-02 23:01:05.704	babel-s9-20:0	__main__:170	INFO	Model size: 187.55 MB
+================================================================
+ AdamW saved checkpoints vs its own in-loop curve
+================================================================
+final        CE 3.7504  (2264535 tokens)
+step7500     CE 3.7688  (2264535 tokens)
+step7000     CE 3.8901  (2264535 tokens)
+{
+  "final": {
+    "loss": 3.750386508795542,
+    "num_tokens": 2264535
+  },
+  "step7000": {
+    "loss": 3.890120421038425,
+    "num_tokens": 2264535
+  },
+  "step7500": {
+    "loss": 3.768842203842345,
+    "num_tokens": 2264535
+  }
+}
+================================================================
+  AdamW weight movement: step7000 -> step7500
+================================================================
+
+0/102 tensors are bit-identical between the two checkpoints
+
+parameter                                                            shape        ||Δ||        ||W||        rel
+blocks.5.attention.q_norm.weight                                    (384,)   2.8036e-01   1.6446e+01  1.705e-02
+blocks.3.attention.k_norm.weight                                    (384,)   4.0778e-01   1.9651e+01  2.075e-02
+blocks.6.attention.q_norm.weight                                    (384,)   3.8928e-01   1.7771e+01  2.190e-02
+blocks.5.attention.k_norm.weight                                    (384,)   3.5512e-01   1.6120e+01  2.203e-02
+blocks.0.attention.q_norm.weight                                    (384,)   3.8208e-01   1.7140e+01  2.229e-02
+blocks.5.attention.w_k.weight                                   (384, 384)   1.6597e+01   4.6774e+01  3.548e-01
+blocks.6.attention.w_k.weight                                   (384, 384)   1.6694e+01   4.5351e+01  3.681e-01
+blocks.4.attention.w_q.weight                                   (384, 384)   1.3045e+01   3.4803e+01  3.748e-01
+blocks.2.attention.w_q.weight                                   (384, 384)   1.6149e+01   4.0321e+01  4.005e-01
+blocks.2.attention.w_k.weight                                   (384, 384)   1.6530e+01   3.7122e+01  4.453e-01
+
+mean relative change, 2D hidden matrices (Muon group): 3.004e-01  [54 tensors]
+mean relative change, everything else (AdamW group):   9.608e-02  [48 tensors]
+================================================================
+  AdamW weight movement: step7500 -> final
+================================================================
+
+0/102 tensors are bit-identical between the two checkpoints
+
+parameter                                                            shape        ||Δ||        ||W||        rel
+lm_head.norm.weight                                                 (384,)   9.7656e-04   1.1967e+01  8.161e-05
+blocks.8.feed_forward_norm.weight                                   (384,)   1.3204e-03   1.2608e+01  1.047e-04
+blocks.8.attention_norm.weight                                      (384,)   2.6443e-03   1.4771e+01  1.790e-04
+blocks.7.feed_forward_norm.weight                                   (384,)   5.1675e-03   9.4876e+00  5.447e-04
+blocks.7.attention_norm.weight                                      (384,)   1.1201e-02   8.7051e+00  1.287e-03
+blocks.1.attention.w_q.weight                                   (384, 384)   2.5826e+00   3.8381e+01  6.729e-02
+blocks.7.attention.w_k.weight                                   (384, 384)   2.6593e+00   3.8616e+01  6.886e-02
+blocks.2.attention.w_k.weight                                   (384, 384)   2.7732e+00   3.5826e+01  7.741e-02
+blocks.4.attention.w_q.weight                                   (384, 384)   2.6406e+00   3.2466e+01  8.133e-02
+blocks.4.attention.w_k.weight                                   (384, 384)   2.9603e+00   3.5982e+01  8.227e-02
+
+mean relative change, 2D hidden matrices (Muon group): 5.091e-02  [54 tensors]
+mean relative change, everything else (AdamW group):   1.477e-02  [48 tensors]
+[final] top-level keys: ['global_step', 'global_train_tokens_seen', 'max_steps', 'data_loader', 'epoch', 'world_size', 'rng', 'callbacks']
+[final] global_step = 7628
+[final] global_train_tokens_seen = 7998537728
+[final] epoch = 1
+[step7500] top-level keys: ['global_step', 'global_train_tokens_seen', 'max_steps', 'data_loader', 'epoch', 'world_size', 'rng', 'callbacks']
+[step7500] global_step = 7500
+[step7500] global_train_tokens_seen = 7864320000
+[step7500] epoch = 1

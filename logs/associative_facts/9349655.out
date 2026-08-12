@@ -1,0 +1,78 @@
+Host: babel-m5-16
+Generating 6000000 facts → /scratch/catheri4-outputs/associative_facts_v2
+Upload destination: gs://cmu-gpucloud-catheri4/datasets/associative_facts_v2
+/dev/nvme1n1p2  6.5T  1.2T  5.4T  18% /scratch
+Done. metadata:
+{
+  "format": "associative_facts_v2",
+  "sequence": "v[0:128] u[0:128]",
+  "fact_len": 256,
+  "entity_len": 128,
+  "dtype_ids": "uint32",
+  "dtype_mask": "bool",
+  "entity_vocab_size": 50000,
+  "label_mask": "False for v[0:128], True for u[0:128]",
+  "tokenizer": "allenai/OLMo-2-0425-1B-Instruct (dolma2 ids)",
+  "seed": 0,
+  "train": {
+    "split": "train",
+    "num_facts": 6000000,
+    "num_tokens": 1536000000,
+    "num_shards": 6,
+    "shards": [
+      {
+        "shard": 0,
+        "num_facts": 1000000,
+        "num_tokens": 256000000,
+        "input_ids": "train/00000.npy",
+        "label_mask": "train_label_mask/00000.npy"
+      },
+      {
+        "shard": 1,
+        "num_facts": 1000000,
+        "num_tokens": 256000000,
+        "input_ids": "train/00001.npy",
+        "label_mask": "train_label_mask/00001.npy"
+      },
+      {
+        "shard": 2,
+        "num_facts": 1000000,
+        "num_tokens": 256000000,
+        "input_ids": "train/00002.npy",
+        "label_mask": "train_label_mask/00002.npy"
+      },
+      {
+        "shard": 3,
+        "num_facts": 1000000,
+        "num_tokens": 256000000,
+        "input_ids": "train/00003.npy",
+        "label_mask": "train_label_mask/00003.npy"
+      },
+      {
+        "shard": 4,
+        "num_facts": 1000000,
+        "num_tokens": 256000000,
+        "input_ids": "train/00004.npy",
+        "label_mask": "train_label_mask/00004.npy"
+      },
+      {
+        "shard": 5,
+        "num_facts": 1000000,
+        "num_tokens": 256000000,
+        "input_ids": "train/00005.npy",
+        "label_mask": "train_label_mask/00005.npy"
+      }
+    ]
+
+Verify GCS:
+gs://cmu-gpucloud-catheri4/datasets/associative_facts_v2/metadata.json
+gs://cmu-gpucloud-catheri4/datasets/associative_facts_v2/train/
+gs://cmu-gpucloud-catheri4/datasets/associative_facts_v2/train_label_mask/
+gs://cmu-gpucloud-catheri4/datasets/associative_facts_v2/val/
+gs://cmu-gpucloud-catheri4/datasets/associative_facts_v2/val_label_mask/
+6
+6
+
+Train with:
+  ASSOCIATIVE_FACTS_TRAIN_SHARDS=$(( (6000000 + 1000000 - 1) / 1000000 )) \
+    python -m launch_jolmo.launcher launch pretrain-associative-facts

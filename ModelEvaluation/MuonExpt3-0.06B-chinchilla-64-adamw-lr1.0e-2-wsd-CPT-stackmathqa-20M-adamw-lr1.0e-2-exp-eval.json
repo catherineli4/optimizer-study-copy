@@ -1,0 +1,33 @@
+{
+  "by_label": {
+    "Books_val": {
+      "loss": 6.057594982981454,
+      "num_tokens": 1107909
+    },
+    "C4_val": {
+      "loss": 5.942724214671949,
+      "num_tokens": 2262876
+    },
+    "DCLM_heldout": {
+      "loss": 5.76191348973607,
+      "num_tokens": 8380416
+    },
+    "Reddit_val": {
+      "loss": 5.703752468729427,
+      "num_tokens": 802032
+    },
+    "Wiki_val": {
+      "loss": 6.0200940989928045,
+      "num_tokens": 1927332
+    },
+    "stackmathqa-validation": {
+      "loss": 1.598692842701353,
+      "num_tokens": 13013583
+    }
+  },
+  "model_type": "olmo",
+  "overall": {
+    "loss": 3.8345679233268113,
+    "num_tokens": 27494148
+  }
+}

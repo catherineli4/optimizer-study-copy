@@ -1,0 +1,33 @@
+{
+  "by_label": {
+    "Books_val": {
+      "loss": 5.228126136713394,
+      "num_tokens": 1107909
+    },
+    "C4_val": {
+      "loss": 5.011838032662859,
+      "num_tokens": 2262876
+    },
+    "DCLM_heldout": {
+      "loss": 4.919041727761486,
+      "num_tokens": 8380416
+    },
+    "Reddit_val": {
+      "loss": 5.1454904542462145,
+      "num_tokens": 802032
+    },
+    "Wiki_val": {
+      "loss": 4.749479591476715,
+      "num_tokens": 1927332
+    },
+    "musicpile-validation": {
+      "loss": 1.9057223764331241,
+      "num_tokens": 19980213
+    }
+  },
+  "model_type": "olmo",
+  "overall": {
+    "loss": 3.1837494498818337,
+    "num_tokens": 34460778
+  }
+}

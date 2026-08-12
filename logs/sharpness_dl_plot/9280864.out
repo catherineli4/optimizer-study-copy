@@ -1,0 +1,35 @@
+================================================================
+1) Download SharpnessEvaluation from GCS
+================================================================
+Local files: 16
+================================================================
+2) Process + plot → /home/catheri4/optimizer-study-copy/results/sharpness
+================================================================
+Using local dir /home/catheri4/optimizer-study-copy/results/SharpnessEvaluation (16 json file(s))
+Found 16 pretrain sharpness JSON(s)
+  ✓ adamw chinchilla=1: λmax=0.7156514525413513  tr=374.07823517944905
+  ✓ muon  chinchilla=1: λmax=1.1008659601211548  tr=1225.9621971994607
+  ✓ adamw chinchilla=128: λmax=4.5273942947387695  tr=2253.1556240513737
+  ✓ muon  chinchilla=128: λmax=8.04242992401123  tr=5582.508552786379
+  ✓ adamw chinchilla=16: λmax=5.061712741851807  tr=2080.5912658059533
+  ✓ muon  chinchilla=16: λmax=10.56010627746582  tr=6877.984484639795
+  ✓ adamw chinchilla=2: λmax=0.8153398633003235  tr=673.5021117862482
+  ✓ muon  chinchilla=2: λmax=1.4785369634628296  tr=1186.4409453653561
+  ✓ adamw chinchilla=32: λmax=5.939957141876221  tr=2158.789170956363
+  ✓ muon  chinchilla=32: λmax=11.10463809967041  tr=6709.748395007518
+  ✓ adamw chinchilla=4: λmax=1.8248640298843384  tr=1329.5282137448596
+  ✓ muon  chinchilla=4: λmax=2.5756473541259766  tr=1881.546352265584
+  ✓ adamw chinchilla=64: λmax=3.4000368118286133  tr=1715.770121126901
+  ✓ muon  chinchilla=64: λmax=6.547563552856445  tr=5311.019176055279
+  ✓ adamw chinchilla=8: λmax=1.936323881149292  tr=974.489637379265
+  ✓ muon  chinchilla=8: λmax=3.419693946838379  tr=2788.487145086773
+wrote /home/catheri4/optimizer-study-copy/results/sharpness/final_results.json (16 rows)
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness/max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness/trace.png
+================================================================
+Done.
+  JSONs:  /home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/
+  Table:  /home/catheri4/optimizer-study-copy/results/sharpness/final_results.json
+  Plots:  /home/catheri4/optimizer-study-copy/results/sharpness/max_eigenvalue.png
+          /home/catheri4/optimizer-study-copy/results/sharpness/trace.png
+================================================================

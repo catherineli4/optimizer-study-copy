@@ -1,0 +1,19 @@
+Downloading from gs://cmu-gpucloud-catheri4/Optim-60M-tuning/LogitCosineEvaluation → /home/catheri4/optimizer-study-copy/results/LogitCosineEvaluation
+Using local dir /home/catheri4/optimizer-study-copy/results/LogitCosineEvaluation (8 files)
+  ✓ chin=1: mean_cos=0.9599
+  ✓ chin=128: mean_cos=0.9411
+  ✓ chin=16: mean_cos=0.9477
+  ✓ chin=2: mean_cos=0.9590
+  ✓ chin=32: mean_cos=0.9451
+  ✓ chin=4: mean_cos=0.9572
+  ✓ chin=64: mean_cos=0.9439
+  ✓ chin=8: mean_cos=0.9546
+  wrote /home/catheri4/optimizer-study-copy/results/logit_cosine/mean_cosine_vs_chinchilla.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_cosine/cosine_hist_by_chin.png
+Done. Plots in /home/catheri4/optimizer-study-copy/results/logit_cosine/
+total 21
+drwxr-x---  2 catheri4 catheri4      5 Jul 14 17:26 .
+drwxr-x--- 13 catheri4 catheri4     13 Jul 14 17:26 ..
+-rw-r-----  1 catheri4 catheri4 104530 Jul 14 17:26 cosine_hist_by_chin.png
+-rw-r-----  1 catheri4 catheri4  17947 Jul 14 17:26 final_results.json
+-rw-r-----  1 catheri4 catheri4  44263 Jul 14 17:26 mean_cosine_vs_chinchilla.png

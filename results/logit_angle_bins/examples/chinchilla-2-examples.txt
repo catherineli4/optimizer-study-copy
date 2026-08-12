@@ -1,0 +1,1122 @@
+chinchilla=2
+
+========================================================================
+ANGLE BIN 0-10°  (n=20)
+========================================================================
+
+--- 1/20  θ=9.86°  tok=323 ' and'
+nll_a=1.408 nll_m=1.663  kl_a=0.272 kl_m=0.252  margin_a=0.312 margin_m=-0.500
+CONTEXT:
+ for myself, and I am close to them this month, but I leave Tuesday… Unfortunately my dream of going for the week and leaving Steve to enjoy the boys is turning into leaving Steve to make a few sales! I know he can, I know he will, but the plan didn’t work the way I wanted, and
+
+--- 2/20  θ=9.99°  tok=323 ' and'
+nll_a=2.428 nll_m=2.485  kl_a=1.963 kl_m=1.551  margin_a=-0.938 margin_m=-0.250
+CONTEXT:
+. I can go to work and know that my kids are taken care of and are growing into awesome little humans. I do, however, miss the convenience of not needing to mix and match care in order to afford child care.
+Shout out to Stringfellow Road KinderCare, the director Sigrid Holail, and
+
+--- 3/20  θ=9.54°  tok=304 ' in'
+nll_a=2.817 nll_m=2.822  kl_a=1.026 kl_m=0.929  margin_a=-1.375 margin_m=-1.375
+CONTEXT:
+(s). The first unit was commissioned in 2003. It is operated by THUMS Long Beach Company.<|endoftext|>The main objective of waste management in current times is to safeguard the community from damaging effects of waste products. Individuals have actually produced wastes and rubbish since time immemorial and with the development of market innovation in
+
+--- 4/20  θ=9.85°  tok=3582 ' though'
+nll_a=6.129 nll_m=6.653  kl_a=0.480 kl_m=0.444  margin_a=-4.594 margin_m=-5.406
+CONTEXT:
+ It’s an excellent source of vitamins, minerals and some hormones (helps woman even with menopause). My mom took royal jelly all her life and because of her suggestions I’m taking it now. It even helped me get pregnant for the second time. You will have to take it every morning on empty stomach religiously though
+
+--- 5/20  θ=9.89°  tok=28989 ' economics'
+nll_a=7.225 nll_m=6.321  kl_a=2.333 kl_m=2.007  margin_a=-4.203 margin_m=-3.438
+CONTEXT:
+ history. The site of modern israel is the birthplace of the hebrew language, the place where the hebrew bible was composed and the birthplace of judaism and.
+Afp is a global news agency delivering fast, accurate, in. Depth coverage of the events shaping our world from conflicts to politics, economics
+
+--- 6/20  θ=9.90°  tok=1925 ' main'
+nll_a=6.971 nll_m=6.896  kl_a=0.243 kl_m=0.215  margin_a=-2.594 margin_m=-2.750
+CONTEXT:
+.
+In the vast majority of cases, the solution is to properly reinstall ext-ms-win-ntos-pico-l1-1-0.dll on your PC, to the Windows system folder. Alternatively, some programs, notably PC games, require that the DLL file is placed in the game/application installation folder.<|endoftext|>The main
+
+--- 7/20  θ=9.31°  tok=16180 ' loves'
+nll_a=9.470 nll_m=10.071  kl_a=0.337 kl_m=0.313  margin_a=-6.741 margin_m=-7.497
+CONTEXT:
+ and loves
+
+--- 8/20  θ=9.90°  tok=922 ' about'
+nll_a=6.624 nll_m=6.586  kl_a=0.703 kl_m=0.754  margin_a=-5.219 margin_m=-5.062
+CONTEXT:
+ Dancers.
+The Commandant National Defence College Major General Andrew Ikenye joins the Bomas of Kenya Cultural Dancers during NDC Cultural Day.
+Meru Cultural Dancers entertain the guests during NDC Cultural Day.<|endoftext|>The Social Collider has arrived. I haven't heard news of any updates, although it was introduced about
+
+--- 9/20  θ=9.93°  tok=927 ' over'
+nll_a=7.008 nll_m=6.785  kl_a=0.513 kl_m=0.489  margin_a=-5.281 margin_m=-4.844
+CONTEXT:
+ to have a proper design guide published to help all users keep this brand consistency.
+Sometimes the client requires quick design solutions on a similar offer. Shown below is a series of discount leaflets that have the same offer presented to the customer in different visual ways to keep a fresh approach. These designs were produced each month, over
+
+--- 10/20  θ=9.53°  tok=23343 ' relating'
+nll_a=9.905 nll_m=9.271  kl_a=0.705 kl_m=0.566  margin_a=-8.328 margin_m=-7.812
+CONTEXT:
+ will proceed should site plan approval be obtained, and will improve traffic management as anticipated in the 2011 agreement between the City and the TPA. The tunnel project itself is not subject to the site plan, and requires no further approvals.
+The fencing surrounding Ireland Park was erected by the City of Toronto for safety reasons, relating
+
+--- 11/20  θ=9.81°  tok=779 ' so'
+nll_a=4.856 nll_m=5.071  kl_a=0.511 kl_m=0.455  margin_a=-3.031 margin_m=-3.094
+CONTEXT:
+ the medications side effects. the fatigue was devastating and the royal jelly cut it by half at least. if i forget to take the royal jelly for a few days the symptoms come back. I am also diabetic and it also seems to be helping with some of the detrimental effects of the diabetes.
+This product is superior. And so
+
+--- 12/20  θ=9.41°  tok=15947 ' respectively'
+nll_a=8.814 nll_m=7.964  kl_a=1.353 kl_m=1.754  margin_a=-7.641 margin_m=-6.844
+CONTEXT:
+.
+Whether it's a small printer leaflet or displays for exhibition the image and visual solutions are all created on a firm foundation of marketing information to help produce designs that work in producing the right sales or informational impact the client expected.
+Past clients Airtours and the Cabinet Office. Designs for holday guides and exhibition displays respectively
+
+--- 13/20  θ=9.82°  tok=358 ' I'
+nll_a=1.629 nll_m=2.067  kl_a=0.460 kl_m=0.420  margin_a=0.875 margin_m=0.000
+CONTEXT:
+2 from midway yesterday. If I did the Lyman I will have two nice pid equipped pots.
+The Lyman was very consistent on temp and control but it was super drippy at times, and I
+
+--- 14/20  θ=9.94°  tok=358 ' I'
+nll_a=2.388 nll_m=1.878  kl_a=0.702 kl_m=0.551  margin_a=-0.500 margin_m=0.500
+CONTEXT:
+ effects according to my doctor, for another 18 months before its out of my system. The royal jelly has greatly reduced the effects of the medications side effects. the fatigue was devastating and the royal jelly cut it by half at least. if i forget to take the royal jelly for a few days the symptoms come back. I
+
+--- 15/20  θ=9.89°  tok=7995 ' certainly'
+nll_a=7.086 nll_m=7.910  kl_a=1.280 kl_m=1.211  margin_a=-4.750 margin_m=-5.281
+CONTEXT:
+ is no substitute for a self-motivated leader.
+Stay inspired yourself. As with any other aspect of leadership, employees and salesforce members alike have to model the behavior they expect from their teams and keep up their own personal journeys toward greater self-development.
+Direct selling is most often described as being all about relationships, and certainly
+
+--- 16/20  θ=9.81°  tok=13 '.'
+nll_a=1.462 nll_m=1.418  kl_a=0.230 kl_m=0.237  margin_a=0.125 margin_m=0.062
+CONTEXT:
+ in a lighter vein that someone’s gain is another’s loss. But some builders in Australia have been lucky to find themselves on the best of both sides, the gainer as well as the loser. There has been a slump in the overall construction business, but it appears they had enough orders on hand building self storage facilities.
+
+--- 17/20  θ=9.75°  tok=311 ' to'
+nll_a=3.008 nll_m=2.443  kl_a=0.591 kl_m=0.640  margin_a=-1.375 margin_m=-0.750
+CONTEXT:
+ are fairies, ballerinas, princesses, wolves, foxes, police, turtles, Captain Underpants, Harry Potters and dogs and mermaids. My character is a mermaid it sways in the ocean. My hair do is bright pink it glistens in the sunlight. It was funny to
+
+--- 18/20  θ=9.77°  tok=358 ' I'
+nll_a=1.013 nll_m=0.992  kl_a=0.604 kl_m=0.568  margin_a=1.312 margin_m=1.250
+CONTEXT:
+ers and romance novels. I’ve been in touch with my cover designer and as we reach the new year I hope to have professional covers to support my fact-based fiction series, A Life of Choice.
+What about paperback versions of my books?
+This is an idea I’ve toyed with over the past two years, but I
+
+--- 19/20  θ=9.60°  tok=4809 ' mer'
+nll_a=9.867 nll_m=9.462  kl_a=1.748 kl_m=1.408  margin_a=-7.152 margin_m=-6.375
+CONTEXT:
+ warm and snuggly the material colour was brown. I love being Fantastic Mr Fox.
+Everyone at the library came to life and they came into my classroom. They are fairies, ballerinas, princesses, wolves, foxes, police, turtles, Captain Underpants, Harry Potters and dogs and mer
+
+--- 20/20  θ=9.37°  tok=323 ' and'
+nll_a=1.477 nll_m=1.365  kl_a=0.643 kl_m=0.577  margin_a=0.750 margin_m=0.875
+CONTEXT:
+ and it arrived just as promised - in two days. When I got the box, I saw how perfectly everything was packed. The comb honey was double packed, the Royal Jelly came in an insulated box with icepack and was still partially frozen. The packaging itself showed how knowledgeable Glenn and Becky are in what they do, and
+
+========================================================================
+ANGLE BIN 10-20°  (n=20)
+========================================================================
+
+--- 1/20  θ=17.70°  tok=24794 ' containers'
+nll_a=2.295 nll_m=1.291  kl_a=2.924 kl_m=2.484  margin_a=-0.875 margin_m=1.375
+CONTEXT:
+ twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers
+
+--- 2/20  θ=17.10°  tok=291 'ed'
+nll_a=0.011 nll_m=0.047  kl_a=0.009 kl_m=0.042  margin_a=4.750 margin_m=3.688
+CONTEXT:
+ of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never even sneezed
+
+--- 3/20  θ=13.95°  tok=433 ' it'
+nll_a=1.408 nll_m=1.935  kl_a=0.727 kl_m=1.003  margin_a=0.688 margin_m=-0.625
+CONTEXT:
+ in an insulated box with icepack and was still partially frozen. The packaging itself showed how knowledgeable Glenn and Becky are in what they do, and what they sell. I usually mix 1tsp of Royal Jelly, 1tsp of Bee Pollen, and 1/2 tsp of honey, and take it
+
+--- 4/20  θ=14.09°  tok=20016 ' spo'
+nll_a=8.310 nll_m=8.234  kl_a=2.233 kl_m=1.807  margin_a=-8.062 margin_m=-7.906
+CONTEXT:
+ product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spo
+
+--- 5/20  θ=14.07°  tok=4510 ' believe'
+nll_a=3.924 nll_m=4.012  kl_a=1.948 kl_m=1.634  margin_a=-3.062 margin_m=-2.125
+CONTEXT:
+ frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in the fridge. I heard about many benefits of Royal Jelly and truly believe
+
+--- 6/20  θ=16.95°  tok=4376 ' half'
+nll_a=7.106 nll_m=6.787  kl_a=0.981 kl_m=0.870  margin_a=-5.469 margin_m=-5.375
+CONTEXT:
+ like to thank Glenn for a wonderful experience and great product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half
+
+--- 7/20  θ=14.29°  tok=20209 ' pregnancy'
+nll_a=3.456 nll_m=1.686  kl_a=0.648 kl_m=0.945  margin_a=-2.500 margin_m=-0.562
+CONTEXT:
+ or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy
+
+--- 8/20  θ=12.49°  tok=2646 ' never'
+nll_a=4.905 nll_m=4.322  kl_a=1.698 kl_m=1.554  margin_a=-2.938 margin_m=-2.438
+CONTEXT:
+ 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never
+
+--- 9/20  θ=13.26°  tok=1047 ' had'
+nll_a=2.630 nll_m=2.839  kl_a=0.395 kl_m=0.483  margin_a=-0.750 margin_m=-0.750
+CONTEXT:
+ lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never even sneezed. I had
+
+--- 10/20  θ=15.07°  tok=11155 ' BUT'
+nll_a=8.525 nll_m=9.570  kl_a=0.702 kl_m=0.932  margin_a=-7.562 margin_m=-8.500
+CONTEXT:
+ since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT
+
+--- 11/20  θ=15.79°  tok=279 ' the'
+nll_a=1.495 nll_m=0.751  kl_a=1.580 kl_m=1.759  margin_a=-0.375 margin_m=1.625
+CONTEXT:
+ summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in the
+
+--- 12/20  θ=13.24°  tok=6651 ' mix'
+nll_a=6.927 nll_m=6.449  kl_a=0.856 kl_m=0.572  margin_a=-4.281 margin_m=-4.062
+CONTEXT:
+ in two days. When I got the box, I saw how perfectly everything was packed. The comb honey was double packed, the Royal Jelly came in an insulated box with icepack and was still partially frozen. The packaging itself showed how knowledgeable Glenn and Becky are in what they do, and what they sell. I usually mix
+
+--- 13/20  θ=14.81°  tok=2294 ' great'
+nll_a=4.607 nll_m=4.195  kl_a=1.499 kl_m=1.510  margin_a=-2.000 margin_m=-1.438
+CONTEXT:
+ me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never even sneezed. I had a great
+
+--- 14/20  θ=14.23°  tok=922 ' about'
+nll_a=2.020 nll_m=2.464  kl_a=0.938 kl_m=1.010  margin_a=0.062 margin_m=-0.562
+CONTEXT:
+ another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in the fridge. I heard about
+
+--- 15/20  θ=17.17°  tok=11113 ' smooth'
+nll_a=9.313 nll_m=9.168  kl_a=3.719 kl_m=2.700  margin_a=-7.109 margin_m=-6.969
+CONTEXT:
+ for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never even sneezed. I had a great smooth
+
+--- 16/20  θ=13.26°  tok=3403 ' enough'
+nll_a=6.532 nll_m=7.024  kl_a=1.524 kl_m=1.862  margin_a=-4.125 margin_m=-4.500
+CONTEXT:
+, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough
+
+--- 17/20  θ=13.05°  tok=8779 ' helps'
+nll_a=3.530 nll_m=4.643  kl_a=0.449 kl_m=0.749  margin_a=-2.438 margin_m=-3.188
+CONTEXT:
+ I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in the fridge. I heard about many benefits of Royal Jelly and truly believe it helps
+
+--- 18/20  θ=13.03°  tok=2391 ' during'
+nll_a=6.028 nll_m=6.158  kl_a=1.633 kl_m=1.318  margin_a=-3.375 margin_m=-3.656
+CONTEXT:
+ cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during
+
+--- 19/20  θ=12.58°  tok=304 ' in'
+nll_a=4.138 nll_m=4.687  kl_a=1.112 kl_m=1.144  margin_a=-2.938 margin_m=-3.625
+CONTEXT:
+ ordering RJ from eBee Honey. Thank you,Glenn and Becky, so very much for such a great product!
+Great product and wonderful experience.
+I would like to thank Glenn for a wonderful experience and great product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in
+
+--- 20/20  θ=18.84°  tok=40 'I'
+nll_a=1.905 nll_m=1.936  kl_a=0.646 kl_m=0.717  margin_a=0.625 margin_m=-0.062
+CONTEXT:
+. These three products combined together boost immune system like nothing else. It helps me to balance hormones (especially, after the thyroid surgery). I am definitely planning to continue ordering RJ from eBee Honey. Thank you,Glenn and Becky, so very much for such a great product!
+Great product and wonderful experience.
+I
+
+========================================================================
+ANGLE BIN 20-30°  (n=20)
+========================================================================
+
+--- 1/20  θ=20.27°  tok=74239 ' Jelly'
+nll_a=0.294 nll_m=0.070  kl_a=0.149 kl_m=0.109  margin_a=1.125 margin_m=2.688
+CONTEXT:
+ is my second order of the Royal Jelly and I am confident not the last one. Once again, Becky was great in communicating to verify the order and shipment details. Once again everything arrived fast and perfectly packed in insulated box, fresh as always. Cannot be more happy than I am now! Thank you!
+We bought Royal Jelly
+
+--- 2/20  θ=28.33°  tok=78 'o'
+nll_a=1.030 nll_m=1.108  kl_a=0.636 kl_m=0.629  margin_a=0.688 margin_m=0.250
+CONTEXT:
+ before purchasing this item. The seller was very kind and told me all the benifits of this item, I ordered this item and it arrived the very next day was packed very well, packed in an insulated container with freeze pack. I would certainly buy this again.
+This is the 2nd time ordering a kilo
+
+--- 3/20  θ=21.87°  tok=65 'b'
+nll_a=4.974 nll_m=4.891  kl_a=5.236 kl_m=5.428  margin_a=-1.406 margin_m=-0.812
+CONTEXT:
+ winning directors such as Mat King, Harry Bradbeer, Stuart Orme, Joel Schumaccher, Oscar Winning Director Roman Polanski and was part of the main cast of Bafta award winning film Pride directed by Matthew Warchus.
+For more information about the festival, visit the website, email info@b
+
+--- 4/20  θ=22.67°  tok=64469 'European'
+nll_a=11.590 nll_m=10.667  kl_a=2.946 kl_m=2.793  margin_a=-7.688 margin_m=-7.047
+CONTEXT:
+achelors and Masters in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT).
+S. L Baughcum, J. J Begin, F. Franco, D. L Greene, et al.
+Presentation about Weigle Information Commons at Penn's Graduate School of Education.<|endoftext|>The EMSAC network (European
+
+--- 5/20  θ=25.13°  tok=261 'er'
+nll_a=0.011 nll_m=0.014  kl_a=0.036 kl_m=0.044  margin_a=5.312 margin_m=4.688
+CONTEXT:
+ I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in the fridge. I heard about many benefits of Royal Jelly and truly believe it helps to boost the immune system. Last year I took royal jelly over the first trimester
+
+--- 6/20  θ=21.77°  tok=96514 'Honestly'
+nll_a=11.135 nll_m=11.696  kl_a=1.487 kl_m=0.914  margin_a=-7.672 margin_m=-8.672
+CONTEXT:
+ or have tried them before! What did you think to them?<|endoftext|>Home > Royal Jelly > Royal Jelly - 1 kilo which = 2.2 lbs.
+Fresh frozen royal jelly in a 1 kilo bag. (2.2. pounds) Please note shipping below so your order is not delayed!
+Honestly
+
+--- 7/20  θ=24.84°  tok=2203 'sp'
+nll_a=0.037 nll_m=0.024  kl_a=0.206 kl_m=0.219  margin_a=5.250 margin_m=6.625
+CONTEXT:
+ how perfectly everything was packed. The comb honey was double packed, the Royal Jelly came in an insulated box with icepack and was still partially frozen. The packaging itself showed how knowledgeable Glenn and Becky are in what they do, and what they sell. I usually mix 1tsp of Royal Jelly, 1tsp
+
+--- 8/20  θ=20.15°  tok=2468 ' At'
+nll_a=4.827 nll_m=5.215  kl_a=1.113 kl_m=1.761  margin_a=-3.062 margin_m=-2.938
+CONTEXT:
+ racial and labor justice alongside Cesar Chavez, becoming one of the most defiant – and unheralded – feminist activists of the 20th century.
+On Friday, March 2nd at 9 pm PBS 6 will present a special edition of FRONTLINE on “Harvey Weinstein,” following Arizona 360. At
+
+--- 9/20  θ=20.71°  tok=74239 ' Jelly'
+nll_a=1.422 nll_m=0.529  kl_a=1.137 kl_m=0.476  margin_a=-1.125 margin_m=0.375
+CONTEXT:
+ again.
+This is the 2nd time ordering a kilo of royal jelly. It is absolutely the BEST! I freeze some, mix some with honey and leave some in the fridge to take daily. Lots of energy and it is so good for you in so many ways.
+This is my second order of the Royal Jelly
+
+--- 10/20  θ=22.07°  tok=52441 ' jelly'
+nll_a=0.016 nll_m=0.112  kl_a=0.013 kl_m=0.104  margin_a=4.375 margin_m=2.188
+CONTEXT:
+ spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in the fridge. I heard about many benefits of Royal Jelly and truly believe it helps to boost the immune system. Last year I took royal jelly
+
+--- 11/20  θ=20.86°  tok=20 '5'
+nll_a=0.828 nll_m=0.581  kl_a=0.342 kl_m=0.185  margin_a=1.562 margin_m=2.438
+CONTEXT:
+ one end. The space is ideal for meetings, group activities, exhibitions and children’s birthday parties. The hall is fully licensed to complement evening functions and christenings. The hall is accessed via double doors. It is well supplied with folding tables and 100 comfortable chairs. The kitchen (5m x 3.5
+
+--- 12/20  θ=21.21°  tok=32329 'anth'
+nll_a=10.292 nll_m=9.622  kl_a=2.942 kl_m=2.707  margin_a=-8.000 margin_m=-7.094
+CONTEXT:
+ the main cast of Bafta award winning film Pride directed by Matthew Warchus.
+For more information about the festival, visit the website, email info@biff.bm, or call 441-293-3456. Tickets are available at biff.ptix.bm.<|endoftext|>Dr. Anu Vedanth
+
+--- 13/20  θ=21.35°  tok=1741 'AC'
+nll_a=0.032 nll_m=0.256  kl_a=0.038 kl_m=0.239  margin_a=6.375 margin_m=4.625
+CONTEXT:
+igle Information Commons at Penn's Graduate School of Education.<|endoftext|>The EMSAC network (European Marine Science Applications Consortium) is aimed at supporting the emergence of new maritime clusters concerning promising markets in the area of management of marine resources management.
+Water quality, risk management, ecosystems, bio-diversity and marine technologies: EMSAC
+
+--- 14/20  θ=28.88°  tok=44410 'communications'
+nll_a=1.011 nll_m=1.433  kl_a=1.012 kl_m=1.218  margin_a=1.312 margin_m=2.312
+CONTEXT:
+ 2007 Nobel Peace Prize. At Stockton University, she directed the Southern Regional Educational Technology Training Center (ETTC), and served as Interim Associate Provost and Director of Instructional Technology. She served as Director of Grants and Community Initiatives at Stafford Township School District, and as Grants Program Officer at the Telecommunications
+
+--- 15/20  θ=20.08°  tok=28200 ' Century'
+nll_a=1.820 nll_m=1.611  kl_a=0.284 kl_m=0.384  margin_a=-1.312 margin_m=-0.938
+CONTEXT:
+ part of the large crowd at Sappho’s. And there are thirteen photos from the Sappho’s reading on my Home Site. Check it out.
+The typeface shouts “Back to the Seventies”: Gleebooks: Chris Andrews, left, with Stephen Edgar reading his launch speech.
+Very 21st Century
+
+--- 16/20  θ=25.74°  tok=1105 'ors'
+nll_a=0.098 nll_m=0.152  kl_a=0.097 kl_m=0.151  margin_a=2.625 margin_m=1.938
+CONTEXT:
+ School District, and as Grants Program Officer at the Telecommunications Opportunities Program at the U.S. Department of Commerce.
+She holds her doctorate in Higher Education Management from Penn's Graduate School of Education, her New Jersey Principal Certificate, her Masters in Public Affairs from the Woodrow Wilson School at Princeton University and her Bachelors
+
+--- 17/20  θ=20.46°  tok=18836 'MIT'
+nll_a=2.769 nll_m=2.122  kl_a=2.620 kl_m=2.007  margin_a=0.562 margin_m=1.375
+CONTEXT:
+ U.S. Department of Commerce.
+She holds her doctorate in Higher Education Management from Penn's Graduate School of Education, her New Jersey Principal Certificate, her Masters in Public Affairs from the Woodrow Wilson School at Princeton University and her Bachelors and Masters in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT
+
+--- 18/20  θ=21.71°  tok=16777 ' Defense'
+nll_a=5.042 nll_m=5.239  kl_a=1.253 kl_m=0.995  margin_a=-3.688 margin_m=-4.250
+CONTEXT:
+ Harvard University. She received the 2018 Harvard Hero award for her work in reopening the Cabot Science Library as Interim Director for Science and Engineering Services. She directed the Weigle Information Commons at the Penn Libraries for nine years. Her research on global warming at the Environmental Defense
+
+--- 19/20  θ=20.33°  tok=74239 ' Jelly'
+nll_a=0.644 nll_m=0.234  kl_a=0.481 kl_m=0.124  margin_a=0.125 margin_m=1.375
+CONTEXT:
+ it in GA. That's why I was so excited when found eBee Honey website. I've ordered 1 kilo of this fantastic product and it arrived just as promised - in two days. When I got the box, I saw how perfectly everything was packed. The comb honey was double packed, the Royal Jelly
+
+--- 20/20  θ=26.21°  tok=55381 'Natural'
+nll_a=0.081 nll_m=0.133  kl_a=1.123 kl_m=0.801  margin_a=3.312 margin_m=3.938
+CONTEXT:
+ evaluation functionalities as of the fall.<|endoftext|>After I reviewed my first set of InstaNatural products, I was sent the above creams to try out and review. I really enjoyed the facial products and they are still part of my skin care routine, so I was more than happy to try out some more.
+The InstaNatural
+
+========================================================================
+ANGLE BIN 30-40°  (n=20)
+========================================================================
+
+--- 1/20  θ=31.95°  tok=372 'um'
+nll_a=3.649 nll_m=2.728  kl_a=2.775 kl_m=2.101  margin_a=-0.125 margin_m=0.062
+CONTEXT:
+ birth of the UK’s leading Showreel production company came from. Slick Showreels have been producing a wide range of work including music videos, short films and documentaries for the last 5 years.
+“He has worked with award winning directors such as Mat King, Harry Bradbeer, Stuart Orme, Joel Schum
+
+--- 2/20  θ=31.08°  tok=22 '7'
+nll_a=0.923 nll_m=1.622  kl_a=0.266 kl_m=0.422  margin_a=0.938 margin_m=-0.250
+CONTEXT:
+ or in terms of their content.
+Output is on display in a London museum, although primarily as a work of art.
+I was curious if I could catch the Zeitgeist at work, so I tried entering a query with search term "facebook". That was probably unwise to do, for a web application. Windows 7
+
+--- 3/20  θ=30.56°  tok=8200 'izations'
+nll_a=1.319 nll_m=1.731  kl_a=1.010 kl_m=1.289  margin_a=0.000 margin_m=0.188
+CONTEXT:
+ a very important aspect in the holistic wellness of every individual and every woman. Mothers should talk to their health care provider for an evaluation on mental health including depression. Women are especially at risk of post-partum depression which usually goes undetected and undermined.
+Aside from these five health screenings, the doctors also recommend updated immunizations
+
+--- 4/20  θ=30.44°  tok=22363 'brew'
+nll_a=0.057 nll_m=0.008  kl_a=0.185 kl_m=0.174  margin_a=5.438 margin_m=7.438
+CONTEXT:
+ was installed, press select. A weird menu (The VSH menu) should appear. Press select again to exit it. If this worked, you can now install ISO's (Pirated Games) and homebrew onto your psp. Each time you restart your psp, you will have to run TN Homebrew
+
+--- 5/20  θ=35.65°  tok=406 'nt'
+nll_a=0.009 nll_m=0.028  kl_a=0.009 kl_m=0.027  margin_a=7.500 margin_m=5.562
+CONTEXT:
+-pico-l1-1-0.dll. The specified module could not be found.
+ext-ms-win-ntos-pico-l1-1-0.dll is either not designed to run on Windows or it contains an error.
+In the vast majority of cases, the solution is to properly reinstall ext-ms-win-nt
+
+--- 6/20  θ=31.17°  tok=2439 'ons'
+nll_a=3.679 nll_m=3.630  kl_a=3.415 kl_m=3.355  margin_a=-2.250 margin_m=-1.062
+CONTEXT:
+ and loves working for HOF and to see the stylist she has developed into since we opened is a very proud moment for the salon as to see the success and recognition she has from fellow stylists as it something Katie deserves due to all her hard work she has put in.
+Katie is a member of salons
+
+--- 7/20  θ=37.21°  tok=2987 'ulation'
+nll_a=0.443 nll_m=0.593  kl_a=0.371 kl_m=0.508  margin_a=1.938 margin_m=1.062
+CONTEXT:
+ this definition aptly describes many field salespeople, whether they manage teams of their own or are stellar individual performers. The report also indicates that soft skills also are moving up on the priority list, as organizations come to understand the value of emotional intelligence, including qualities like communication skills, self-awareness, empathy, self-regulation
+
+--- 8/20  θ=36.92°  tok=1641 'itch'
+nll_a=0.002 nll_m=0.002  kl_a=0.009 kl_m=0.010  margin_a=9.125 margin_m=7.938
+CONTEXT:
+ garden of the neighboring bookstore Sappho’s, four poets read at the regular monthly poetry reading organised by Toby Fitch: Ann Vickery, Nick Keys, Jess Wilkinson and Martin Harrison. Busy bar (you paid for drinks), huge attentive mostly young crowd: poetry like it used to be. Photo above, Toby Fitch
+
+--- 9/20  θ=30.26°  tok=1771 'ains'
+nll_a=0.021 nll_m=0.013  kl_a=0.021 kl_m=0.013  margin_a=6.562 margin_m=5.875
+CONTEXT:
+ leadership, employees and salesforce members alike have to model the behavior they expect from their teams and keep up their own personal journeys toward greater self-development.
+Direct selling is most often described as being all about relationships, and certainly growing in self-awareness and self-knowledge only enhances those relationships. Engagement on this personal level sustains
+
+--- 10/20  θ=38.20°  tok=48789 '-win'
+nll_a=1.111 nll_m=1.047  kl_a=1.119 kl_m=1.046  margin_a=2.312 margin_m=2.062
+CONTEXT:
+ntos-pico-l1-1-0.dll. The specified module could not be found.
+ext-ms-win-ntos-pico-l1-1-0.dll is either not designed to run on Windows or it contains an error.
+In the vast majority of cases, the solution is to properly reinstall ext-ms-win
+
+--- 11/20  θ=36.34°  tok=316 'om'
+nll_a=2.778 nll_m=3.832  kl_a=2.113 kl_m=3.041  margin_a=-1.312 margin_m=-2.312
+CONTEXT:
+piece mini-series “Little Women: A Timeless Story.” Based on the beloved novel by Louisa May Alcott, the series follows four sisters on their journey from childhood to adulthood, set against the backdrop of the American Civil War. Later this month, we are proud to premier Independent Lens: Dolores about the indom
+
+--- 12/20  θ=33.46°  tok=406 'nt'
+nll_a=0.016 nll_m=0.098  kl_a=0.016 kl_m=0.097  margin_a=7.312 margin_m=5.062
+CONTEXT:
+-0.dll can arise for a few different different reasons. For instance, a faulty application, ext-ms-win-ntos-pico-l1-1-0.dll has been deleted or misplaced, corrupted by malicious software present on your PC or a damaged Windows registry.
+The program can't start because ext-ms-win-nt
+
+--- 13/20  θ=37.37°  tok=64 'a'
+nll_a=0.003 nll_m=0.004  kl_a=0.005 kl_m=0.006  margin_a=7.750 margin_m=7.438
+CONTEXT:
+ makeup but it depends on how much of the product I have actually used. Just like the cellulite cream, it has a dispenser which is easy to control and it is mess free. It has a lovely fragrance, which isn’t too overpowering for a facial moisturiser. Amazon link here.
+Next up is the Insta
+
+--- 14/20  θ=32.92°  tok=437 'os'
+nll_a=0.027 nll_m=0.072  kl_a=0.026 kl_m=0.071  margin_a=4.688 margin_m=2.812
+CONTEXT:
+0.dll can arise for a few different different reasons. For instance, a faulty application, ext-ms-win-ntos-pico-l1-1-0.dll has been deleted or misplaced, corrupted by malicious software present on your PC or a damaged Windows registry.
+The program can't start because ext-ms-win-ntos
+
+--- 15/20  θ=36.17°  tok=12871 '.edu'
+nll_a=3.177 nll_m=4.169  kl_a=3.143 kl_m=4.125  margin_a=0.062 margin_m=-0.938
+CONTEXT:
+ Mitchell W.; Carlson, Robert R.; Kleinkopf, M. D.; Rowan, L. C. & Peters, Thomas J. Mineral Resources of the Sleeping Giant Wilderness Study Area, Lewis and Clark County, Montana, report, 1991; Washington D.C. (https://digital.library.unt.edu
+
+--- 16/20  θ=35.77°  tok=7210 'ican'
+nll_a=5.728 nll_m=2.043  kl_a=5.658 kl_m=2.003  margin_a=-4.375 margin_m=-0.250
+CONTEXT:
+ charges of fraud to be credible. There was nothing like a repeat of the blatant chican
+
+--- 17/20  θ=30.34°  tok=58190 '-door'
+nll_a=0.018 nll_m=0.044  kl_a=0.017 kl_m=0.043  margin_a=5.688 margin_m=5.250
+CONTEXT:
+ media programming and appreciate your continued support.<|endoftext|>The real success stories in direct selling are as much about personal growth and self-improvement as they are about business. Take the story of Mary Kay Ash as a perfect example. Born in 1918 in Hot Wells, Texas, Ash went from housewife to door-to-door
+
+--- 18/20  θ=36.25°  tok=64 'a'
+nll_a=0.006 nll_m=0.021  kl_a=0.035 kl_m=0.037  margin_a=7.250 margin_m=5.938
+CONTEXT:
+ as evaluation functionalities as of the fall.<|endoftext|>After I reviewed my first set of InstaNatural products, I was sent the above creams to try out and review. I really enjoyed the facial products and they are still part of my skin care routine, so I was more than happy to try out some more.
+The Insta
+
+--- 19/20  θ=35.32°  tok=23620 'usable'
+nll_a=4.154 nll_m=5.415  kl_a=1.449 kl_m=2.779  margin_a=-3.312 margin_m=-4.125
+CONTEXT:
+ gallons of drinking water. That is why it is important that residents use proper rubbish removal bins Townsville has today for better waste management.
+Waste or rubbish can describe anything, consisting of squandered food, leaves, cooking area wastes, papers, plastic containers and bottles, chemicals from factories, building particles, nonreusable
+
+--- 20/20  θ=34.26°  tok=30885 'ugu'
+nll_a=0.044 nll_m=0.034  kl_a=0.044 kl_m=0.034  margin_a=5.562 margin_m=6.688
+CONTEXT:
+ Chapter when the current Deputy Senate President, Chief Dr. Ike Ekweremadu, was the Chairman of Aninri Local Government Area. You defeated Ekweremadu to become the ALGON Chairman. This shows the height of greatness in you. You have also headed some parastatals in Enugu
+
+========================================================================
+ANGLE BIN 40-50°  (n=20)
+========================================================================
+
+--- 1/20  θ=46.40°  tok=21719 'ints'
+nll_a=1.229 nll_m=0.130  kl_a=0.665 kl_m=0.039  margin_a=-0.875 margin_m=2.000
+CONTEXT:
+ur), a full-sized Lumiére (in Eva), and an Eye Tint Brush for only $45 ($38.25 for Beauty Heroes members). Considering its value of $114, this is the perfect time to try Gressa products if they’ve been on your list. Gressa’s Eye Tints
+
+--- 2/20  θ=45.20°  tok=4042 'ico'
+nll_a=0.053 nll_m=0.045  kl_a=0.050 kl_m=0.042  margin_a=4.312 margin_m=4.875
+CONTEXT:
+ ext-ms-win-ntos-pico-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.
+Error loading ext-ms-win-ntos-pico-l1-1-0.dll. The specified module could not be found.
+ext-ms-win-ntos-pico
+
+--- 3/20  θ=40.02°  tok=1607 'roid'
+nll_a=0.044 nll_m=0.008  kl_a=0.046 kl_m=0.022  margin_a=4.625 margin_m=6.375
+CONTEXT:
+ could result to body weakness and even death. The doctors at the GAP Medical Centre also explain that women are prone to mineral deficiencies such as iron which could lead to anemia and calcium which could lead to osteoperosis. Women are also at high risk of thyroid hormone abnormalities which could cause life-threatening diseases such as hypothyroid
+
+--- 4/20  θ=44.97°  tok=48726 'ettle'
+nll_a=0.002 nll_m=0.004  kl_a=0.007 kl_m=0.007  margin_a=8.812 margin_m=8.438
+CONTEXT:
+ettle for outdoor adventure. Kelly Kettle boils water ultra fast, and is the ideal portable cooker for camp cooking. Great for camping, fishing, hiking, backpacking. Uses only natural fuel - no canisters to pack. The Kelly Kettle is a must have in your survival kit of emergency essentials.
+The Kelly Kettle
+
+--- 5/20  θ=42.07°  tok=11949 'zt'
+nll_a=0.008 nll_m=0.005  kl_a=0.006 kl_m=0.004  margin_a=6.250 margin_m=6.125
+CONTEXT:
+ musician. And in fact, Waldek is a musician. He knows the specifics (and hardships) of festival production from his own experience. And - what's even more important - he does know "what's this country thing".
+The title, "PURE COUNTRY" has been enthusiastically adopted by the Mayor of Wolszt
+
+--- 6/20  θ=43.80°  tok=17082 'hes'
+nll_a=0.036 nll_m=0.088  kl_a=0.017 kl_m=0.069  margin_a=3.562 margin_m=2.500
+CONTEXT:
+, despite the weak economic environment.
+With the increasing in production capacity, expected that the Electrically Conductive Adhesives raw material price will be stable in the short term. However, the improvement of energy, transportation costs, and labor costs, will play a significant role in promoting the cost of Electrically Conductive Adhes
+
+--- 7/20  θ=44.64°  tok=9109 'LY'
+nll_a=0.006 nll_m=0.000  kl_a=0.006 kl_m=0.001  margin_a=7.062 margin_m=10.500
+CONTEXT:
+ sides are going to live together. Humanly speaking, I think one must say the probability is that there will be some kind of separation. There are different sorts of separation; I think I want to say that. I don�t think it will come to an absolute split, I profoundly hope not.
+FRAN KELLY
+
+--- 8/20  θ=44.36°  tok=26366 '962'
+nll_a=3.066 nll_m=3.695  kl_a=1.073 kl_m=0.970  margin_a=-2.125 margin_m=-2.250
+CONTEXT:
+; last recorded operation on 24/25 April 1945. ORB gives letter as "R" from 24 February to 6 April 1945. It reappears as "J" on night of 17/18 April 1945 ("R" having been assigned to TA114).
+SZ962
+
+--- 9/20  θ=43.20°  tok=25840 'iker'
+nll_a=4.553 nll_m=4.472  kl_a=4.369 kl_m=4.325  margin_a=-2.938 margin_m=-2.875
+CONTEXT:
+ impossibly sheer granite walls. Tempted to try it? Sign up for an introductory class at the Yosemite Mountaineering School—or at least treat yourself to a “Go Climb a Rock” T-shirt. With some of the most reliably sunny summer weather of any major mountain range, the High Sierra is a hiker
+
+--- 10/20  θ=47.29°  tok=65189 '-ms'
+nll_a=1.708 nll_m=0.761  kl_a=1.706 kl_m=0.755  margin_a=2.188 margin_m=2.812
+CONTEXT:
+The program can't start because ext-ms-win-ntos-pico-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.
+Error loading ext-ms-win-ntos-pico-l1-1-0.dll. The specified module could not be found.
+ext-ms
+
+--- 11/20  θ=42.58°  tok=11949 'zt'
+nll_a=0.014 nll_m=0.006  kl_a=0.012 kl_m=0.005  margin_a=6.188 margin_m=6.312
+CONTEXT:
+ it contains the double meaning: the ecological purity of the region and the stylistic purity of music.
+In the times of an ill-conceived commercialization and, very often, a total misunderstanding of the very idea of country, we want to show the true value and beauty of this music, set in the superb Wolszt
+
+--- 12/20  θ=45.36°  tok=19587 'ashing'
+nll_a=0.040 nll_m=0.006  kl_a=0.040 kl_m=0.006  margin_a=4.562 margin_m=6.375
+CONTEXT:
+ concept of leadership seems to suggest a movement toward the need for greater focus on the whole person rather than simply equipping someone with this or that skill set. This certainly supports direct selling’s enticing prospect for any aspiring entrepreneur: There’s a leader living within you, and joining forces with us may be your best opportunity for unleashing
+
+--- 13/20  θ=40.38°  tok=32842 'ancers'
+nll_a=0.013 nll_m=0.035  kl_a=0.019 kl_m=0.015  margin_a=4.812 margin_m=3.812
+CONTEXT:
+ peace and security.
+Present during the occasion were Germany Ambassador to Kenya Ms Annett Günther, Defence Attaches, senior military and government officers, service personnel and KDF family members.
+Ugandan Cultural Dancers entertain guests.
+The Guests following entertainment dances during the NDC Cultural Day.
+Nyanza Cultural Dancers
+
+--- 14/20  θ=49.29°  tok=56840 '.cam'
+nll_a=2.927 nll_m=0.380  kl_a=2.920 kl_m=0.379  margin_a=-2.062 margin_m=1.750
+CONTEXT:
+ our publication scheme. You have the right to request any information held by the College that is not included in the publication scheme.
+Please contact us with feedback and suggestions about the publication scheme. You can write to the Freedom of Information Officer, Jesus College, Cambridge CB5 8BL or email us at foi@jesus.cam
+
+--- 15/20  θ=42.29°  tok=26218 '829'
+nll_a=6.056 nll_m=7.077  kl_a=1.578 kl_m=1.885  margin_a=-3.906 margin_m=-4.812
+CONTEXT:
+3 January 1945 give the letter as "S" - clearly assigned following its absence from the squadron, April-May 1944.
+HJ822: - Taken on strength from De Havilland, 9 July 1943; missing from operations, 25/26 July 1943.
+HJ829
+
+--- 16/20  θ=45.29°  tok=484 'ill'
+nll_a=0.006 nll_m=0.008  kl_a=0.005 kl_m=0.007  margin_a=7.188 margin_m=6.125
+CONTEXT:
+ June 1944. Letter on list dated 31 August 1944.
+NS849 (T) - Received from No.44 Movements Unit, 24 August 1944. Letter given in ORB entry of 3/4 January 1945.
+NS850 (M) - Received from De Havill
+
+--- 17/20  θ=42.65°  tok=48726 'ettle'
+nll_a=0.003 nll_m=0.008  kl_a=2.828 kl_m=2.335  margin_a=8.312 margin_m=7.938
+CONTEXT:
+ Correspondents Report.<|endoftext|>The Kelly Kettle is the most reliable All-Purpose Kettle for the Outdoors. Available in Stainless Steel or Aluminum versions, the Kelly Kettle can Boil Water for drinking water purification, cooking meals or drinking hot coco outdoors! This is THE Camping Kettle for outdoor adventure. Kelly Kettle
+
+--- 18/20  θ=42.98°  tok=65189 '-ms'
+nll_a=1.549 nll_m=1.272  kl_a=1.541 kl_m=1.257  margin_a=2.125 margin_m=1.375
+CONTEXT:
+1-0.dll has been deleted or misplaced, corrupted by malicious software present on your PC or a damaged Windows registry.
+The program can't start because ext-ms-win-ntos-pico-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.
+Error loading ext-ms
+
+--- 19/20  θ=45.52°  tok=10216 'olo'
+nll_a=0.040 nll_m=0.131  kl_a=0.038 kl_m=0.127  margin_a=5.438 margin_m=3.562
+CONTEXT:
+ you gain access to all my proven coaching strategies that have served as the guide for over 100 women to reprogram their brains, claim their worth, and reach their highest potential.
+Bite-sized sermons and a full workbook delivered weekly guiding you to become the hero of your own story, radiate your truth unapolo
+
+--- 20/20  θ=45.85°  tok=20721 'LR'
+nll_a=4.412 nll_m=3.331  kl_a=2.270 kl_m=1.513  margin_a=-2.625 margin_m=-0.375
+CONTEXT:
+ 1943; assigned to No.60 OTU, 7 May 1944. Letter "P" on list dated 18 November 1943 but letter appears not to have been assigned to this aircraft as of mid-February 1944 (see MM421 for more on letter "P" assignment).
+LR
+
+========================================================================
+ANGLE BIN 50-60°  (n=20)
+========================================================================
+
+--- 1/20  θ=50.98°  tok=2734 'enn'
+nll_a=0.004 nll_m=0.006  kl_a=0.007 kl_m=0.007  margin_a=8.188 margin_m=7.562
+CONTEXT:
+ eyes, they have medium sized pupils. Neutral Fennux can not be paired with other Neutral Fennux, only Wild and Tame.
+Wild Fennux have a visual difference on their eyes, they are slit down the middle and look quite fierce. Wild Fennux can not be paired with other Wild Fenn
+
+--- 2/20  θ=53.08°  tok=58650 'ceptors'
+nll_a=0.133 nll_m=0.209  kl_a=0.130 kl_m=0.205  margin_a=2.250 margin_m=1.625
+CONTEXT:
+. The beam is pulsed to encode data. The method includes activating one portion of the array of photo-receptors comprising a plurality of contiguous photo-receptors, determining, over a time period, an intensity of photons collected by the activated portion corresponding to pulses of photons, sequentially activating overlapping portions of the array of photo-receptors
+
+--- 3/20  θ=55.54°  tok=3808 'ements'
+nll_a=0.004 nll_m=0.002  kl_a=0.005 kl_m=0.003  margin_a=5.625 margin_m=8.250
+CONTEXT:
+ (X) - Taken on strength from No.27 Movements Unit, 22 May 1944; damaged, Category "B" (enemy action), 2 November 1944. Letter on list of aircraft dated 31 August 1944.
+HR179: - Taken on strength from No.27 Movements
+
+--- 4/20  θ=54.65°  tok=3808 'ements'
+nll_a=0.004 nll_m=0.002  kl_a=0.006 kl_m=0.003  margin_a=5.625 margin_m=7.938
+CONTEXT:
+ - Transferred from No.19 Movements Unit, 30 May 1943; written off (crashed and damaged beyond repair), 12 June 1943. Aircraft letter in ORB entry of 12 June 1943.
+HJ741 (S) - Taken on strength from No.27 Movements
+
+--- 5/20  θ=52.04°  tok=62585 'xon'
+nll_a=0.000 nll_m=0.001  kl_a=0.000 kl_m=0.001  margin_a=11.438 margin_m=10.438
+CONTEXT:
+6 blockade on ISO-induced persistent INa. Representative traces of persistent INa pre- and post-exposure to 100 nmol/l ISO in CPVT cardiomyocytes (p = 0.007 Kruskal-Wallis test, n = 6 for both; *p = 0.035 Wilcoxon
+
+--- 6/20  θ=53.59°  tok=1503 'ased'
+nll_a=0.432 nll_m=0.012  kl_a=0.425 kl_m=0.017  margin_a=0.812 margin_m=5.500
+CONTEXT:
+ privately owned, clinical-stage, biotechnology company discovering and developing highly innovative biotherapeutics known as ImmTACs for the treatment of cancer and a range of other serious diseases. Its world-leading proprietary T Cell Receptor (TCR) technology exploits the power of the body's own immune system to find and kill diseased
+
+--- 7/20  θ=50.97°  tok=25077 '083'
+nll_a=5.471 nll_m=3.331  kl_a=1.504 kl_m=1.164  margin_a=-3.375 margin_m=-2.312
+CONTEXT:
+ and help with quantitative image analysis.
+This work was supported by National Institutes of Health grants R01-HL074045 and R01-HL063043 (to Dr. Györke); K99-HL127299 (to Dr. Radwański); R01-HL084583, R01-HL083
+
+--- 8/20  θ=59.19°  tok=40232 'aldo'
+nll_a=0.057 nll_m=0.019  kl_a=0.057 kl_m=0.019  margin_a=6.125 margin_m=6.875
+CONTEXT:
+ footage now!<|endoftext|>This is a placeholder page for Raymond Capaldo, which means this person is not currently on this site. We do suggest using the tools below to find Raymond Capaldo.
+You are visiting the placeholder page for Raymond Capaldo. This page is here because someone used our placeholder utility to look for Raymond Capaldo
+
+--- 9/20  θ=58.28°  tok=3808 'ements'
+nll_a=0.004 nll_m=0.003  kl_a=0.004 kl_m=0.003  margin_a=5.500 margin_m=7.562
+CONTEXT:
+3. Letter in ORB entry of 16 August 1943.
+HJ773: - Taken on strength from No.19 Movements Unit, 16 June 1943; Missing on operations, 24 August 1943.
+HJ774 (K) - Taken on strength from No.27 Movements
+
+--- 10/20  θ=54.39°  tok=24865 '733'
+nll_a=2.423 nll_m=3.919  kl_a=1.348 kl_m=0.961  margin_a=-1.062 margin_m=-2.562
+CONTEXT:
+ to No.418 Squadron, but it is struck off strength again on 31 January 1944 on transfer to No.605 Squadron. Letter on list of aircraft dated 9 September 1943.
+HJ731: - Received from No.19 Movements Unit, 30 May 1943.
+HJ733
+
+--- 11/20  θ=50.21°  tok=4035 'olve'
+nll_a=0.326 nll_m=0.037  kl_a=0.317 kl_m=0.032  margin_a=1.625 margin_m=3.875
+CONTEXT:
+-growing list of organizations. As we drive success for them, we grow as well, meaning more room for new people to join our team. If you’re ready to learn and grow, you’ll fit in great in our success-driven culture.
+Why Evolve Marketing’s workplace is awesome.
+From their first moments in our Evolve
+
+--- 12/20  θ=53.87°  tok=6217 'ota'
+nll_a=0.039 nll_m=0.020  kl_a=0.036 kl_m=0.018  margin_a=4.625 margin_m=4.875
+CONTEXT:
+vedo-Rodríguez and Strong, 2012; USDA-ARS, 2016.
+Eukaryota Plantae Spermatophyta Crotalaria retusa (rattleweed) Present Introduced Acevedo-Rodríguez and Strong, 2012.
+Eukaryota
+
+--- 13/20  θ=53.51°  tok=24837 '965'
+nll_a=2.344 nll_m=2.288  kl_a=0.990 kl_m=0.704  margin_a=-1.188 margin_m=-0.250
+CONTEXT:
+. Letter in ORB of 26/27 February 1945.
+SZ964 (X) - First mentioned in ORB, 24/25 February 1945; last recorded operation, 24/25 April 1945. Letter in ORB of 24/25 February 1945.
+SZ965
+
+--- 14/20  θ=53.11°  tok=6217 'ota'
+nll_a=0.037 nll_m=0.027  kl_a=0.035 kl_m=0.024  margin_a=4.562 margin_m=4.938
+CONTEXT:
+ostegia madagascariensis (Madagascar rubbervine) Present Introduced Yes McGowan et al., 2006.
+Eukaryota Plantae Spermatophyta Cyanthillium cinereum (little ironweed) Present Introduced USDA-ARS, 2013.
+Eukaryota
+
+--- 15/20  θ=54.57°  tok=3808 'ements'
+nll_a=0.005 nll_m=0.002  kl_a=0.006 kl_m=0.002  margin_a=5.250 margin_m=7.875
+CONTEXT:
+J) - Received from No.27 Movements Unit, 3 February 1944; missing in action, 9 March 1944; Wing Commander R.J. Bennell killed. Letter on list dated 3 February 1944.
+LR327 (E) - Taken on strength from No.10 Movements
+
+--- 16/20  θ=52.55°  tok=56208 ' Hav'
+nll_a=0.003 nll_m=0.001  kl_a=0.003 kl_m=0.002  margin_a=8.125 margin_m=9.000
+CONTEXT:
+ September 1943.
+HX816 (Y) - Taken on strength from De Havilland, 23 July 1943; to No.49 Movements Unit, 26 April 1944. Letter on list dated 2 September 1943.
+HX817 (G) - Taken on strength from De Hav
+
+--- 17/20  θ=50.67°  tok=21493 'utt'
+nll_a=0.007 nll_m=0.009  kl_a=0.007 kl_m=0.009  margin_a=7.812 margin_m=7.312
+CONTEXT:
+ have always fallen short” for technical reasons.
+Another issue is potential additional demand for plutonium-238. NASA’s projected demand for the isotope dropped from 5 to 1.5 kilograms a year after the end of the Constellation program, which forecast the need for power systems to support human lunar exploration, McNutt
+
+--- 18/20  θ=55.64°  tok=18614 'into'
+nll_a=0.003 nll_m=0.005  kl_a=0.028 kl_m=0.021  margin_a=8.250 margin_m=8.312
+CONTEXT:
+ Trail, the South Ridge Road, the May Valley trails system, and a portion of the Pacific Crest Trail. For more information, please view the Forest Closure Order, and the Forest Closure Order Map. Planning a trip to Idyllwild, be sure to visit the San Jacinto Ranger District recreation sites webpage.
+San Jacinto
+
+--- 19/20  θ=57.25°  tok=5366 'ourse'
+nll_a=0.451 nll_m=0.114  kl_a=0.460 kl_m=0.141  margin_a=2.875 margin_m=4.688
+CONTEXT:
+ by Louise Lacourse for their Christmas cards. This artist is indeed a champion of nature and peace. Her paintings capture happiness, joyfulness, and give them eternity. Her works are deeply set inQuebec’s culture and winters, yet they are also a celebration of humanity and, thus, remain universal.
+Louise Lacourse
+
+--- 20/20  θ=54.72°  tok=56208 ' Hav'
+nll_a=0.004 nll_m=0.001  kl_a=0.004 kl_m=0.002  margin_a=8.125 margin_m=9.000
+CONTEXT:
+ 2 September 1943.
+HX817 (G) - Taken on strength from De Havilland, 23 July 1943; crashed and damaged beyond repair, 27 October 1943. Letter on list dated 2 September 1943.
+HX818 (P) - Taken on strength from De Hav
+
+========================================================================
+ANGLE BIN 60-70°  (n=20)
+========================================================================
+
+--- 1/20  θ=62.61°  tok=20103 'oa'
+nll_a=0.002 nll_m=0.001  kl_a=0.002 kl_m=0.001  margin_a=8.500 margin_m=8.562
+CONTEXT:
+rella (citrus leaf miner) Present CABI/EPPO, 2003; EPPO, 2014.
+Eukaryota Metazoa Arthropoda Planococcus citri (citrus mealybug) Present CABI/EPPO, 1999.
+Eukaryota Metazoa
+
+--- 2/20  θ=64.28°  tok=26223 '834'
+nll_a=2.703 nll_m=3.343  kl_a=1.244 kl_m=0.724  margin_a=-1.125 margin_m=-2.750
+CONTEXT:
+ night flying test near Great Sampford Aerodrome, 1 April 1942. FS M.H. Brandon and FS E.A. Owen killed.
+W8335 - Crashed 24 February 1942; first loss by unit. Sergeant A. Kreut and Sergeant F.C. O'Connor killed.
+W834
+
+--- 3/20  θ=60.93°  tok=22904 '833'
+nll_a=2.505 nll_m=1.346  kl_a=1.616 kl_m=0.977  margin_a=-1.312 margin_m=0.688
+CONTEXT:
+ return from sortie, 1 August 1942.
+W8333: - Took part in first squadron operation, 26 March 1942; crashed during night flying test near Great Sampford Aerodrome, 1 April 1942. FS M.H. Brandon and FS E.A. Owen killed.
+W833
+
+--- 4/20  θ=60.16°  tok=5067 '600'
+nll_a=2.238 nll_m=2.265  kl_a=1.862 kl_m=1.818  margin_a=-0.250 margin_m=-1.250
+CONTEXT:
+) Functional properties and differential neuromodulation of Na(v)1.6 channels. Mol Cell Neurosci 38:607–615.
+(2012) Mass spectrometry-based identification of native cardiac Nav1.5 channel α subunit phosphorylation sites. J Proteome Res 11:5994–600
+
+--- 5/20  θ=66.20°  tok=100 '�'
+nll_a=1.284 nll_m=1.941  kl_a=0.681 kl_m=0.230  margin_a=-0.250 margin_m=-1.500
+CONTEXT:
+Сгушен в сърцето на Лаем Чабанг, Avana Laemchabang Boutique Hotel е идеалното място, от което можете да започнете Вашето приключение в Ч
+
+--- 6/20  θ=61.13°  tok=67545 'arie'
+nll_a=0.002 nll_m=0.004  kl_a=0.154 kl_m=0.112  margin_a=9.500 margin_m=8.312
+CONTEXT:
+ prices of law practice textbook rentals are typically much less expensive than you will find at the college bookstore because they are yours to keep for the duration of your class, then you return them at the end of the course. Uloop is a place you can rent or buy physical or online law practice textbooks for your classes at Prarie
+
+--- 7/20  θ=63.03°  tok=29432 'ř'
+nll_a=6.588 nll_m=0.253  kl_a=6.587 kl_m=0.253  margin_a=-6.500 margin_m=3.438
+CONTEXT:
+ right.<|endoftext|>SDA Legal, advokátní kancelář, s.r.o. have 1 offices. You are currently viewing the profile of their Prague office. The current local time is 10:19 on Sunday 21 April.
+SDA Legal, advokátní kancelář
+
+--- 8/20  θ=60.40°  tok=5055 'ancel'
+nll_a=0.825 nll_m=0.490  kl_a=0.825 kl_m=0.490  margin_a=3.188 margin_m=2.312
+CONTEXT:
+ they’re right.<|endoftext|>SDA Legal, advokátní kancelář, s.r.o. have 1 offices. You are currently viewing the profile of their Prague office. The current local time is 10:19 on Sunday 21 April.
+SDA Legal, advokátní kancel
+
+--- 9/20  θ=68.22°  tok=61945 'HX'
+nll_a=4.297 nll_m=0.820  kl_a=3.992 kl_m=0.712  margin_a=-2.062 margin_m=2.125
+CONTEXT:
+ 17 July 1943; sent to Boscombe Down, 14 November 1943. Letter on list dated 2 September 1943.
+HX810: - Taken on strength from De Havilland, 18 July 1943; to No.43 Group, 29 July 1943.
+HX
+
+--- 10/20  θ=67.66°  tok=16217 '850'
+nll_a=2.653 nll_m=4.578  kl_a=1.323 kl_m=1.117  margin_a=-1.125 margin_m=-3.062
+CONTEXT:
+ returned to No.418 Squadron, 15 June 1944. Letter on list dated 31 August 1944.
+NS849 (T) - Received from No.44 Movements Unit, 24 August 1944. Letter given in ORB entry of 3/4 January 1945.
+NS850
+
+--- 11/20  θ=60.52°  tok=116 '�'
+nll_a=3.887 nll_m=3.786  kl_a=0.786 kl_m=0.687  margin_a=-3.000 margin_m=-2.688
+CONTEXT:
+��習?�て次の?�ー?�練習に?�え?�い?�！?�週は１０?�に行く?�も?�！?�今週土?�は?�ぐ?�へ
+
+--- 12/20  θ=64.00°  tok=65025 'ABI'
+nll_a=0.082 nll_m=0.009  kl_a=0.082 kl_m=0.021  margin_a=5.125 margin_m=5.625
+CONTEXT:
+aryota Metazoa Arthropoda Nipaecoccus nipae (spiked mealybug) Present CABI/EPPO, 2005.
+Eukaryota Metazoa Arthropoda Paracoccus marginatus (papaya mealybug) Present Pollard, 1999; CABI
+
+--- 13/20  θ=60.31°  tok=20103 'oa'
+nll_a=0.002 nll_m=0.001  kl_a=0.002 kl_m=0.001  margin_a=8.375 margin_m=8.375
+CONTEXT:
+oa Arthropoda Paratrechina longicornis (crazy ant) Present Introduced Yes ISSG, 2011.
+Eukaryota Metazoa Arthropoda Pectinophora gossypiella (pink bollworm) Present EPPO, 2014.
+Eukaryota Metazoa
+
+--- 14/20  θ=67.75°  tok=40232 'aldo'
+nll_a=0.050 nll_m=0.035  kl_a=0.050 kl_m=0.035  margin_a=6.000 margin_m=6.125
+CONTEXT:
+ Capaldo, which means this person is not currently on this site. We do suggest using the tools below to find Raymond Capaldo.
+You are visiting the placeholder page for Raymond Capaldo. This page is here because someone used our placeholder utility to look for Raymond Capaldo. We created this page automatically in hopes Raymond Capaldo
+
+--- 15/20  θ=61.41°  tok=231 '�'
+nll_a=4.395 nll_m=2.804  kl_a=4.380 kl_m=2.791  margin_a=-2.938 margin_m=-1.188
+CONTEXT:
+из, за да гарантира комфорта на своите гости.
+Хотелът се характеризира с 181 стилно обзаведени стаи за гости, в някои от които щ
+
+--- 16/20  θ=62.71°  tok=6217 'ota'
+nll_a=0.032 nll_m=0.021  kl_a=0.031 kl_m=0.020  margin_a=4.688 margin_m=4.375
+CONTEXT:
+ukaryota Metazoa Chordata Mus musculus (house mouse) Present Introduced ISSG, 2011.
+Eukaryota Metazoa Chordata Osteopilus septentrionalis (Cuban treefrog) Present Introduced IUCN, 2017.
+Eukaryota
+
+--- 17/20  θ=67.54°  tok=98 '�'
+nll_a=1.991 nll_m=0.966  kl_a=0.913 kl_m=0.596  margin_a=-0.500 margin_m=1.312
+CONTEXT:
+аи, 24-часова рецепция, Wi-Fi връзка в общите части, паркинг, рум-сървиз, за да гарантира комфорта на своите гости.
+Х
+
+--- 18/20  θ=65.34°  tok=71437 'íg'
+nll_a=0.005 nll_m=0.001  kl_a=0.009 kl_m=0.015  margin_a=7.438 margin_m=9.625
+CONTEXT:
+ Plantae Spermatophyta Passiflora suberosa (corkystem passionflower) Present Native USDA-ARS, 2012.
+Eukaryota Plantae Spermatophyta Petiveria alliacea (guinea hen weed) Present Native Acevedo-Rodríg
+
+--- 19/20  θ=68.46°  tok=96244 'allis'
+nll_a=0.000 nll_m=0.000  kl_a=0.002 kl_m=0.002  margin_a=10.875 margin_m=11.812
+CONTEXT:
+1 μmol/l) reduced DCR frequency in ISO-treated CPVT cardiomyocytes (n = 99, 123, and 74 cells for ISO-4,9-ah-TTX, ISO-SEA0400, and ISO-treated cells, respectively; p = 0.026 Kruskal-Wallis
+
+--- 20/20  θ=62.29°  tok=90183 '��'
+nll_a=5.699 nll_m=6.089  kl_a=1.471 kl_m=1.371  margin_a=-5.062 margin_m=-5.250
+CONTEXT:
+�な?�っ?�り?�、中?�大変だ?�た！繋?�っ?�か?�思え?�切?�て?�ま?�た?�と?��??�、�?確に?�続
+
+========================================================================
+ANGLE BIN 70-80°  (n=20)
+========================================================================
+
+--- 1/20  θ=78.06°  tok=248 '�'
+nll_a=4.188 nll_m=2.366  kl_a=1.773 kl_m=1.981  margin_a=-2.062 margin_m=-0.875
+CONTEXT:
+; it is a fine and light, fruity, harmonious, easy-to-drink wine which is slightly fizzy.
+An aperitif wine which goes ideally with cheese dishes, including raclette as well as with hard cheeses; it is also an ideal accompaniment for fine-meat.
+HARNAŚ
+
+--- 2/20  θ=74.51°  tok=65025 'ABI'
+nll_a=0.034 nll_m=0.008  kl_a=0.042 kl_m=0.028  margin_a=6.125 margin_m=6.125
+CONTEXT:
+G, 2011.
+Eukaryota Metazoa Arthropoda Pectinophora gossypiella (pink bollworm) Present EPPO, 2014.
+Eukaryota Metazoa Arthropoda Phyllocnistis citrella (citrus leaf miner) Present CABI
+
+--- 3/20  θ=73.91°  tok=24250 '838'
+nll_a=3.961 nll_m=3.578  kl_a=2.740 kl_m=0.991  margin_a=-2.438 margin_m=-2.312
+CONTEXT:
+9: - Crashed 6 October 1942 (F/O W.M. Poupore and F/O F.W. Turvey killed).
+W8360: - First mentioned in ORB, 28 March 1942; crashed and burned, 29 March 1942; crew unhurt.
+W838
+
+--- 4/20  θ=70.84°  tok=42848 'lk'
+nll_a=0.097 nll_m=0.002  kl_a=0.091 kl_m=0.019  margin_a=5.188 margin_m=9.125
+CONTEXT:
+ sellers. Your bars will be delivered in a cotton drawstring gift pouch with stickers and a subscription discount code that will never expire and can be used as many times as you like! You'll be able to gift discounted chocolate subscriptions to anyone, or sign up for yourself any time in the future.
+Get 5 Golden Mylk
+
+--- 5/20  θ=71.92°  tok=93067 'abler'
+nll_a=0.062 nll_m=0.070  kl_a=0.070 kl_m=0.069  margin_a=4.625 margin_m=3.625
+CONTEXT:
+, press select. A weird menu (The VSH menu) should appear. Press select again to exit it. If this worked, you can now install ISO's (Pirated Games) and homebrew onto your psp. Each time you restart your psp, you will have to run TN Homebrew Enabler
+
+--- 6/20  θ=77.10°  tok=112 '�'
+nll_a=1.515 nll_m=1.116  kl_a=1.417 kl_m=1.015  margin_a=-0.125 margin_m=0.562
+CONTEXT:
+emchabang Boutique Hotel е идеалното място, от което можете да започнете Вашето приключение в Чонбури. Хотелът не е далеч от центъра на град
+
+--- 7/20  θ=73.37°  tok=71437 'íg'
+nll_a=0.005 nll_m=0.001  kl_a=0.005 kl_m=0.004  margin_a=7.375 margin_m=10.375
+CONTEXT:
+ophyta Triumfetta semitriloba (burweed) Present Native USDA-ARS, 2015.
+Eukaryota Plantae Spermatophyta Turnera ulmifolia (West Indian holly) Present Introduced Yes Rojas-Sandoval and Acevedo-Rodríg
+
+--- 8/20  θ=77.17°  tok=26218 '829'
+nll_a=2.035 nll_m=1.919  kl_a=1.303 kl_m=1.182  margin_a=0.375 margin_m=-0.500
+CONTEXT:
+1942; burned after taxiing accident, Bradwell, 17 April 1943.
+W8281 - Failed to return from sortie, 20 May 1942.
+W8292: - Crashed northeast of Southminster, 2 January 1943 (P/O J.J. Field killed).
+W829
+
+--- 9/20  θ=70.43°  tok=8076 'orders'
+nll_a=0.314 nll_m=1.704  kl_a=0.121 kl_m=1.305  margin_a=1.000 margin_m=-1.500
+CONTEXT:
+0 a 2000 lux. HDW-790P model stand out specially for the possibility of recording in 1080/50i and 1080/25P and for the introduction of new gamma curves, such as Hypergamma.
+23,98P and using a S-Log workflow.
+These camcorders
+
+--- 10/20  θ=71.23°  tok=22716 '828'
+nll_a=3.797 nll_m=4.773  kl_a=1.724 kl_m=1.824  margin_a=-3.000 margin_m=-4.375
+CONTEXT:
+.
+W8271: - Transferred from No.418 Squadron to Tollerton Aircraft, Notts., 12 June 1943.
+W8278: - Participated in first squadron operation, 26 March 1942; burned after taxiing accident, Bradwell, 17 April 1943.
+W828
+
+--- 11/20  θ=75.59°  tok=25465 '839'
+nll_a=2.451 nll_m=0.610  kl_a=1.943 kl_m=0.307  margin_a=-0.500 margin_m=1.750
+CONTEXT:
+ 1943.
+W8390: - Taken on strength, 6 December 1941.
+W8394: - Failed to return from sortie, 23 June 1943 (F/O D.A. Carmichael, P/O D.Q. Findlay, Warrant Officer J.W. Robertson killed).
+W839
+
+--- 12/20  θ=71.32°  tok=71437 'íg'
+nll_a=0.006 nll_m=0.000  kl_a=0.006 kl_m=0.002  margin_a=7.250 margin_m=10.688
+CONTEXT:
+ pinnata (cathedral bells) Present Introduced Acevedo-Rodríguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Lagerstroemia speciosa (Pride of India) Present Introduced Yes Rojas-Sandoval and Acevedo-Rodríg
+
+--- 13/20  θ=77.88°  tok=9655 'aml'
+nll_a=18.282 nll_m=15.845  kl_a=0.443 kl_m=0.346  margin_a=-18.281 margin_m=-15.844
+CONTEXT:
+ discovered the malware for the first time on January 29 on a customer's computer. After creating a signature to find the malicious update file on other customer systems, they discovered that more than 57,000 Kaspersky customers were infected with it. However, this sacrifice fee applies only to Kaspersky customers. Kaml
+
+--- 14/20  θ=73.59°  tok=3483 'annot'
+nll_a=0.184 nll_m=0.037  kl_a=0.253 kl_m=0.142  margin_a=4.688 margin_m=5.875
+CONTEXT:
+Black Back Butterfly Fish - Chaetodon melannotus - Melannotus Black-Backed Butterflyfish ModeratePeaceful55 Gallon5.9 inchesNoCarnivore, ClamIndo-PacificChaetodontidaeSmall 1" - 2"
+Black Back Butterflyfish, Chaetodon melannot
+
+--- 15/20  θ=77.36°  tok=23424 '835'
+nll_a=1.709 nll_m=1.043  kl_a=1.378 kl_m=0.677  margin_a=-0.375 margin_m=1.438
+CONTEXT:
+8351: - Taken on strength, 6 December 1941. Took part in first squadron operation, 26 March 1942.
+W8356 (D) - Transferred out to Helliwells, 21 September 1943; letter on list dated 2 September 1943.
+W835
+
+--- 16/20  θ=73.17°  tok=246 '�'
+nll_a=2.142 nll_m=2.931  kl_a=1.835 kl_m=1.519  margin_a=-1.250 margin_m=-1.500
+CONTEXT:
+ and conferences. This means that there are further requirements in terms of functionality and look. Thanks to the Ahrend Hesta, working no longer has to look or feel like working.<|endoftext|>請問ATM卡可以直接在台灣任何一個ATM機提領
+
+--- 17/20  θ=72.59°  tok=21221 '830'
+nll_a=1.678 nll_m=1.156  kl_a=1.090 kl_m=0.875  margin_a=0.625 margin_m=1.625
+CONTEXT:
+ of Southminster, 2 January 1943 (P/O J.J. Field killed).
+W8298: - Taken on squadron strength 22 November 1941 - one of first two aircraft (other was W8350).
+W8302: - Taken on strength, 27 November 1941.
+W830
+
+--- 18/20  θ=78.09°  tok=100063 'vais'
+nll_a=0.043 nll_m=0.011  kl_a=0.145 kl_m=0.100  margin_a=5.438 margin_m=6.750
+CONTEXT:
+ seen as soon as possible by a physician to try and help the problem.
+Neuropathy was diagnosed, but I cannot remember the date. My primary care physician, Janie Beauvais, first sent me to a cardio specialist to test my circulation. The results were that my circulation was very good. Dr. Beauvais
+
+--- 19/20  θ=78.83°  tok=23424 '835'
+nll_a=3.058 nll_m=3.657  kl_a=0.641 kl_m=0.394  margin_a=-2.188 margin_m=-3.312
+CONTEXT:
+ squadron operation, 26 March 1942. Crashed at West Malling during takeoff; crew killed.
+W8342: - Failed to return from sortie, 18 November 1942.
+W8345: - Transferred to Tollerton Aircraft, Notts., 12 June 1943.
+W835
+
+--- 20/20  θ=71.60°  tok=88729 'aspers'
+nll_a=0.002 nll_m=0.017  kl_a=1.239 kl_m=0.492  margin_a=9.625 margin_m=6.688
+CONTEXT:
+ directly returns to the ASUS server, said Kamluk.
+The motherboard sent ASUS a list of allegations asserted by Kaspersky on Thursday in three separate e-mails, but has not heard from the company.
+Read more: What is an "attack on the supply chain"?
+US-based security firm Symantec confirmed Kaspers
+
+========================================================================
+ANGLE BIN 80-90°  (n=20)
+========================================================================
+
+--- 1/20  θ=85.11°  tok=43588 'illon'
+nll_a=0.008 nll_m=0.019  kl_a=0.048 kl_m=0.030  margin_a=6.500 margin_m=5.500
+CONTEXT:
+ Collectives” questions the notion of community as a situation and not as a subject to illustrate. The ambition is to invent, the time of an experience of collective creation, a fictional “us” as a way of escaping the assigned identities. The works (installations, videos) of the artists in residence at the Pavillon
+
+--- 2/20  θ=82.19°  tok=38767 'ukt'
+nll_a=0.005 nll_m=0.048  kl_a=0.267 kl_m=0.048  margin_a=8.188 margin_m=3.812
+CONTEXT:
+, only trucks and no other tuktuks were driving by that road. It might just be me having watched too much CSI but it got too scary I had to tell him I left something at the hostel and needed to go back.
+Eventually, I was able to verify that there is indeed a shortcut and the tukt
+
+--- 3/20  θ=81.86°  tok=102 '�'
+nll_a=2.821 nll_m=2.376  kl_a=2.217 kl_m=1.889  margin_a=-0.750 margin_m=-0.438
+CONTEXT:
+ussing on meetings and conferences. This means that there are further requirements in terms of functionality and look. Thanks to the Ahrend Hesta, working no longer has to look or feel like working.<|endoftext|>請問ATM卡可以直接在台灣任何一個ATM�
+
+--- 4/20  θ=98.34°  tok=96392 'elloworld'
+nll_a=0.554 nll_m=2.634  kl_a=0.791 kl_m=2.509  margin_a=3.938 margin_m=1.188
+CONTEXT:
+ week, arriving at the Lautoka Port on November 2 and Suva on November 3.
+New Caledonia Tourism (NCTPS), a preferred partner of the Helloworld Frontliners Forum, hosted an experiential booth at the event held in Hobart 23-26 November, providing Helloworld
+
+--- 5/20  θ=95.38°  tok=83353 'neau'
+nll_a=0.000 nll_m=0.000  kl_a=0.001 kl_m=0.001  margin_a=12.000 margin_m=11.250
+CONTEXT:
+ out your natural beauty, it is imperative that an expert be the one to administer injections.
+Hyaluronic Acid injection results are visible instantly. Often wrinkles have disappeared by the end of the treatment. Optimal results occur after ten days by which time the body will have fully assimilated the acid.
+Dr. Charbonneau
+
+--- 6/20  θ=92.92°  tok=100063 'vais'
+nll_a=0.031 nll_m=0.009  kl_a=0.367 kl_m=0.299  margin_a=5.312 margin_m=7.062
+CONTEXT:
+ in the yard that day and had leg aches. Well, the pain got worse as time passed and that’s when I went to the doctor the first time about the problem. Tylenol at night didn’t phase the pain. I began having leg pain constantly; all day and all night.
+After Dr. Beauvais
+
+--- 7/20  θ=87.32°  tok=60593 'alten'
+nll_a=3.836 nll_m=2.910  kl_a=3.805 kl_m=2.879  margin_a=-1.875 margin_m=0.062
+CONTEXT:
+ July 1.<|endoftext|>(Crewe / Munich, July 30, 2018) Bentley Motors today announces a new management team structure for its European operations.
+Marco van Aalten (46) returns to the European head office in Munich as Sales Operations Director Europe on August 1, 2018. Van Aalten
+
+--- 8/20  θ=84.55°  tok=23424 '835'
+nll_a=2.367 nll_m=1.596  kl_a=1.908 kl_m=1.131  margin_a=-1.375 margin_m=0.562
+CONTEXT:
+18 November 1942.
+W8345: - Transferred to Tollerton Aircraft, Notts., 12 June 1943.
+W8350: - Taken on strength, 22 November 1941 (see also W8298). Failed to return from sortie, 17 August 1942.
+W835
+
+--- 9/20  θ=96.28°  tok=83353 'neau'
+nll_a=0.000 nll_m=0.000  kl_a=0.000 kl_m=0.001  margin_a=12.250 margin_m=10.625
+CONTEXT:
+awa!
+Fraxel laser technology is a very efficient non-surgical procedure that firms the skin and erases signs of aging.
+It improves the quality of your skin, making it softer and firmer, softening fine and medium-sized fine lines and wrinkles on the neck, chest, and hands.
+Dr. Charbonneau
+
+--- 10/20  θ=87.83°  tok=88729 'aspers'
+nll_a=0.001 nll_m=0.000  kl_a=0.054 kl_m=0.050  margin_a=10.688 margin_m=10.000
+CONTEXT:
+ to its scanning tool to capture anomalous code snippets hidden in legal code or catch code that would disrupt the normal operation of a server Machine attacks. The company plans to release a complete technical document and presentation on the ASUS attack it called ShadowHammer next month at its Security Analyst Summit in Singapore. In the meantime, Kaspers
+
+--- 11/20  θ=90.77°  tok=14344 'LES'
+nll_a=0.137 nll_m=0.420  kl_a=0.129 kl_m=0.412  margin_a=3.688 margin_m=3.062
+CONTEXT:
+ go that way.
+Once you have your GPO created and linked where you need it to be, copy the downloaded files from the WEFFLES GitHub Repo to your collector server. Execute the wefsetup.ps1 script, which will take care of everything for you - including importing the coreevents.xml subscription.
+WEFFLES
+
+--- 12/20  θ=84.43°  tok=9655 'aml'
+nll_a=10.127 nll_m=3.145  kl_a=2.782 kl_m=0.499  margin_a=-10.125 margin_m=-3.062
+CONTEXT:
+ in mid-2018. The attackers then switched to a second legitimate ASUS certificate to subsequently sign their malware.
+Kamluk said ASUS had used one of the vulnerable certificates for signing his own files for at least a month after Kaspersky informed the company about the problem, although it has since stopped. However, Kaml
+
+--- 13/20  θ=80.07°  tok=91673 'ographed'
+nll_a=0.023 nll_m=0.174  kl_a=0.032 kl_m=0.192  margin_a=4.500 margin_m=4.125
+CONTEXT:
+ contact one which has a good reputation. Most buyers will probably do their homework and will ask you where you’ve got your autographed celebrity picture authenticated. They’ll then contact the Better Business Bureau to ensure the company you dealt with has a good reputation and they have not had some fraudulent dealings.
+Once you have had your autographed
+
+--- 14/20  θ=81.70°  tok=27843 'igu'
+nll_a=0.002 nll_m=0.006  kl_a=0.085 kl_m=0.063  margin_a=9.000 margin_m=8.438
+CONTEXT:
+ FA Cup tie on Sunday.
+The 31 year old star Argentine star will wear the number 9 jersey for the Blues. The success of Gonzalo Higuain at domestic level will certainly give some confidence to the Chelsea fans. The star Argentine centre forward won the League titles in both Spain and Italy. Gonzalo Higu
+
+--- 15/20  θ=81.28°  tok=22904 '833'
+nll_a=3.934 nll_m=2.746  kl_a=1.241 kl_m=0.694  margin_a=-3.125 margin_m=-2.000
+CONTEXT:
+ letter appears on list dated 2 September 1943.
+W8325: - Failed to return from sortie, 9 April 1943 (F/O H.D. Baker and P/O D.J. McKay killed).
+W8326: - Failed to return from sortie, 1 August 1942.
+W833
+
+--- 16/20  θ=84.21°  tok=88729 'aspers'
+nll_a=0.001 nll_m=0.037  kl_a=0.090 kl_m=0.054  margin_a=10.438 margin_m=5.875
+CONTEXT:
+.
+The attackers used two different ASUS digital certificates to sign their malware. The first one ended in mid-2018. The attackers then switched to a second legitimate ASUS certificate to subsequently sign their malware.
+Kamluk said ASUS had used one of the vulnerable certificates for signing his own files for at least a month after Kaspers
+
+--- 17/20  θ=83.67°  tok=26223 '834'
+nll_a=0.949 nll_m=0.360  kl_a=0.696 kl_m=0.255  margin_a=1.000 margin_m=2.812
+CONTEXT:
+ A. Kreut and Sergeant F.C. O'Connor killed.
+W8340: - Took part in first squadron operation, 26 March 1942. Crashed at West Malling during takeoff; crew killed.
+W8342: - Failed to return from sortie, 18 November 1942.
+W834
+
+--- 18/20  θ=90.17°  tok=60593 'alten'
+nll_a=2.860 nll_m=2.457  kl_a=2.833 kl_m=2.431  margin_a=0.812 margin_m=1.000
+CONTEXT:
+) Bentley Motors today announces a new management team structure for its European operations.
+Marco van Aalten (46) returns to the European head office in Munich as Sales Operations Director Europe on August 1, 2018. Van Aalten succeeds Philipp Noack who will take on an international role within Audi AG.
+Van Aalten
+
+--- 19/20  θ=81.03°  tok=23424 '835'
+nll_a=1.549 nll_m=0.965  kl_a=1.763 kl_m=0.961  margin_a=-0.125 margin_m=1.500
+CONTEXT:
+W8356 (D) - Transferred out to Helliwells, 21 September 1943; letter on list dated 2 September 1943.
+W8358: - Taken on strength, 6 December 1941; failed to return from sortie, 8 November 1942.
+W835
+
+--- 20/20  θ=91.72°  tok=60593 'alten'
+nll_a=3.460 nll_m=3.492  kl_a=3.423 kl_m=3.440  margin_a=-0.375 margin_m=-0.062
+CONTEXT:
+ Audi AG.
+Van Aalten joined Bentley in 2004 as Area Manager for Central Europe, overseeing the sales and franchise development in 12 core markets. Since 2016, he headed the Luxury Division of Volkswagen Group Russia and steered Bentley’s Russian and Eastern European markets. Before his time with Bentley, Van Aalten

@@ -1,0 +1,125 @@
+=== host=babel-n5-20 date=Wed Jul 22 16:26:41 EDT 2026 ===
+gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/AssocFacts-0.06B-adamw-lr1.0e-2-cosine-ep10-facts60M-tok4799M/
+gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/AssocFacts-0.06B-adamw-lr1.0e-2-cosine-ep20-tok19999M/
+gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/AssocFacts-0.06B-adamw-lr5.0e-3-cosine-ep10-facts60M-tok4799M/
+gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/AssocFacts-0.06B-adamw-lr5.0e-3-cosine-ep20-tok19999M/
+gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/AssocFacts-0.06B-adamw-lr7.0e-3-cosine-ep10-facts60M-tok4799M/
+Python: /home/catheri4/miniconda3/envs/optim-study/bin/python 2.11.0+cu128
+16 runs to analyze
+
+=== adamw chin=1 MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd ===
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin1.csv
+
+=== muon chin=1 MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd ===
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin1.csv
+
+=== adamw chin=2 MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin2.csv
+
+=== muon chin=2 MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin2.csv
+
+=== adamw chin=4 MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin4.csv
+
+=== muon chin=4 MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin4.csv
+
+=== adamw chin=8 MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin8.csv
+
+=== muon chin=8 MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin8.csv
+
+=== adamw chin=16 MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd ===
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin16.csv
+
+=== muon chin=16 MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin16.csv
+
+=== adamw chin=32 MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd ===
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin32.csv
+
+=== muon chin=32 MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin32.csv
+
+=== adamw chin=64 MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd ===
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin64.csv
+
+=== muon chin=64 MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin64.csv
+
+=== adamw chin=128 MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd ===
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_adamw_chin128.csv
+
+=== muon chin=128 MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd ===
+  downloading gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt -> /scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt
+  44 matrix weights
+  wrote results/effective_rank_60M_bestlr/erank_muon_chin128.csv
+
+wrote results/effective_rank_60M_bestlr/effective_rank_all.csv (704 rows)
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin1.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin2.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin4.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin8.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin16.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin32.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin64.png
+  wrote results/effective_rank_60M_bestlr/erank_by_layer_chin128.png
+  wrote results/effective_rank_60M_bestlr/erank_mean_vs_chinchilla.png
+done.
+=== done ===
+total 1013
+drwxr-x---  2 catheri4 catheri4     29 Jul 22 16:29 .
+drwxr-x--- 20 catheri4 catheri4     20 Jul 22 16:06 ..
+-rw-r-----  1 catheri4 catheri4 165218 Jul 22 16:29 effective_rank_all.csv
+-rw-r-----  1 catheri4 catheri4  10065 Jul 22 16:28 erank_adamw_chin1.csv
+-rw-r-----  1 catheri4 catheri4  10263 Jul 22 16:29 erank_adamw_chin128.csv
+-rw-r-----  1 catheri4 catheri4  10180 Jul 22 16:28 erank_adamw_chin16.csv
+-rw-r-----  1 catheri4 catheri4  10080 Jul 22 16:28 erank_adamw_chin2.csv
+-rw-r-----  1 catheri4 catheri4  10167 Jul 22 16:28 erank_adamw_chin32.csv
+-rw-r-----  1 catheri4 catheri4  10065 Jul 22 16:28 erank_adamw_chin4.csv
+-rw-r-----  1 catheri4 catheri4  10180 Jul 22 16:29 erank_adamw_chin64.csv
+-rw-r-----  1 catheri4 catheri4  10084 Jul 22 16:28 erank_adamw_chin8.csv
+-rw-r-----  1 catheri4 catheri4  76290 Jul 22 16:29 erank_by_layer_chin1.png
+-rw-r-----  1 catheri4 catheri4  77480 Jul 22 16:29 erank_by_layer_chin128.png
+-rw-r-----  1 catheri4 catheri4  77035 Jul 22 16:29 erank_by_layer_chin16.png
+-rw-r-----  1 catheri4 catheri4  76539 Jul 22 16:29 erank_by_layer_chin2.png
+-rw-r-----  1 catheri4 catheri4  77234 Jul 22 16:29 erank_by_layer_chin32.png
+-rw-r-----  1 catheri4 catheri4  76309 Jul 22 16:29 erank_by_layer_chin4.png
+-rw-r-----  1 catheri4 catheri4  76440 Jul 22 16:29 erank_by_layer_chin64.png
+-rw-r-----  1 catheri4 catheri4  76805 Jul 22 16:29 erank_by_layer_chin8.png
+-rw-r-----  1 catheri4 catheri4  58605 Jul 22 16:29 erank_mean_vs_chinchilla.png
+-rw-r-----  1 catheri4 catheri4  10772 Jul 22 16:28 erank_muon_chin1.csv
+-rw-r-----  1 catheri4 catheri4  10947 Jul 22 16:29 erank_muon_chin128.csv
+-rw-r-----  1 catheri4 catheri4  10855 Jul 22 16:28 erank_muon_chin16.csv
+-rw-r-----  1 catheri4 catheri4  10737 Jul 22 16:28 erank_muon_chin2.csv
+-rw-r-----  1 catheri4 catheri4  10859 Jul 22 16:29 erank_muon_chin32.csv
+-rw-r-----  1 catheri4 catheri4  10773 Jul 22 16:28 erank_muon_chin4.csv
+-rw-r-----  1 catheri4 catheri4  10847 Jul 22 16:29 erank_muon_chin64.csv
+-rw-r-----  1 catheri4 catheri4  10744 Jul 22 16:28 erank_muon_chin8.csv
+-rw-r-----  1 catheri4 catheri4   2875 Jul 22 16:29 summary.json

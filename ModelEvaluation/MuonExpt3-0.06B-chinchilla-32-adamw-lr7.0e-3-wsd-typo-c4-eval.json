@@ -1,0 +1,93 @@
+{
+  "by_label": {
+    "C4_add_s1": {
+      "loss": 4.82746925620506,
+      "num_tokens": 2437809
+    },
+    "C4_add_s2": {
+      "loss": 5.680133733526392,
+      "num_tokens": 2699697
+    },
+    "C4_add_s3": {
+      "loss": 6.529814271749756,
+      "num_tokens": 3134472
+    },
+    "C4_add_s4": {
+      "loss": 6.977785510501235,
+      "num_tokens": 3569247
+    },
+    "C4_add_s5": {
+      "loss": 7.189787880036304,
+      "num_tokens": 4005045
+    },
+    "C4_clean": {
+      "loss": 3.9918687546290648,
+      "num_tokens": 2262876
+    },
+    "C4_drop_s1": {
+      "loss": 4.6246041437726895,
+      "num_tokens": 2355969
+    },
+    "C4_drop_s2": {
+      "loss": 5.298397617407259,
+      "num_tokens": 2495097
+    },
+    "C4_drop_s3": {
+      "loss": 5.989585852235173,
+      "num_tokens": 2729364
+    },
+    "C4_drop_s4": {
+      "loss": 6.342490254373924,
+      "num_tokens": 2961585
+    },
+    "C4_drop_s5": {
+      "loss": 6.454470020148183,
+      "num_tokens": 3194829
+    },
+    "C4_keyboard_s1": {
+      "loss": 4.788533778163651,
+      "num_tokens": 2415303
+    },
+    "C4_keyboard_s2": {
+      "loss": 5.602797925028754,
+      "num_tokens": 2641386
+    },
+    "C4_keyboard_s3": {
+      "loss": 6.4068219567826175,
+      "num_tokens": 3019896
+    },
+    "C4_keyboard_s4": {
+      "loss": 6.811089669686318,
+      "num_tokens": 3398406
+    },
+    "C4_keyboard_s5": {
+      "loss": 6.973095900757781,
+      "num_tokens": 3775893
+    },
+    "C4_swap_s1": {
+      "loss": 4.7095822738049,
+      "num_tokens": 2417349
+    },
+    "C4_swap_s2": {
+      "loss": 5.418406760342244,
+      "num_tokens": 2649570
+    },
+    "C4_swap_s3": {
+      "loss": 6.072921195258384,
+      "num_tokens": 3036264
+    },
+    "C4_swap_s4": {
+      "loss": 6.355236264481518,
+      "num_tokens": 3420912
+    },
+    "C4_swap_s5": {
+      "loss": 6.406221652135226,
+      "num_tokens": 3807606
+    }
+  },
+  "model_type": "olmo",
+  "overall": {
+    "loss": 6.017678667180855,
+    "num_tokens": 62428575
+  }
+}

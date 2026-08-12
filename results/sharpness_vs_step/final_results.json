@@ -1,0 +1,1262 @@
+[
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 1,
+    "optimizer": "adamw",
+    "step": 1000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 0.7156514525413513,
+    "max_eigenvalue_preconditioned_sharpness": 4827.465295203466
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd-pretrain-step1000-sharpness-max_eigenvalue.json",
+    "chinchilla": 1,
+    "optimizer": "adamw",
+    "step": 1000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.53303462266922,
+    "max_eigenvalue_preconditioned_sharpness": 3974.0519270572017
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 1,
+    "optimizer": "muon",
+    "step": 1000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 1.1008659601211548,
+    "max_eigenvalue_preconditioned_sharpness": 8692.541775594893
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd-pretrain-step1000-sharpness-max_eigenvalue.json",
+    "chinchilla": 1,
+    "optimizer": "muon",
+    "step": 1000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.9793272614479065,
+    "max_eigenvalue_preconditioned_sharpness": 5500.821884765568
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 2,
+    "optimizer": "adamw",
+    "step": 2000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 0.8153396248817444,
+    "max_eigenvalue_preconditioned_sharpness": 25959.683345453996
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd-pretrain-step2000-sharpness-max_eigenvalue.json",
+    "chinchilla": 2,
+    "optimizer": "adamw",
+    "step": 2000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.5943493247032166,
+    "max_eigenvalue_preconditioned_sharpness": 2955.9236343642324
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 2,
+    "optimizer": "muon",
+    "step": 2000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 1.4785369634628296,
+    "max_eigenvalue_preconditioned_sharpness": 2874.280288284673
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd-pretrain-step2000-sharpness-max_eigenvalue.json",
+    "chinchilla": 2,
+    "optimizer": "muon",
+    "step": 2000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.3596068620681763,
+    "max_eigenvalue_preconditioned_sharpness": 2868.9855685802977
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 4,
+    "optimizer": "adamw",
+    "step": 4500,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 1.8248640298843384,
+    "max_eigenvalue_preconditioned_sharpness": 14419.518571415536
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd-pretrain-step4500-sharpness-max_eigenvalue.json",
+    "chinchilla": 4,
+    "optimizer": "adamw",
+    "step": 4500,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.7165673971176147,
+    "max_eigenvalue_preconditioned_sharpness": 10750.306995430768
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 4,
+    "optimizer": "muon",
+    "step": 4500,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 2.5756423473358154,
+    "max_eigenvalue_preconditioned_sharpness": 3824.3181716658632
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd-pretrain-step4500-sharpness-max_eigenvalue.json",
+    "chinchilla": 4,
+    "optimizer": "muon",
+    "step": 4500,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.5462286472320557,
+    "max_eigenvalue_preconditioned_sharpness": 4560.526723462099
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 8,
+    "optimizer": "adamw",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.8587806224822998,
+    "max_eigenvalue_preconditioned_sharpness": 3722.9121990876683
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 8,
+    "optimizer": "adamw",
+    "step": 9000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 1.936323881149292,
+    "max_eigenvalue_preconditioned_sharpness": 12778.271466076854
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd-pretrain-step9000-sharpness-max_eigenvalue.json",
+    "chinchilla": 8,
+    "optimizer": "adamw",
+    "step": 9000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.7210373878479004,
+    "max_eigenvalue_preconditioned_sharpness": 8636.337217594206
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 8,
+    "optimizer": "muon",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.6143500804901123,
+    "max_eigenvalue_preconditioned_sharpness": 2492.2141823499765
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 8,
+    "optimizer": "muon",
+    "step": 9000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 3.419693946838379,
+    "max_eigenvalue_preconditioned_sharpness": 3670.8978274207643
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd-pretrain-step9000-sharpness-max_eigenvalue.json",
+    "chinchilla": 8,
+    "optimizer": "muon",
+    "step": 9000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.3670406341552734,
+    "max_eigenvalue_preconditioned_sharpness": 3206.004317925208
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "adamw",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.1116142272949219,
+    "max_eigenvalue_preconditioned_sharpness": 5247.218134354358
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "adamw",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.3012624979019165,
+    "max_eigenvalue_preconditioned_sharpness": 15290.952667282168
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "adamw",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.2934534549713135,
+    "max_eigenvalue_preconditioned_sharpness": 5873.581773967012
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "adamw",
+    "step": 18000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 5.061718463897705,
+    "max_eigenvalue_preconditioned_sharpness": 19727.59746653033
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-step18000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "adamw",
+    "step": 18000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.702574729919434,
+    "max_eigenvalue_preconditioned_sharpness": 12443.931154332511
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "muon",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 10.143660545349121,
+    "max_eigenvalue_preconditioned_sharpness": 4030.714700254042
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "muon",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 8.199158668518066,
+    "max_eigenvalue_preconditioned_sharpness": 4104.218229898535
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "muon",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.3933210372924805,
+    "max_eigenvalue_preconditioned_sharpness": 3160.8802293108
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "muon",
+    "step": 18000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 10.56010627746582,
+    "max_eigenvalue_preconditioned_sharpness": 3702.5136464077814
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step18000-sharpness-max_eigenvalue.json",
+    "chinchilla": 16,
+    "optimizer": "muon",
+    "step": 18000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 10.488018035888672,
+    "max_eigenvalue_preconditioned_sharpness": 3931.0873010411524
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.0253275632858276,
+    "max_eigenvalue_preconditioned_sharpness": 4036.4004606727794
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.7939746379852295,
+    "max_eigenvalue_preconditioned_sharpness": 9721.681976405975
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.8800103664398193,
+    "max_eigenvalue_preconditioned_sharpness": 5576.869583743561
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step20000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 20000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.869436025619507,
+    "max_eigenvalue_preconditioned_sharpness": 6159.0711040060905
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step25000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 25000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.08242130279541,
+    "max_eigenvalue_preconditioned_sharpness": 5516.144846391716
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step30000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 30000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.344693899154663,
+    "max_eigenvalue_preconditioned_sharpness": 5201.821009477028
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step35000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 35000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.293811321258545,
+    "max_eigenvalue_preconditioned_sharpness": 7667.418176432014
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 36500,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 5.939957141876221,
+    "max_eigenvalue_preconditioned_sharpness": 21660.990715621097
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-step36500-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "adamw",
+    "step": 36500,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 5.929600238800049,
+    "max_eigenvalue_preconditioned_sharpness": 19152.39602889979
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 13.670589447021484,
+    "max_eigenvalue_preconditioned_sharpness": 5089.499931552643
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 8.967220306396484,
+    "max_eigenvalue_preconditioned_sharpness": 6574.919679606601
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.890765190124512,
+    "max_eigenvalue_preconditioned_sharpness": 3062.333869115801
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step20000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 20000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.7862067222595215,
+    "max_eigenvalue_preconditioned_sharpness": 3631.435731479039
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step25000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 25000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.326943874359131,
+    "max_eigenvalue_preconditioned_sharpness": 2130.3383298940744
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step30000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 30000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.03584098815918,
+    "max_eigenvalue_preconditioned_sharpness": 3869.8894345357667
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step35000-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 35000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 10.3533935546875,
+    "max_eigenvalue_preconditioned_sharpness": 6029.896829294241
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 36500,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 11.10463809967041,
+    "max_eigenvalue_preconditioned_sharpness": 3928.430675576898
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-step36500-sharpness-max_eigenvalue.json",
+    "chinchilla": 32,
+    "optimizer": "muon",
+    "step": 36500,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 11.148872375488281,
+    "max_eigenvalue_preconditioned_sharpness": 3820.835206836071
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.007699966430664,
+    "max_eigenvalue_preconditioned_sharpness": 4949.692959420296
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.0297679901123047,
+    "max_eigenvalue_preconditioned_sharpness": 7711.446950357793
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.0498671531677246,
+    "max_eigenvalue_preconditioned_sharpness": 3840.10291613292
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step20000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 20000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.3043150901794434,
+    "max_eigenvalue_preconditioned_sharpness": 3345.641921508618
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step25000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 25000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.4210947751998901,
+    "max_eigenvalue_preconditioned_sharpness": 3256.476028900164
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step30000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 30000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.673079490661621,
+    "max_eigenvalue_preconditioned_sharpness": 6477.376558322582
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step35000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 35000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.681832194328308,
+    "max_eigenvalue_preconditioned_sharpness": 4284.226748264695
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step40000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 40000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.6711063385009766,
+    "max_eigenvalue_preconditioned_sharpness": 5478.583731861061
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step45000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 45000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.6332385540008545,
+    "max_eigenvalue_preconditioned_sharpness": 3214.004484943649
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step50000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 50000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.718616247177124,
+    "max_eigenvalue_preconditioned_sharpness": 11880.810178070014
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step55000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 55000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.8241280317306519,
+    "max_eigenvalue_preconditioned_sharpness": 18937.864000480404
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step60000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 60000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.7916011810302734,
+    "max_eigenvalue_preconditioned_sharpness": 7502.44798686746
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step65000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 65000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.9675266742706299,
+    "max_eigenvalue_preconditioned_sharpness": 5464.890254597794
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step70000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 70000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.4784021377563477,
+    "max_eigenvalue_preconditioned_sharpness": 8819.826118217534
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 73000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 3.4000368118286133,
+    "max_eigenvalue_preconditioned_sharpness": 21919.78894655684
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-step73000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "adamw",
+    "step": 73000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.397274971008301,
+    "max_eigenvalue_preconditioned_sharpness": 18111.830227945167
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 42.31901168823242,
+    "max_eigenvalue_preconditioned_sharpness": 6296.73420091886
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.054422378540039,
+    "max_eigenvalue_preconditioned_sharpness": 2900.167880268101
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.0990753173828125,
+    "max_eigenvalue_preconditioned_sharpness": 2982.4703654191826
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step20000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 20000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.8226118087768555,
+    "max_eigenvalue_preconditioned_sharpness": 4659.387863056847
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step25000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 25000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.6286885738372803,
+    "max_eigenvalue_preconditioned_sharpness": 2630.9717576303456
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step30000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 30000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.741553544998169,
+    "max_eigenvalue_preconditioned_sharpness": 2425.3495446859197
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step35000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 35000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.6986405849456787,
+    "max_eigenvalue_preconditioned_sharpness": 2294.8092801489056
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step40000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 40000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.8886101245880127,
+    "max_eigenvalue_preconditioned_sharpness": 3135.9457033722547
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step45000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 45000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.8575196266174316,
+    "max_eigenvalue_preconditioned_sharpness": 2900.991951060866
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step50000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 50000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.0060272216796875,
+    "max_eigenvalue_preconditioned_sharpness": 2600.2969383796144
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step55000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 55000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.9203264713287354,
+    "max_eigenvalue_preconditioned_sharpness": 2249.4953394702484
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step60000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 60000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.032641410827637,
+    "max_eigenvalue_preconditioned_sharpness": 3013.5453975886667
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step65000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 65000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.237839221954346,
+    "max_eigenvalue_preconditioned_sharpness": 5072.67165323722
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step70000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 70000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 6.321048259735107,
+    "max_eigenvalue_preconditioned_sharpness": 2771.781564951755
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 73000,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 6.547563552856445,
+    "max_eigenvalue_preconditioned_sharpness": 4141.0093223613985
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step73000-sharpness-max_eigenvalue.json",
+    "chinchilla": 64,
+    "optimizer": "muon",
+    "step": 73000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 6.538681983947754,
+    "max_eigenvalue_preconditioned_sharpness": 4105.458165915411
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.319387912750244,
+    "max_eigenvalue_preconditioned_sharpness": 21038.01729305902
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.133336067199707,
+    "max_eigenvalue_preconditioned_sharpness": 4288.402703767179
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.0318071842193604,
+    "max_eigenvalue_preconditioned_sharpness": 8339.680558596436
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step20000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 20000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.072906494140625,
+    "max_eigenvalue_preconditioned_sharpness": 4637.017098489514
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step25000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 25000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.8876075148582458,
+    "max_eigenvalue_preconditioned_sharpness": 3811.0820631830293
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step30000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 30000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.8323043584823608,
+    "max_eigenvalue_preconditioned_sharpness": 3812.3223271017787
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step35000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 35000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.8748974800109863,
+    "max_eigenvalue_preconditioned_sharpness": 4238.420527195801
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step40000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 40000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.768424391746521,
+    "max_eigenvalue_preconditioned_sharpness": 4315.090727402171
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step45000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 45000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.8275061249732971,
+    "max_eigenvalue_preconditioned_sharpness": 4906.341542205134
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step50000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 50000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.7425461411476135,
+    "max_eigenvalue_preconditioned_sharpness": 5111.110586938861
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step55000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 55000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 0.7623927593231201,
+    "max_eigenvalue_preconditioned_sharpness": 5341.33167597217
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step60000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 60000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.2346584796905518,
+    "max_eigenvalue_preconditioned_sharpness": 5037.621305678698
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step65000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 65000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.5308455228805542,
+    "max_eigenvalue_preconditioned_sharpness": 3255.1901667700386
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step70000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 70000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.757002353668213,
+    "max_eigenvalue_preconditioned_sharpness": 3519.2905793900136
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step75000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 75000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.7680896520614624,
+    "max_eigenvalue_preconditioned_sharpness": 5824.240337072277
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step80000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 80000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.7142226696014404,
+    "max_eigenvalue_preconditioned_sharpness": 4340.106699507744
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step85000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 85000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.0684187412261963,
+    "max_eigenvalue_preconditioned_sharpness": 8198.492037492495
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step90000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 90000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.8902040719985962,
+    "max_eigenvalue_preconditioned_sharpness": 7312.734604513848
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step95000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 95000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.017925262451172,
+    "max_eigenvalue_preconditioned_sharpness": 5579.39873741395
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step100000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 100000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.903845191001892,
+    "max_eigenvalue_preconditioned_sharpness": 7157.873312608821
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step105000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 105000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.065356492996216,
+    "max_eigenvalue_preconditioned_sharpness": 7223.115947784138
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step110000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 110000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 1.8700486421585083,
+    "max_eigenvalue_preconditioned_sharpness": 5864.749791914536
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step115000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 115000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.024158000946045,
+    "max_eigenvalue_preconditioned_sharpness": 5520.005057657954
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step120000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 120000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.1113698482513428,
+    "max_eigenvalue_preconditioned_sharpness": 5627.482990069637
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step125000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 125000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.174805164337158,
+    "max_eigenvalue_preconditioned_sharpness": 6027.326030615072
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step130000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 130000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.27085280418396,
+    "max_eigenvalue_preconditioned_sharpness": 5255.326240207097
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step135000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 135000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 2.585636854171753,
+    "max_eigenvalue_preconditioned_sharpness": 9967.997679855507
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step140000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 140000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.025243043899536,
+    "max_eigenvalue_preconditioned_sharpness": 6279.931110065966
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step145000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 145000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.033224582672119,
+    "max_eigenvalue_preconditioned_sharpness": 13883.44046597717
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 146500,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 4.5273942947387695,
+    "max_eigenvalue_preconditioned_sharpness": 25088.79374904988
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-step146500-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "adamw",
+    "step": 146500,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.5275421142578125,
+    "max_eigenvalue_preconditioned_sharpness": 25155.766285680867
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step5000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 5000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 208.6145477294922,
+    "max_eigenvalue_preconditioned_sharpness": 23938.36608389046
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step10000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 10000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 32.581016540527344,
+    "max_eigenvalue_preconditioned_sharpness": 5002.955424625873
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step15000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 15000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 10.63063907623291,
+    "max_eigenvalue_preconditioned_sharpness": 2382.8766322847637
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step20000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 20000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 6.510234832763672,
+    "max_eigenvalue_preconditioned_sharpness": 3292.7604821524774
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step25000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 25000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.490277290344238,
+    "max_eigenvalue_preconditioned_sharpness": 2207.6583894624637
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step30000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 30000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 5.081815242767334,
+    "max_eigenvalue_preconditioned_sharpness": 2455.5306383149696
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step35000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 35000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 3.9516398906707764,
+    "max_eigenvalue_preconditioned_sharpness": 2615.071267956662
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step40000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 40000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.2067036628723145,
+    "max_eigenvalue_preconditioned_sharpness": 2778.6116228133833
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step45000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 45000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.0646467208862305,
+    "max_eigenvalue_preconditioned_sharpness": 3178.5359365493487
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step50000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 50000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.555568218231201,
+    "max_eigenvalue_preconditioned_sharpness": 2559.174401815659
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step55000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 55000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.25956916809082,
+    "max_eigenvalue_preconditioned_sharpness": 3400.8938897872945
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step60000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 60000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 5.188857078552246,
+    "max_eigenvalue_preconditioned_sharpness": 3499.3791237987443
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step65000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 65000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.718818664550781,
+    "max_eigenvalue_preconditioned_sharpness": 2196.1881570114288
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step70000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 70000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.313204288482666,
+    "max_eigenvalue_preconditioned_sharpness": 2558.21977226758
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step75000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 75000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.997683048248291,
+    "max_eigenvalue_preconditioned_sharpness": 4635.327643220953
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step80000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 80000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.5139265060424805,
+    "max_eigenvalue_preconditioned_sharpness": 3242.721208780198
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step85000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 85000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.99440336227417,
+    "max_eigenvalue_preconditioned_sharpness": 2269.037079468882
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step90000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 90000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.747915744781494,
+    "max_eigenvalue_preconditioned_sharpness": 2703.4689047721254
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step95000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 95000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.855578422546387,
+    "max_eigenvalue_preconditioned_sharpness": 2647.362313142324
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step100000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 100000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.967583179473877,
+    "max_eigenvalue_preconditioned_sharpness": 3670.1530519782023
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step105000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 105000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.701661109924316,
+    "max_eigenvalue_preconditioned_sharpness": 2362.7518278600787
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step110000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 110000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.814423561096191,
+    "max_eigenvalue_preconditioned_sharpness": 2725.456364555594
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step115000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 115000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.278423309326172,
+    "max_eigenvalue_preconditioned_sharpness": 6298.342469455017
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step120000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 120000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.769371509552002,
+    "max_eigenvalue_preconditioned_sharpness": 2932.495299286141
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step125000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 125000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.191283226013184,
+    "max_eigenvalue_preconditioned_sharpness": 3272.1140152110324
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step130000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 130000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 4.1795220375061035,
+    "max_eigenvalue_preconditioned_sharpness": 3447.432656298931
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step135000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 135000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 5.122837066650391,
+    "max_eigenvalue_preconditioned_sharpness": 3638.8892298902174
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step140000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 140000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.828574180603027,
+    "max_eigenvalue_preconditioned_sharpness": 3442.8545117065732
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step145000-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 145000,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 7.846202373504639,
+    "max_eigenvalue_preconditioned_sharpness": 3837.749832644093
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 146500,
+    "is_final": true,
+    "max_eigenvalue_sharpness": 8.04242992401123,
+    "max_eigenvalue_preconditioned_sharpness": 8234.313894452172
+  },
+  {
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-step146500-sharpness-max_eigenvalue.json",
+    "chinchilla": 128,
+    "optimizer": "muon",
+    "step": 146500,
+    "is_final": false,
+    "max_eigenvalue_sharpness": 8.042073249816895,
+    "max_eigenvalue_preconditioned_sharpness": 5826.6521401508235
+  }
+]

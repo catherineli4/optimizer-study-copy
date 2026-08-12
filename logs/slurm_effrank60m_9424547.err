@@ -1,0 +1,32 @@
+/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 52.1 MiB/110.0 MiB]                                                \\ [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 35.1 MiB/110.0 MiB]                                                \\ [0 files][ 84.8 MiB/110.0 MiB]                                                || [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 40.2 MiB/110.0 MiB]                                                \|| [0 files][ 92.0 MiB/110.0 MiB]                                                | [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 28.1 MiB/110.0 MiB]                                                \|| [0 files][ 98.2 MiB/110.0 MiB]                                                | [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 40.2 MiB/110.0 MiB]                                                \|| [0 files][108.0 MiB/110.0 MiB]                                                | [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 44.6 MiB/110.0 MiB]                                                \|| [0 files][ 96.2 MiB/110.0 MiB]                                                | [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 50.3 MiB/110.0 MiB]                                                \\ [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 32.7 MiB/110.0 MiB]                                                \|| [0 files][104.2 MiB/110.0 MiB]                                                | [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 29.9 MiB/110.0 MiB]                                                \|| [0 files][ 86.9 MiB/110.0 MiB]                                                | [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0 files][    0.0 B/110.0 MiB]                                                -- [0 files][ 63.9 MiB/110.0 MiB]                                                \\ [1 files][110.0 MiB/110.0 MiB]                                                
+Operation completed over 1 objects/110.0 MiB.                                    

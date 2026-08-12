@@ -45,39 +45,67 @@ def copy_gcs_directory(gcs_source: str, gcs_dest: str) -> None:
     # Actually, rsync will create the directory if needed
     subprocess.check_call(["gsutil", "-m", "rsync", "-r", gcs_source + "/", gcs_dest + "/"])
 
-def perturb_state_dict(state_dict: dict, gamma: float, seed: Optional[int] = None) -> dict:
+def perturb_state_dict(
+    state_dict: dict,
+    gamma: float,
+    seed: Optional[int] = None,
+    param_names: Optional[set] = None,
+) -> dict:
     """
     Perturb parameters in a state_dict by adding Gaussian noise scaled by the
-    weight's Frobenius norm: std = gamma * ||W||_F (per tensor).
+    weight's Frobenius norm: std = gamma * ||W||_F / sqrt(numel) (per tensor).
 
     Args:
         state_dict: Current model state_dict
-        gamma: Scalar multiplier for perturbation scale (std = gamma * ||W||_F)
+        gamma: Relative Frobenius noise scale (‖noise‖_F / ‖W‖_F ≈ gamma)
         seed: Optional random seed
-    
+        param_names: If set, only these parameter names are perturbed; all
+            other tensors are copied unchanged. Raises if any name is missing.
+
     Returns:
         Perturbed state dictionary
     """
+    if param_names is not None:
+        missing = sorted(set(param_names) - set(state_dict.keys()))
+        if missing:
+            raise KeyError(f"param_names not in state_dict: {missing}")
+
+    generator = None
     if seed is not None:
-        torch.manual_seed(seed)
+        generator = torch.Generator()
+        generator.manual_seed(seed)
+
+    def _randn_like(tensor: torch.Tensor) -> torch.Tensor:
+        if generator is None:
+            return torch.randn_like(tensor)
+        return torch.randn(
+            tensor.shape,
+            dtype=tensor.dtype,
+            device=tensor.device,
+            generator=generator,
+        )
 
     perturbed_state = {}
 
     for name, W in state_dict.items():
-        # Only perturb float parameters
+        # Only perturb float parameters (and, optionally, a name allow-list).
         if W.dtype not in (torch.float32, torch.float16, torch.bfloat16):
+            perturbed_state[name] = W
+            continue
+        if param_names is not None and name not in param_names:
             perturbed_state[name] = W
             continue
 
         # Frobenius norm of weight
         s = torch.norm(W)     # ||W||_F
 
-        # std = gamma * ||W||_F  — noise scales WITH the weight norm, so the
-        # relative perturbation is the same across tensors regardless of norm
-        # (dividing instead would hit small-norm tensors far harder).
-        std = gamma * s
+        # std = gamma * ||W||_F / sqrt(numel) = gamma * RMS(W). Dividing by
+        # sqrt(m*d) makes the per-entry std track the typical entry magnitude,
+        # so the total relative perturbation ||noise||_F / ||W||_F ~ gamma is
+        # dimension-independent (comparable across tensors of any shape).
+        std = gamma * s / (W.numel() ** 0.5)
 
-        noise = torch.randn_like(W) * std
+        noise = _randn_like(W) * std
         perturbed_state[name] = W + noise
 
     return perturbed_state
@@ -140,20 +168,46 @@ def save_model_to_gcs(state_dict: dict, gcs_path: str) -> None:
             os.remove(tmp_path)
 
 
-def get_perturbed_model_name(model_name: str, sigma: float) -> str:
+def _param_tag(param_name: str) -> str:
+    """Filesystem-safe tag for a state-dict key (dots → dashes)."""
+    return param_name.replace(".", "-")
+
+
+def get_perturbed_model_name(
+    model_name: str,
+    sigma: float,
+    param_name: Optional[str] = None,
+) -> str:
     """
-    Generate perturbed model name with sigma suffix.
-    
+    Generate perturbed model name with sigma (and optional single-param) suffix.
+
     Args:
         model_name: Original model name
-        sigma: Standard deviation value to append to the directory name
-    
+        sigma: Noise scale γ (same as CLI --sigma)
+        param_name: If set, only this matrix was perturbed; tag it in the name.
+
     Returns:
-        Perturbed model name (e.g., "model_name_perturbed_1_00e-02")
+        e.g. "model_perturbed_2_00e-2" or
+        "model_perturbed_2_00e-2_param_blocks-0-attention-w_q-weight"
     """
-    # Format sigma value for directory name (use scientific notation)
     sigma_str = f"{sigma:.2e}".replace("e-0", "e-").replace("e+0", "e+").replace(".", "_")
-    return f"{model_name}_perturbed_{sigma_str}"
+    name = f"{model_name}_perturbed_{sigma_str}"
+    if param_name:
+        name = f"{name}_param_{_param_tag(param_name)}"
+    return name
+
+
+def seed_subdir(seed: int) -> str:
+    """Child directory name for one noise direction under a (base, γ) parent."""
+    return f"seed_{seed:03d}"
+
+
+def _parse_seeds_csv(raw: str) -> list:
+    """Parse comma-separated integer seeds, e.g. ``0,1,2``."""
+    parts = [p.strip() for p in raw.split(",") if p.strip()]
+    if not parts:
+        raise ValueError("--seeds must be a non-empty comma-separated list of ints")
+    return [int(p) for p in parts]
 
 
 def main() -> int:
@@ -182,7 +236,14 @@ def main() -> int:
         "--seed",
         type=int,
         default=64,
-        help="Random seed for reproducibility (optional)",
+        help="Random seed for single-direction mode (ignored if --seeds is set)",
+    )
+    parser.add_argument(
+        "--seeds",
+        type=str,
+        default=None,
+        help="Comma-separated seeds for multi-direction mode. Writes each under "
+             "{perturbed_name}/seed_XXX/final-unsharded/. Example: 0,1,2,...,9",
     )
     parser.add_argument(
         "--output_gcs_dir",
@@ -196,44 +257,62 @@ def main() -> int:
         default="cpu",
         help="Device to load model on (default: cpu)",
     )
-    
+    parser.add_argument(
+        "--param-name",
+        type=str,
+        default=None,
+        help="If set, only this state-dict key is perturbed (others copied). "
+             "Used for per-matrix forgetting sweeps.",
+    )
+
     args = parser.parse_args()
-    
+
     try:
-        # Construct paths following evaluate_perturbed.py structure
         # Input: gcs_dir/model_name/final-unsharded/model.pt
         original_checkpoint_dir = f"{args.gcs_dir.rstrip('/')}/{args.model_name}"
         original_model_path = f"{original_checkpoint_dir}/final-unsharded/model.pt"
-        
-        # Output: output_gcs_dir/model_name_perturbed_{sigma}/final-unsharded/model.pt
-        perturbed_model_name = get_perturbed_model_name(args.model_name, args.sigma)
-        perturbed_checkpoint_dir = f"{args.output_gcs_dir.rstrip('/')}/{perturbed_model_name}"
-        perturbed_model_path = f"{perturbed_checkpoint_dir}/final-unsharded/model.pt"
-        
+
+        perturbed_model_name = get_perturbed_model_name(
+            args.model_name, args.sigma, param_name=args.param_name,
+        )
+        parent_dir = f"{args.output_gcs_dir.rstrip('/')}/{perturbed_model_name}"
+
+        multi_seed = args.seeds is not None
+        seeds = _parse_seeds_csv(args.seeds) if multi_seed else [args.seed]
+
         print(f"📋 Original checkpoint directory: {original_checkpoint_dir}")
         print(f"📋 Original model path: {original_model_path}")
-        print(f"📋 Perturbed checkpoint directory: {perturbed_checkpoint_dir}")
-        print(f"📋 Perturbed model path: {perturbed_model_path}")
-        
-        # Step 1: Copy entire checkpoint directory to new location
-        print(f"📦 Copying checkpoint directory from {original_checkpoint_dir} to {perturbed_checkpoint_dir}...")
-        copy_gcs_directory(original_checkpoint_dir, perturbed_checkpoint_dir)
-        print(f"✅ Checkpoint directory copied")
-        
-        # Step 2: Load and perturb the model
+        print(f"📋 Perturbed parent directory: {parent_dir}")
+        print(f"📋 Seeds: {seeds}" + (" (multi-direction)" if multi_seed else " (single)"))
+        if args.param_name:
+            print(f"📋 Single-param perturbation: {args.param_name}")
+
+        # Load base weights once; each seed gets an independent noise draw.
         print(f"📥 Loading model from {original_model_path}...")
         state_dict = load_model_from_gcs(original_model_path, device=args.device)
-        
-        print(f"🔧 Perturbing parameters with sigma={args.sigma}...")
-        perturbed_state_dict = perturb_state_dict(state_dict, args.sigma, seed=args.seed)
-        
-        # Step 3: Replace model.pt in the perturbed checkpoint directory
-        print(f"💾 Replacing model.pt in perturbed checkpoint...")
-        save_model_to_gcs(perturbed_state_dict, perturbed_model_path)
-        
-        print("🎉 Done! Perturbed checkpoint created successfully.")
+        allow = {args.param_name} if args.param_name else None
+
+        for seed in seeds:
+            if multi_seed:
+                checkpoint_dir = f"{parent_dir}/{seed_subdir(seed)}"
+            else:
+                checkpoint_dir = parent_dir
+            model_path = f"{checkpoint_dir}/final-unsharded/model.pt"
+
+            print(f"📦 [{seed}] Copying checkpoint → {checkpoint_dir}...")
+            copy_gcs_directory(original_checkpoint_dir, checkpoint_dir)
+
+            print(f"🔧 [{seed}] Perturbing with sigma={args.sigma}, seed={seed}...")
+            perturbed_state_dict = perturb_state_dict(
+                state_dict, args.sigma, seed=seed, param_names=allow,
+            )
+
+            print(f"💾 [{seed}] Uploading model.pt...")
+            save_model_to_gcs(perturbed_state_dict, model_path)
+
+        print("🎉 Done! Perturbed checkpoint(s) created successfully.")
         return 0
-    
+
     except Exception as e:
         print(f"❌ Error: {e}", file=sys.stderr)
         import traceback

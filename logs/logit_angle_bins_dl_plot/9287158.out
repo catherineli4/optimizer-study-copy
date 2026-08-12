@@ -1,0 +1,83 @@
+Downloading from gs://cmu-gpucloud-catheri4/Optim-60M-tuning/LogitAngleBinEvaluation → /home/catheri4/optimizer-study-copy/results/LogitAngleBinEvaluation
+Using local dir /home/catheri4/optimizer-study-copy/results/LogitAngleBinEvaluation (8 npz)
+  ✓ chin=1: tokens=523776
+  ✓ chin=128: tokens=523776
+  ✓ chin=16: tokens=523776
+  ✓ chin=2: tokens=523776
+  ✓ chin=32: tokens=523776
+  ✓ chin=4: tokens=523776
+  ✓ chin=64: tokens=523776
+  ✓ chin=8: tokens=523776
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_pooled.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_pooled.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metrics_vs_freq_by_angle_bin_pooled.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/delta_muon_minus_adamw_by_angle_bin_pooled.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin2.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin2.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin4.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin4.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin8.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin8.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin16.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin16.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin32.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin32.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin64.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin64.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/mean_metrics_vs_angle_bin_chin128.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_bins/metric_hists_by_angle_bin_chin128.png
+  wrote examples for chin=1
+  wrote examples for chin=128
+  wrote examples for chin=16
+  wrote examples for chin=2
+  wrote examples for chin=32
+  wrote examples for chin=4
+  wrote examples for chin=64
+  wrote examples for chin=8
+Done → /home/catheri4/optimizer-study-copy/results/logit_angle_bins
+Done. Plots + examples in /home/catheri4/optimizer-study-copy/results/logit_angle_bins/
+total 5779
+drwxr-x---  3 catheri4 catheri4     23 Jul 14 18:42 .
+drwxr-x--- 15 catheri4 catheri4     15 Jul 14 18:41 ..
+-rw-r-----  1 catheri4 catheri4 118209 Jul 14 18:41 delta_muon_minus_adamw_by_angle_bin_pooled.png
+drwxr-x---  2 catheri4 catheri4     18 Jul 14 18:42 examples
+-rw-r-----  1 catheri4 catheri4 201775 Jul 14 18:42 mean_metrics_vs_angle_bin_chin128.png
+-rw-r-----  1 catheri4 catheri4 196065 Jul 14 18:42 mean_metrics_vs_angle_bin_chin16.png
+-rw-r-----  1 catheri4 catheri4 215892 Jul 14 18:41 mean_metrics_vs_angle_bin_chin1.png
+-rw-r-----  1 catheri4 catheri4 224352 Jul 14 18:41 mean_metrics_vs_angle_bin_chin2.png
+-rw-r-----  1 catheri4 catheri4 202692 Jul 14 18:42 mean_metrics_vs_angle_bin_chin32.png
+-rw-r-----  1 catheri4 catheri4 199502 Jul 14 18:41 mean_metrics_vs_angle_bin_chin4.png
+-rw-r-----  1 catheri4 catheri4 202239 Jul 14 18:42 mean_metrics_vs_angle_bin_chin64.png
+-rw-r-----  1 catheri4 catheri4 196161 Jul 14 18:42 mean_metrics_vs_angle_bin_chin8.png
+-rw-r-----  1 catheri4 catheri4 215120 Jul 14 18:41 mean_metrics_vs_angle_bin_pooled.png
+-rw-r-----  1 catheri4 catheri4 350604 Jul 14 18:42 metric_hists_by_angle_bin_chin128.png
+-rw-r-----  1 catheri4 catheri4 381900 Jul 14 18:42 metric_hists_by_angle_bin_chin16.png
+-rw-r-----  1 catheri4 catheri4 469489 Jul 14 18:41 metric_hists_by_angle_bin_chin1.png
+-rw-r-----  1 catheri4 catheri4 461404 Jul 14 18:41 metric_hists_by_angle_bin_chin2.png
+-rw-r-----  1 catheri4 catheri4 435344 Jul 14 18:42 metric_hists_by_angle_bin_chin32.png
+-rw-r-----  1 catheri4 catheri4 389931 Jul 14 18:42 metric_hists_by_angle_bin_chin4.png
+-rw-r-----  1 catheri4 catheri4 344316 Jul 14 18:42 metric_hists_by_angle_bin_chin64.png
+-rw-r-----  1 catheri4 catheri4 396737 Jul 14 18:42 metric_hists_by_angle_bin_chin8.png
+-rw-r-----  1 catheri4 catheri4 450691 Jul 14 18:41 metric_hists_by_angle_bin_pooled.png
+-rw-r-----  1 catheri4 catheri4 408370 Jul 14 18:41 metrics_vs_freq_by_angle_bin_pooled.png
+total 34
+drwxr-x--- 2 catheri4 catheri4     18 Jul 14 18:42 .
+drwxr-x--- 3 catheri4 catheri4     23 Jul 14 18:42 ..
+-rw-r----- 1 catheri4 catheri4 106603 Jul 14 18:42 chinchilla-128-examples.json
+-rw-r----- 1 catheri4 catheri4  61433 Jul 14 18:42 chinchilla-128-examples.txt
+-rw-r----- 1 catheri4 catheri4 110414 Jul 14 18:42 chinchilla-16-examples.json
+-rw-r----- 1 catheri4 catheri4  63194 Jul 14 18:42 chinchilla-16-examples.txt
+-rw-r----- 1 catheri4 catheri4 129214 Jul 14 18:42 chinchilla-1-examples.json
+-rw-r----- 1 catheri4 catheri4  76146 Jul 14 18:42 chinchilla-1-examples.txt
+-rw-r----- 1 catheri4 catheri4 128164 Jul 14 18:42 chinchilla-2-examples.json
+-rw-r----- 1 catheri4 catheri4  73891 Jul 14 18:42 chinchilla-2-examples.txt
+-rw-r----- 1 catheri4 catheri4 113032 Jul 14 18:42 chinchilla-32-examples.json
+-rw-r----- 1 catheri4 catheri4  66256 Jul 14 18:42 chinchilla-32-examples.txt
+-rw-r----- 1 catheri4 catheri4 108381 Jul 14 18:42 chinchilla-4-examples.json
+-rw-r----- 1 catheri4 catheri4  63950 Jul 14 18:42 chinchilla-4-examples.txt
+-rw-r----- 1 catheri4 catheri4 106358 Jul 14 18:42 chinchilla-64-examples.json
+-rw-r----- 1 catheri4 catheri4  60777 Jul 14 18:42 chinchilla-64-examples.txt
+-rw-r----- 1 catheri4 catheri4 108558 Jul 14 18:42 chinchilla-8-examples.json
+-rw-r----- 1 catheri4 catheri4  63381 Jul 14 18:42 chinchilla-8-examples.txt

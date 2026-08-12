@@ -9,6 +9,42 @@ from experiments import Project
 
 _exists_cache: Set[str] = set()
 _listed_prefixes: Dict[str, int] = {}
+_storage_client = None
+
+
+def _get_storage_client():
+    """Lazily build and cache a google-cloud-storage client (reuses one
+    authenticated session for all checks)."""
+    global _storage_client
+    if _storage_client is None:
+        from google.cloud import storage
+        _storage_client = storage.Client()
+    return _storage_client
+
+
+def blob_exists(path: str) -> bool:
+    """Fast existence check for a SINGLE object via the GCS JSON API.
+
+    One metadata request (~60 ms steady state), no per-call gsutil subprocess and
+    no directory listing — so the cost scales with the number of objects checked,
+    not with how many files live in the directory. Use this instead of
+    ``check_exists_remote`` when the parent dir holds a huge number of files (e.g.
+    ModelEvaluation). Falls back to a direct gsutil check on any client error.
+    """
+    path = path.rstrip('/')
+    if path in _exists_cache:
+        return True
+    if not path.startswith("gs://"):
+        return check_exists_remote(path, cache_depth=0)
+    try:
+        bucket_name, _, blob_name = path[len("gs://"):].partition("/")
+        exists = _get_storage_client().bucket(bucket_name).blob(blob_name).exists()
+        if exists:
+            _exists_cache.add(path)
+        return exists
+    except Exception:
+        # Client/credential problem — fall back to a direct (single-file) gsutil ls.
+        return check_exists_remote(path, cache_depth=0)
 
 
 def check_exists_remote(path: str, cache_depth: int = 3) -> bool:

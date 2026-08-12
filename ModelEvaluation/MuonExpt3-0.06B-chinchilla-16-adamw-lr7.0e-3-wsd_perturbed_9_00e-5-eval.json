@@ -1,0 +1,28 @@
+{
+  "overall": {
+    "loss": 3.820382462679509
+  },
+  "by_label": {
+    "Books_val": {
+      "loss": 4.014984850540406
+    },
+    "C4_val": {
+      "loss": 3.9552264813747633
+    },
+    "DCLM_heldout": {
+      "loss": 3.801758241758242
+    },
+    "Reddit_val": {
+      "loss": 4.1794642545662954
+    },
+    "Wiki_val": {
+      "loss": 3.7250070901026313
+    }
+  },
+  "perturbation": {
+    "gamma": 9e-05,
+    "num_samples": 10,
+    "seed": 64,
+    "loss_averaging": "mean_over_noise_draws"
+  }
+}

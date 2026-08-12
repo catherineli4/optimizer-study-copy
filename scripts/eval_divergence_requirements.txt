@@ -1,0 +1,10 @@
+# Requirements for scripts/eval_divergence.py
+# (the optim-study / base conda env already satisfies these)
+transformers>=4.48     # OLMo 2 model support
+torch>=2.2
+numpy
+matplotlib
+tqdm
+pandas                 # per-token rows; falls back to csv/npz if absent
+pyarrow                # parquet writer for the per-token rows
+datasets               # only needed for the wikitext-2 fallback (--val-data omitted)

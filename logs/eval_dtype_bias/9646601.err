@@ -1,0 +1,17 @@
+Copying gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0/1 files][    0.0 B/187.6 MiB]   0% Done                                    -- [0/1 files][ 44.1 MiB/187.6 MiB]  23% Done                                    \|| [0/1 files][153.1 MiB/187.6 MiB]  81% Done                                    | [1/1 files][187.6 MiB/187.6 MiB] 100% Done                                    
+Operation completed over 1 objects/187.6 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd/final-unsharded/config.json...
+/ [0/1 files][    0.0 B/  6.4 KiB]   0% Done                                    / [1/1 files][  6.4 KiB/  6.4 KiB] 100% Done                                    
+Operation completed over 1 objects/6.4 KiB.                                      
+Copying gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final-unsharded/model.pt...
+/ [0/1 files][    0.0 B/187.6 MiB]   0% Done                                    -- [0/1 files][ 33.0 MiB/187.6 MiB]  17% Done                                    \|| [0/1 files][142.0 MiB/187.6 MiB]  75% Done                                    // [1/1 files][187.6 MiB/187.6 MiB] 100% Done                                    
+Operation completed over 1 objects/187.6 MiB.                                    
+Copying gs://cmu-gpucloud-catheri4/Optim-100M-tuning/JolmoModel/MuonExpt3-0.1B-chinchilla-4-adamw-lr1.0e-2-wsd/final-unsharded/config.json...
+/ [0/1 files][    0.0 B/  6.1 KiB]   0% Done                                    / [1/1 files][  6.1 KiB/  6.1 KiB] 100% Done                                    
+Operation completed over 1 objects/6.1 KiB.                                      
+Copying gs://cmu-gpucloud-jspringe/outputs/diversity.pretraining.v2/ValidationDataset/Tokenized/C4_val.bin...
+/ [0/1 files][    0.0 B/  8.6 MiB]   0% Done                                    / [1/1 files][  8.6 MiB/  8.6 MiB] 100% Done                                    
+Operation completed over 1 objects/8.6 MiB.                                      
+/home/catheri4/miniconda3/envs/optim-study/lib/python3.10/site-packages/google/api_core/_python_version_support.py:275: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)

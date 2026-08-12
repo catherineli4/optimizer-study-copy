@@ -1,0 +1,17 @@
+40 eval JSON(s) to fetch from gs://cmu-gpucloud-catheri4/Optim-100M-tuning/ModelEvaluation -> /home/catheri4/optimizer-study-copy/ModelEvaluation
+local cache now holds 4611 eval JSON(s)
+[size=100M] reading evals from /home/catheri4/optimizer-study-copy/ModelEvaluation (shared)
+processed 152 record(s) from 4611 JSON(s) (0 unrecognised/failed, 4459 other-size skipped)
+  by family: cpt=133, pretrain=19
+wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/results/100M/eval_results.json
+wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/results/100M/eval_results.csv
+[size=100M] 152 record(s) -> /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M
+[pretrain] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/pretrain/pretrain-eval-Books_val.pdf
+[pretrain] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/pretrain/pretrain-eval-C4_val.pdf
+[pretrain] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/pretrain/pretrain-eval-DCLM_heldout.pdf
+[pretrain] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/pretrain/pretrain-eval-Reddit_val.pdf
+[pretrain] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/pretrain/pretrain-eval-Wiki_val.pdf
+[pretrain] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/pretrain/pretrain-eval-overall.pdf
+[cpt] skipped 71 record(s) from non-optimal-LR pretrain bases
+[cpt] skipped 31 record(s) outside per-dataset x/y bounds
+[cpt] wrote /home/catheri4/optimizer-study-copy/colm-moss-latex/plots/100M/cpt/cpt-pareto-stackmathqa.pdf

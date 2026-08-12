@@ -1,0 +1,35 @@
+Downloading from gs://cmu-gpucloud-catheri4/Optim-60M-tuning/LogitPerturbKlEvaluation → /home/catheri4/optimizer-study-copy/results/LogitPerturbKlEvaluation
+Using local dir /home/catheri4/optimizer-study-copy/results/LogitPerturbKlEvaluation (16 files)
+  ✓ adamw chin=1: baseline_kl_fwd=1.6168544121134187
+  ✓ muon  chin=1: baseline_kl_fwd=1.4499281570388567
+  ✓ adamw chin=128: baseline_kl_fwd=1.1828672752835072
+  ✓ muon  chin=128: baseline_kl_fwd=1.180580311399108
+  ✓ adamw chin=16: baseline_kl_fwd=1.2483526232330826
+  ✓ muon  chin=16: baseline_kl_fwd=1.244061545707423
+  ✓ adamw chin=2: baseline_kl_fwd=1.426446595034408
+  ✓ muon  chin=2: baseline_kl_fwd=1.3655219007422117
+  ✓ adamw chin=32: baseline_kl_fwd=1.2224353807304418
+  ✓ muon  chin=32: baseline_kl_fwd=1.2207690164581024
+  ✓ adamw chin=4: baseline_kl_fwd=1.3447397574091577
+  ✓ muon  chin=4: baseline_kl_fwd=1.3195732898578219
+  ✓ adamw chin=64: baseline_kl_fwd=1.2019586307606878
+  ✓ muon  chin=64: baseline_kl_fwd=1.1967388769002674
+  ✓ adamw chin=8: baseline_kl_fwd=1.2824615505725119
+  ✓ muon  chin=8: baseline_kl_fwd=1.2594267952906937
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/mean_kl_vs_sigma.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/mean_kl_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/mean_kl_vs_sigma_by_chin_xmax1e-1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/delta_kl_vs_sigma.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/delta_kl_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/delta_kl_vs_sigma_by_chin_xmax1e-1.png
+Done. Plots in /home/catheri4/optimizer-study-copy/results/logit_perturb_kl/
+total 305
+drwxr-x---  2 catheri4 catheri4      9 Jul 14 16:49 .
+drwxr-x--- 11 catheri4 catheri4     11 Jul 14 16:49 ..
+-rw-r-----  1 catheri4 catheri4 123907 Jul 14 16:49 delta_kl_vs_sigma_by_chin.png
+-rw-r-----  1 catheri4 catheri4 159539 Jul 14 16:49 delta_kl_vs_sigma_by_chin_xmax1e-1.png
+-rw-r-----  1 catheri4 catheri4 102470 Jul 14 16:49 delta_kl_vs_sigma.png
+-rw-r-----  1 catheri4 catheri4  43170 Jul 14 16:49 final_results.json
+-rw-r-----  1 catheri4 catheri4 125684 Jul 14 16:49 mean_kl_vs_sigma_by_chin.png
+-rw-r-----  1 catheri4 catheri4 172005 Jul 14 16:49 mean_kl_vs_sigma_by_chin_xmax1e-1.png
+-rw-r-----  1 catheri4 catheri4 103222 Jul 14 16:49 mean_kl_vs_sigma.png

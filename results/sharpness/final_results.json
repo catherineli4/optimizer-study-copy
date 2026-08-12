@@ -1,0 +1,178 @@
+[
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 1,
+    "tokens_per_param": 20.0,
+    "max_eigenvalue_sharpness": 0.7156514525413513,
+    "sum_eigenvalue_sharpness": 374.07823517944905,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 2,
+    "tokens_per_param": 40.0,
+    "max_eigenvalue_sharpness": 0.8153398633003235,
+    "sum_eigenvalue_sharpness": 673.5021117862482,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 4,
+    "tokens_per_param": 80.0,
+    "max_eigenvalue_sharpness": 1.8248640298843384,
+    "sum_eigenvalue_sharpness": 1329.5282137448596,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 8,
+    "tokens_per_param": 160.0,
+    "max_eigenvalue_sharpness": 1.936323881149292,
+    "sum_eigenvalue_sharpness": 974.489637379265,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 16,
+    "tokens_per_param": 320.0,
+    "max_eigenvalue_sharpness": 5.061712741851807,
+    "sum_eigenvalue_sharpness": 2080.5912658059533,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 32,
+    "tokens_per_param": 640.0,
+    "max_eigenvalue_sharpness": 5.939957141876221,
+    "sum_eigenvalue_sharpness": 2158.789170956363,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 64,
+    "tokens_per_param": 1280.0,
+    "max_eigenvalue_sharpness": 3.4000368118286133,
+    "sum_eigenvalue_sharpness": 1715.770121126901,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "adamw",
+    "chinchilla": 128,
+    "tokens_per_param": 2560.0,
+    "max_eigenvalue_sharpness": 4.5273942947387695,
+    "sum_eigenvalue_sharpness": 2253.1556240513737,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 1,
+    "tokens_per_param": 20.0,
+    "max_eigenvalue_sharpness": 1.1008659601211548,
+    "sum_eigenvalue_sharpness": 1225.9621971994607,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 2,
+    "tokens_per_param": 40.0,
+    "max_eigenvalue_sharpness": 1.4785369634628296,
+    "sum_eigenvalue_sharpness": 1186.4409453653561,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 4,
+    "tokens_per_param": 80.0,
+    "max_eigenvalue_sharpness": 2.5756473541259766,
+    "sum_eigenvalue_sharpness": 1881.546352265584,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 8,
+    "tokens_per_param": 160.0,
+    "max_eigenvalue_sharpness": 3.419693946838379,
+    "sum_eigenvalue_sharpness": 2788.487145086773,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 16,
+    "tokens_per_param": 320.0,
+    "max_eigenvalue_sharpness": 10.56010627746582,
+    "sum_eigenvalue_sharpness": 6877.984484639795,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 32,
+    "tokens_per_param": 640.0,
+    "max_eigenvalue_sharpness": 11.10463809967041,
+    "sum_eigenvalue_sharpness": 6709.748395007518,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 64,
+    "tokens_per_param": 1280.0,
+    "max_eigenvalue_sharpness": 6.547563552856445,
+    "sum_eigenvalue_sharpness": 5311.019176055279,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  },
+  {
+    "run_name": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd",
+    "filename": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json",
+    "model_type": "0.06B",
+    "optimizer": "muon",
+    "chinchilla": 128,
+    "tokens_per_param": 2560.0,
+    "max_eigenvalue_sharpness": 8.04242992401123,
+    "sum_eigenvalue_sharpness": 5582.508552786379,
+    "path": "/home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd-pretrain-sharpness-max_eigenvalue_sum_eigenvalue.json"
+  }
+]

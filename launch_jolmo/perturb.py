@@ -1,24 +1,26 @@
 """Perturbed model artifacts for the optimizer-study pretraining experiments."""
 
+from typing import Optional, Sequence, Tuple
+
 from experiments import ArtifactSet
 
-from launch_jolmo.training import PerturbedModel, ModelEvaluation
+from launch_jolmo.training import (
+    DEFAULT_PERTURB_SEEDS,
+    ModelEvaluation,
+    MultiSeedPerturbedEvaluation,
+    MultiSeedPerturbedModel,
+    PerturbedModel,
+)
 
 
-def build_perturbed_model_evaluations(perturbed_models: ArtifactSet) -> ArtifactSet:
-    """One ModelEvaluation per perturbed model (pretrain val loss only)."""
-    return perturbed_models.map(lambda model: ModelEvaluation(model=model))
-
-
-DEFAULT_GAMMAS = [1e-5, 2e-5, 3e-5, 4e-5, 5e-5, 6e-5, 7e-5, 8e-5, 9e-5, 1e-4, 2e-4, 3e-4, 4e-4, 5e-4, 6e-4, 7e-4, 8e-4, 9e-4, 1e-3]
+DEFAULT_GAMMAS = [2e-2]
 
 
 def build_perturbed_models(base_models: ArtifactSet, gammas=None) -> ArtifactSet:
-    """One PerturbedModel per (base model × gamma) combination.
+    """One PerturbedModel per (base model × gamma) combination (all weights).
 
-    gamma controls the per-parameter noise scale:  std = gamma / ||W||_F
-    Values default to those used in catastrophic-forgetting/launch/perturb.py;
-    pass `gammas` to override (e.g. a much-smaller-σ grid for a finer sweep).
+    gamma controls the per-parameter noise scale:
+      std = gamma * ||W||_F / sqrt(numel)
     """
     gs = list(DEFAULT_GAMMAS if gammas is None else gammas)
     return base_models.map_flatten(
@@ -27,3 +29,66 @@ def build_perturbed_models(base_models: ArtifactSet, gammas=None) -> ArtifactSet
             params=dict(source_model=model, gamma=gs),
         )
     )
+
+
+def build_multi_seed_perturbed_models(
+    base_models: ArtifactSet,
+    gammas=None,
+    seeds: Optional[Sequence[int]] = None,
+) -> ArtifactSet:
+    """One MultiSeedPerturbedModel per (base × gamma): N directions under one dir.
+
+    Writes::
+
+        PerturbedModel/{base}_perturbed_{γ}/seed_000/…/model.pt
+        …
+        PerturbedModel/{base}_perturbed_{γ}/seed_009/…/model.pt
+    """
+    gs = list(DEFAULT_GAMMAS if gammas is None else gammas)
+    seed_tuple: Tuple[int, ...] = tuple(
+        DEFAULT_PERTURB_SEEDS if seeds is None else seeds
+    )
+    # Explicit list: seeds is a tuple that from_product would unpack as an axis.
+    return ArtifactSet([
+        MultiSeedPerturbedModel(source_model=model, gamma=g, seeds=seed_tuple)
+        for model in base_models
+        for g in gs
+    ])
+
+
+def build_perturbed_model_evaluations(
+    perturbed_models: ArtifactSet,
+    extra_val_chunks=(),
+    extra_val_max_instances=None,
+) -> ArtifactSet:
+    """One ModelEvaluation per saved perturbed checkpoint."""
+    extra = tuple(extra_val_chunks)
+    return perturbed_models.map(
+        lambda model: ModelEvaluation(
+            model=model,
+            extra_val_chunks=extra,
+            extra_val_max_instances=extra_val_max_instances,
+        )
+    )
+
+
+def build_multi_seed_perturbed_evaluations(
+    multiseed_models: ArtifactSet,
+    extra_val_chunks=(),
+    extra_val_max_instances=None,
+) -> ArtifactSet:
+    """One MultiSeedPerturbedEvaluation per (base × gamma) multi-seed group.
+
+    Scores DCLM_heldout on every seed, writes mean + per-seed losses.
+    Built with an explicit list so ``extra_val_chunks`` is not unpacked by
+    ``from_product``.
+    """
+    extra = tuple(extra_val_chunks)
+    return ArtifactSet([
+        MultiSeedPerturbedEvaluation(
+            model=model,
+            extra_val_chunks=extra,
+            extra_val_max_instances=extra_val_max_instances,
+        )
+        for model in multiseed_models
+    ])

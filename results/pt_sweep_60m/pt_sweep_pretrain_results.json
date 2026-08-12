@@ -1,0 +1,164 @@
+[
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "adamw",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": null,
+    "sweep_lr": 0.007,
+    "weight_decay": 0.1,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.9315869406257415,
+      "DCLM_heldout": 3.912151618114467,
+      "C4_val": 4.066256106644825,
+      "Reddit_val": 4.272555677276062,
+      "Wiki_val": 3.8514919858022965,
+      "Books_val": 4.1376497722634875
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-adamw-lr7.0e-3-wd0.1-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "adamw",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": null,
+    "sweep_lr": 0.007,
+    "weight_decay": 0.3,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.9757052683404215,
+      "DCLM_heldout": 3.9562016517105847,
+      "C4_val": 4.1093901965352435,
+      "Reddit_val": 4.298975377124293,
+      "Wiki_val": 3.9034538954572793,
+      "Books_val": 4.185021258881936
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-adamw-lr7.0e-3-wd0.3-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "adamw",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": null,
+    "sweep_lr": 0.007,
+    "weight_decay": 0.4,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 4.015799348216745,
+      "DCLM_heldout": 3.9958243401495963,
+      "C4_val": 4.149295585672804,
+      "Reddit_val": 4.326578974366761,
+      "Wiki_val": 3.951216103079658,
+      "Books_val": 4.235494713057647
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-adamw-lr7.0e-3-wd0.4-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "muon",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": 0.01,
+    "sweep_lr": 0.01,
+    "weight_decay": 0.0,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.9224542407157577,
+      "DCLM_heldout": 3.9024115170314637,
+      "C4_val": 4.059651675350844,
+      "Reddit_val": 4.27649844464457,
+      "Wiki_val": 3.844588023680878,
+      "Books_val": 4.128388075241374
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wd0-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "muon",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": 0.01,
+    "sweep_lr": 0.01,
+    "weight_decay": 0.1,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.8971025610685244,
+      "DCLM_heldout": 3.877497101543296,
+      "C4_val": 4.036105761985905,
+      "Reddit_val": 4.2517104347033,
+      "Wiki_val": 3.813339465680728,
+      "Books_val": 4.0959485944707295
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wd0.1-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "muon",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": 0.01,
+    "sweep_lr": 0.01,
+    "weight_decay": 0.2,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.955616586502993,
+      "DCLM_heldout": 3.9351240128387897,
+      "C4_val": 4.09481603183711,
+      "Reddit_val": 4.302365236029737,
+      "Wiki_val": 3.8811579671949894,
+      "Books_val": 4.1704504552963755
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wd0.2-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "muon",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": 0.01,
+    "sweep_lr": 0.01,
+    "weight_decay": 0.3,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.9770205107556516,
+      "DCLM_heldout": 3.956268705902519,
+      "C4_val": 4.115651394163841,
+      "Reddit_val": 4.307258885840279,
+      "Wiki_val": 3.911073659114314,
+      "Books_val": 4.1980210753431235
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wd0.3-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "muon",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": 0.02,
+    "sweep_lr": 0.02,
+    "weight_decay": 0.1,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.90255237168287,
+      "DCLM_heldout": 3.8832026166648075,
+      "C4_val": 4.039556849902408,
+      "Reddit_val": 4.253286181116219,
+      "Wiki_val": 3.8217087123038556,
+      "Books_val": 4.095453310835255
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-muon-muonlr2.0e-2-adamwlr7.0e-3-wd0.1-bs1M-wsd-eval.json"
+  },
+  {
+    "chinchilla": 4,
+    "pretrain_optimizer": "muon",
+    "pretrain_lr": 0.007,
+    "pretrain_muon_lr": 0.028,
+    "sweep_lr": 0.028,
+    "weight_decay": 0.1,
+    "batch_size": "1M",
+    "losses": {
+      "overall": 3.911465910267417,
+      "DCLM_heldout": 3.8918208294153507,
+      "C4_val": 4.047287289302081,
+      "Reddit_val": 4.259419052505389,
+      "Wiki_val": 3.8335934659543836,
+      "Books_val": 4.112585855181341
+    },
+    "file": "PTSweep60M-0.06B-chinchilla-4-muon-muonlr2.8e-2-adamwlr7.0e-3-wd0.1-bs1M-wsd-eval.json"
+  }
+]

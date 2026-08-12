@@ -11,11 +11,11 @@ from launch_jolmo.training import JolmoModel, CPTModel, ModelEvaluation
 # ---------------------------------------------------------------------------
 
 CPT_DATASETS: List[str] = [
-    # "tulu",
+    # "tulu", done
     # "starcoder",
-    "musicpile",
+    # "musicpile",
     # "alpaca",
-    # "gsm8k",
+    "gsm8k",
     # "siqa",
     # "open-platypus",
     # "stackmathqa",
@@ -24,14 +24,21 @@ CPT_DATASETS: List[str] = [
 CPT_TOKENS: int = 20_000_000   # 100 M tokens per CPT run
 CPT_SCHEDULER: str = "cosine"
 
+# CPT batch & context (decoupled from the pretrain config in pretraining_matrix.py,
+# which uses a 1M-token batch / 4096 context). CPT runs a smaller 64K-token batch
+# at 1024 context.
+CPT_GLOBAL_BATCH_SIZE: int = 65_536        # 64K tokens/step
+CPT_SEQUENCE_LENGTH: int = 1024            # CPT context length
+CPT_RANK_MICROBATCH_SIZE: int = CPT_GLOBAL_BATCH_SIZE // 8
+
 # LR sweep applied per optimizer type.
 # For adamw: list of learning_rate values.
 # For muon:  list of (muon_lr, adamw_component_lr) pairs.
 # Set to a single-element list to use a fixed LR instead of sweeping.
 CPT_LR_SWEEP: Dict[str, List] = {
-    "adamw": [6e-5, 1e-4, 3e-4, 6e-4, 8e-4, 1e-3, 2e-3, 4e-3, 8e-3, 1e-2, 2e-2],
+    "adamw": [1e-3, 2e-3, 5e-3, 1e-2, 5e-4,8e-4, 2e-4, 1e-4],
     # "muon" : [(5e-3, 1e-4), (6e-3, 1e-4), (7e-3, 1e-4)],
-    "muon":  [(5e-6, 1e-4), (6e-5, 1e-4), (1e-4, 1e-4), (6e-4, 1e-4), (8e-4, 1e-4), (1e-3, 1e-4), (2e-3, 1e-4), (4e-3, 1e-4), (8e-3, 1e-4), (1e-2, 1e-4), (2e-2, 1e-4), (4e-2, 1e-4), (6e-2, 1e-4)],
+    "muon":  [(6e-4, 1e-4), (8e-4, 1e-4), (1e-3, 1e-4), (2e-3, 1e-4), (4e-3, 1e-4), (8e-3, 1e-4), (1e-2, 1e-4), (2e-2, 1e-4),],
 }
 
 
@@ -100,6 +107,9 @@ def build_cpt_models(
                         learning_rate=adamw_lr,
                         muon_lr=muon_lr,
                         scheduler=CPT_SCHEDULER,
+                        sequence_length=CPT_SEQUENCE_LENGTH,
+                        global_batch_size=CPT_GLOBAL_BATCH_SIZE,
+                        rank_microbatch_size=CPT_RANK_MICROBATCH_SIZE,
                     ))
 
         return ArtifactSet(models)
@@ -107,6 +117,24 @@ def build_cpt_models(
     return pretrained_models.map_flatten(_make_cpt)
 
 
-def build_cpt_model_evaluations(cpt_models: ArtifactSet) -> ArtifactSet:
-    """One ModelEvaluation per CPT model."""
-    return cpt_models.map(lambda model: ModelEvaluation(model=model))
+def build_cpt_model_evaluations(
+    cpt_models: ArtifactSet,
+    extra_val_chunks=(),
+    extra_val_max_instances=None,
+) -> ArtifactSet:
+    """One ModelEvaluation per CPT model.
+
+    `extra_val_chunks` / `extra_val_max_instances` mirror the pretrain/perturb
+    evals: pass the held-out DCLM shard so each CPT model is also scored on the
+    DCLM split (label ``DCLM_heldout``) — the forgetting / pretrain-loss axis used
+    by the Pareto tradeoff plots — alongside the diversity-v2 and CPT val sets.
+    Callers supply these (defined in ``pretraining_matrix``) to avoid a circular
+    import.
+    """
+    return cpt_models.map(
+        lambda model: ModelEvaluation(
+            model=model,
+            extra_val_chunks=tuple(extra_val_chunks),
+            extra_val_max_instances=extra_val_max_instances,
+        )
+    )

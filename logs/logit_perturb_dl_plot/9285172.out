@@ -1,0 +1,27 @@
+Downloading from gs://cmu-gpucloud-catheri4/Optim-60M-tuning/LogitPerturbEvaluation → /home/catheri4/optimizer-study-copy/results/LogitPerturbEvaluation
+Using local dir /home/catheri4/optimizer-study-copy/results/LogitPerturbEvaluation (16 files)
+  ✓ adamw chin=1: baseline_nll=4.323094699064512
+  ✓ muon  chin=1: baseline_nll=4.15357880145248
+  ✓ adamw chin=128: baseline_nll=3.883142567657799
+  ✓ muon  chin=128: baseline_nll=3.8797243817815774
+  ✓ adamw chin=16: baseline_nll=3.949201215521041
+  ✓ muon  chin=16: baseline_nll=3.944659618933507
+  ✓ adamw chin=2: baseline_nll=4.130810554796331
+  ✓ muon  chin=2: baseline_nll=4.068392013669717
+  ✓ adamw chin=32: baseline_nll=3.9228157117433113
+  ✓ muon  chin=32: baseline_nll=3.9212864213042424
+  ✓ adamw chin=4: baseline_nll=4.046623745244196
+  ✓ muon  chin=4: baseline_nll=4.021842012729153
+  ✓ adamw chin=64: baseline_nll=3.902510476917191
+  ✓ muon  chin=64: baseline_nll=3.89688470946605
+  ✓ adamw chin=8: baseline_nll=3.9858329307695617
+  ✓ muon  chin=8: baseline_nll=3.96059948575457
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb/mean_nll_vs_sigma.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_perturb/mean_nll_vs_sigma_by_chin.png
+Done. Plots in /home/catheri4/optimizer-study-copy/results/logit_perturb/
+total 45
+drwxr-x--- 2 catheri4 catheri4      5 Jul 14 15:15 .
+drwxr-x--- 9 catheri4 catheri4      9 Jul 14 15:15 ..
+-rw-r----- 1 catheri4 catheri4  42949 Jul 14 15:15 final_results.json
+-rw-r----- 1 catheri4 catheri4 124513 Jul 14 15:15 mean_nll_vs_sigma_by_chin.png
+-rw-r----- 1 catheri4 catheri4 101429 Jul 14 15:15 mean_nll_vs_sigma.png

@@ -88,6 +88,31 @@ Useful flags: `--rerun` (ignore the `exists` check), `--head N` / `--tail N`
 `--slurm time=12:00:00 gpus=4`), `--throttle N` (cap concurrent array tasks).
 Other subcommands: `relaunch`, `cancel`, `cat` (tail a job log), `history`.
 
+### Model-size profile (`OPTIM_SIZE`)
+
+The launcher runs a size *profile* selected by the `OPTIM_SIZE` env var (default
+`60M`). A profile (see [`launch_jolmo/sizes.py`](launch_jolmo/sizes.py)) bundles
+the `experiments` project (its `project.json` `remote_path` = the GCS prefix),
+the `model_type` (size tag in every run name), and the chinchilla budgets that
+exist for that size. `launcher.py` and `pretraining_matrix.py` read the same
+profile so they can't drift.
+
+| `OPTIM_SIZE` | Project / GCS prefix | `model_type` | Chinchillas |
+| --- | --- | --- | --- |
+| `60M` (default) | `Optim-60M-tuning` | `0.06B` | 1–128 |
+| `100M` | `Optim-100M-tuning` | `0.1B` | 1–16 |
+
+```bash
+# CPT + eval the imported optimal-LR 100M base models (chinchilla 1–16):
+OPTIM_SIZE=100M python -m launch_jolmo.launcher drylaunch cpt   # preview
+OPTIM_SIZE=100M python -m launch_jolmo.launcher launch cpt eval-cpt
+```
+
+The 100M base `JolmoModel`s are the optimal-LR checkpoints imported from jgai's
+0.1B sweep by [`new_utils/import_100m_models.py`](new_utils/import_100m_models.py)
+(converted to `final-unsharded/{model.pt,config.json}`); they already exist on
+GCS, so CPT/eval treat them as built dependencies and never retrain them.
+
 ### Local pretraining without SLURM
 [`run_local.py`](launch_jolmo/run_local.py) runs `JolmoModel` pretraining via
 `torchrun` on the current node (project namespace `60m-muonxadamw`):
@@ -127,14 +152,29 @@ All registered in [`launch_jolmo/launcher.py`](launch_jolmo/launcher.py)
 | --- | --- |
 | `perturb-adamw` / `perturb-muon` | perturb the DCLM-pretrained models, one model per γ in `DEFAULT_GAMMAS` |
 
+**Interpolate** — `InterpolatedModel`s = `α·pretrained + (1−α)·finetuned`:
+| Stage | Does |
+| --- | --- |
+| `interpolate` | for each specified finetuned (CPT) model, interpolate it with its pretrained base over `INTERP_ALPHAS` (0.2/0.4/0.6/0.8), one model per (ft model × α) |
+
 **Evaluation** — `ModelEvaluation` (per-dataset **validation loss**):
 | Stage | Scores |
 | --- | --- |
-| `eval-pretrain-adamw` / `eval-pretrain-muon` | the tuned pretrain models |
-| `eval-pretrain-all` | every LR-sweep pretrain model |
+| `eval-pretrain-adamw` / `eval-pretrain-muon` | the tuned pretrain models — on the diversity-v2 val sets **and held-out DCLM** |
+| `eval-pretrain-all` | every LR-sweep pretrain model — diversity-v2 val sets **and held-out DCLM** |
 | `eval-cpt` | the CPT models |
 | `eval-cpt-muon-adamw-ft` / `eval-cpt-adamw-muon-ft` | the cross-optimizer CPT models |
 | `eval-perturb-adamw` / `eval-perturb-muon` | the perturbed models |
+| `eval-interpolate` | the interpolated models (forgetting loss + finetuning loss for the Pareto curve) |
+
+The pretrain evals also report a **held-out DCLM** loss (label `DCLM_heldout`)
+alongside the diversity-v2 sets, in the same `…-eval.json`. The held-out set is
+`part-059/00004.npy` — the last shard of the last DCLM part. The sweep trains
+only on the first ~2 parts (chinchilla-32 ≈ 2 parts), so this shard is never
+seen. Each eval pulls only that one shard and scores `DCLM_HELDOUT_INSTANCES`
+(8192) sequences; the diversity sets stay uncapped, so their numbers are
+unchanged. Knobs live in `pretraining_matrix.py` (`DCLM_HELDOUT_*`); the cap is
+plumbed through `ModelEvaluation.extra_val_chunks` / `extra_val_max_instances`.
 
 Typical end-to-end run for one optimizer:
 ```bash
@@ -143,6 +183,36 @@ python -m launch_jolmo.launcher launch eval-pretrain-muon
 python -m launch_jolmo.launcher launch cpt-muon        eval-cpt
 python -m launch_jolmo.launcher launch perturb-muon    eval-perturb-muon
 ```
+
+After the pretrain evals finish, plot each eval metric as a function of
+Chinchilla (AdamW = blue, Muon = orange), written to `results/pretrain-eval/`:
+```bash
+python -m launch_jolmo.launcher launch eval-pretrain-adamw eval-pretrain-muon
+python -m new_utils.plot_pretrain_eval     # → results/pretrain-eval/pretrain-eval-<metric>.png
+```
+
+**Divergence** — per-token KL/JSD vs. reference OLMo 2 on DCLM heldout:
+| Stage | Does |
+| --- | --- |
+| `divergence-adamw` / `divergence-muon` / `divergence-all` | vs. **OLMo 2 32B** (`allenai/OLMo-2-0325-32B`, A100-80GB) |
+| `divergence-13b-adamw` / `divergence-13b-muon` / `divergence-13b-all` | vs. **OLMo 2 13B** (`allenai/OLMo-2-1124-13B`, A100-40GB, **batch=8**) |
+| `divergence-7b-adamw` / `divergence-7b-muon` / `divergence-7b-all` | vs. **OLMo 2 7B** base (`allenai/OLMo-2-1124-7B`, A100-40GB, **batch=8**) |
+| `divergence-bases` | dependency resolution only (checkpoints already on GCS) |
+
+Artifacts: `DivergenceEvaluation/{run}-vs-{reference-tag}-divergence.npz`.
+
+After divergence stages finish, plot via the colm-moss-latex pipeline
+(download → process → plot; one AdamW vs Muon overlay per Chinchilla):
+```bash
+cd colm-moss-latex/scripts
+python download_divergence.py
+python process_divergence.py
+python plot_divergence.py --reference OLMo-2-0325-32B
+python plot_divergence.py --reference OLMo-2-1124-13B
+python plot_divergence.py --reference OLMo-2-1124-7B
+python plot_divergence.py --reference OLMo-2-0325-32B --xlim 8 0 0.05 --xlim 16 0 0.1
+```
+Or run the full pipeline: `./run_pipeline.sh` (includes divergence stages).
 
 ---
 
@@ -172,6 +242,12 @@ python -m launch_jolmo.launcher launch perturb-muon    eval-perturb-muon
 | Knob | Meaning |
 | --- | --- |
 | `DEFAULT_GAMMAS` | the γ grid (noise scale, std = γ·‖W‖_F), `1e-5 … 1e-3`. |
+
+### Interpolation — [`launch_jolmo/interpolate.py`](launch_jolmo/interpolate.py)
+| Knob | Meaning |
+| --- | --- |
+| `DEFAULT_ALPHAS` | the α grid for `α·pretrained + (1−α)·finetuned` (default `0.2/0.4/0.6/0.8`; α=0 is the finetuned model, α=1 the pretrained). |
+| `interpolation_finetuned_models` (in `pretraining_matrix.py`) | the "specified finetuned models" set to interpolate (default: the active CPT set `cpt_models`). |
 
 ---
 
@@ -208,6 +284,8 @@ carry hardcoded paths from the original setup and need editing first):
 Plotters (read JSON straight from `gs://`, no GPU) in [`new_utils/`](new_utils/):
 | Script | Plots |
 | --- | --- |
+| `plot_pretrain_eval.py` | Chinchilla → pretrain eval loss, one fig per metric (AdamW blue, Muon orange) → `results/pretrain-eval/` |
+| `lr_sweep_dclm.py` | `eval`: submit DCLM held-out evals for every trained LR per Chinchilla; `plot`: DCLM loss → pretrain LR, one fig per Chinchilla → `results/pretrain-eval/lr-sweep/` |
 | `plot_cpt.py` | tokens(B) → C4 perplexity, line per CPT-LR, Muon vs AdamW |
 | `plot_perturb_loss.py` | perturbation γ → pretrain val loss, line per model |
 | `plot_perturb_metrics.py` | γ → loss (raw + degradation), symlog x |
@@ -224,6 +302,7 @@ launch_jolmo/        experiment definitions
   pretraining_matrix.py   DCLM pretrain sweep + CPT + perturbation + evals (the main file)
   cpt.py                  build_cpt_models / build_cpt_model_evaluations
   perturb.py              build_perturbed_models / build_perturbed_model_evaluations
+  interpolate.py          build_interpolated_models / build_interpolated_model_evaluations
   training.py             JolmoModel, CPTModel, PerturbedModel, ModelEvaluation + YAML builders + MODEL_ARCHS
   launcher.py             stage registration + SLURM CLI  (THE entry point)
   run_local.py            local (no-SLURM) pretraining runner

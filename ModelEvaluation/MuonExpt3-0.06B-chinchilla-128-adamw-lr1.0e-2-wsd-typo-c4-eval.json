@@ -1,0 +1,93 @@
+{
+  "by_label": {
+    "C4_add_s1": {
+      "loss": 4.786153468134706,
+      "num_tokens": 2437809
+    },
+    "C4_add_s2": {
+      "loss": 5.643673345564336,
+      "num_tokens": 2699697
+    },
+    "C4_add_s3": {
+      "loss": 6.506170098185596,
+      "num_tokens": 3134472
+    },
+    "C4_add_s4": {
+      "loss": 6.966991076829371,
+      "num_tokens": 3569247
+    },
+    "C4_add_s5": {
+      "loss": 7.185081815560125,
+      "num_tokens": 4005045
+    },
+    "C4_clean": {
+      "loss": 3.9499822349965266,
+      "num_tokens": 2262876
+    },
+    "C4_drop_s1": {
+      "loss": 4.583992403974755,
+      "num_tokens": 2355969
+    },
+    "C4_drop_s2": {
+      "loss": 5.2584921548140215,
+      "num_tokens": 2495097
+    },
+    "C4_drop_s3": {
+      "loss": 5.957607706410724,
+      "num_tokens": 2729364
+    },
+    "C4_drop_s4": {
+      "loss": 6.317482023983779,
+      "num_tokens": 2961585
+    },
+    "C4_drop_s5": {
+      "loss": 6.433050407392696,
+      "num_tokens": 3194829
+    },
+    "C4_keyboard_s1": {
+      "loss": 4.7484294931112165,
+      "num_tokens": 2415303
+    },
+    "C4_keyboard_s2": {
+      "loss": 5.564569510098107,
+      "num_tokens": 2641386
+    },
+    "C4_keyboard_s3": {
+      "loss": 6.378958745599186,
+      "num_tokens": 3019896
+    },
+    "C4_keyboard_s4": {
+      "loss": 6.795110413529167,
+      "num_tokens": 3398406
+    },
+    "C4_keyboard_s5": {
+      "loss": 6.961976941613547,
+      "num_tokens": 3775893
+    },
+    "C4_swap_s1": {
+      "loss": 4.6672416767293425,
+      "num_tokens": 2417349
+    },
+    "C4_swap_s2": {
+      "loss": 5.3739678513872065,
+      "num_tokens": 2649570
+    },
+    "C4_swap_s3": {
+      "loss": 6.0345213723180855,
+      "num_tokens": 3036264
+    },
+    "C4_swap_s4": {
+      "loss": 6.3236937986127675,
+      "num_tokens": 3420912
+    },
+    "C4_swap_s5": {
+      "loss": 6.3760084420499386,
+      "num_tokens": 3807606
+    }
+  },
+  "model_type": "olmo",
+  "overall": {
+    "loss": 5.98903229811028,
+    "num_tokens": 62428575
+  }
+}

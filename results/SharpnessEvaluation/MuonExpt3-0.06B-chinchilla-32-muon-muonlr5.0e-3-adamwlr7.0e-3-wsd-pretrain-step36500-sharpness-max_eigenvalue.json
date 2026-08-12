@@ -1,0 +1,8 @@
+{
+  "checkpoint": "step36500",
+  "step": 36500,
+  "optim_path": "/scratch/catheri4-outputs/Optim-60M-tuning/JolmoModel/MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd/unsharded-step36500/optim.pt",
+  "preconditioner": "optimizer_gradient_transform",
+  "max_eigenvalue_sharpness": 11.148872375488281,
+  "max_eigenvalue_preconditioned_sharpness": 3820.835206836071
+}

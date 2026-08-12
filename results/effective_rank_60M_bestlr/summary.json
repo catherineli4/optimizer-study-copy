@@ -1,0 +1,103 @@
+{
+  "n_runs": 16,
+  "n_rows": 704,
+  "gram_max": 4096,
+  "runs": [
+    {
+      "optimizer": "adamw",
+      "chinchilla": 1,
+      "run_name": "MuonExpt3-0.06B-chinchilla-1-adamw-lr1.4e-2-wsd",
+      "lr_tag": "1.4e-2"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 1,
+      "run_name": "MuonExpt3-0.06B-chinchilla-1-muon-muonlr1.4e-2-adamwlr1.4e-2-wsd",
+      "lr_tag": "muon1.4e-2_adamw1.4e-2"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 2,
+      "run_name": "MuonExpt3-0.06B-chinchilla-2-adamw-lr1.0e-2-wsd",
+      "lr_tag": "1.0e-2"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 2,
+      "run_name": "MuonExpt3-0.06B-chinchilla-2-muon-muonlr1.4e-2-adamwlr1.0e-2-wsd",
+      "lr_tag": "muon1.4e-2_adamw1.0e-2"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 4,
+      "run_name": "MuonExpt3-0.06B-chinchilla-4-adamw-lr7.0e-3-wsd",
+      "lr_tag": "7.0e-3"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 4,
+      "run_name": "MuonExpt3-0.06B-chinchilla-4-muon-muonlr1.0e-2-adamwlr7.0e-3-wsd",
+      "lr_tag": "muon1.0e-2_adamw7.0e-3"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 8,
+      "run_name": "MuonExpt3-0.06B-chinchilla-8-adamw-lr1.0e-2-wsd",
+      "lr_tag": "1.0e-2"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 8,
+      "run_name": "MuonExpt3-0.06B-chinchilla-8-muon-muonlr7.0e-3-adamwlr1.0e-2-wsd",
+      "lr_tag": "muon7.0e-3_adamw1.0e-2"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 16,
+      "run_name": "MuonExpt3-0.06B-chinchilla-16-adamw-lr7.0e-3-wsd",
+      "lr_tag": "7.0e-3"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 16,
+      "run_name": "MuonExpt3-0.06B-chinchilla-16-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd",
+      "lr_tag": "muon5.0e-3_adamw7.0e-3"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 32,
+      "run_name": "MuonExpt3-0.06B-chinchilla-32-adamw-lr7.0e-3-wsd",
+      "lr_tag": "7.0e-3"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 32,
+      "run_name": "MuonExpt3-0.06B-chinchilla-32-muon-muonlr5.0e-3-adamwlr7.0e-3-wsd",
+      "lr_tag": "muon5.0e-3_adamw7.0e-3"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 64,
+      "run_name": "MuonExpt3-0.06B-chinchilla-64-adamw-lr1.0e-2-wsd",
+      "lr_tag": "1.0e-2"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 64,
+      "run_name": "MuonExpt3-0.06B-chinchilla-64-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd",
+      "lr_tag": "muon5.0e-3_adamw1.0e-2"
+    },
+    {
+      "optimizer": "adamw",
+      "chinchilla": 128,
+      "run_name": "MuonExpt3-0.06B-chinchilla-128-adamw-lr1.0e-2-wsd",
+      "lr_tag": "1.0e-2"
+    },
+    {
+      "optimizer": "muon",
+      "chinchilla": 128,
+      "run_name": "MuonExpt3-0.06B-chinchilla-128-muon-muonlr5.0e-3-adamwlr1.0e-2-wsd",
+      "lr_tag": "muon5.0e-3_adamw1.0e-2"
+    }
+  ]
+}

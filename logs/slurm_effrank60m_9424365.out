@@ -1,0 +1,7 @@
+=== host=babel-v9-20 ===
+=== gsutil auth smoke ===
+Reauthentication required.
+Traceback (most recent call last):
+  File "/home/catheri4/google-cloud-sdk/platform/gsutil/gsutil", line 21, in <module>
+    gsutil.RunMain()
+    ~~~~~~~~~~~~~~^^

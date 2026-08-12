@@ -1,0 +1,13 @@
+{
+  "by_label": {
+    "DCLM_heldout": {
+      "loss": 3.802541208791209,
+      "num_tokens": 33546240
+    }
+  },
+  "model_type": "olmo",
+  "overall": {
+    "loss": 3.802541208791209,
+    "num_tokens": 33546240
+  }
+}

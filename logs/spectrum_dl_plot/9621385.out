@@ -1,0 +1,40 @@
+================================================================
+1) Download SharpnessEvaluation from GCS
+================================================================
+Local files: 32
+================================================================
+2) Process + plot → /home/catheri4/optimizer-study-copy/results/hessian_spectrum
+================================================================
+Using local dir /home/catheri4/optimizer-study-copy/results/SharpnessEvaluation (32 json file(s))
+Found 16 spectral-density JSON(s)
+  ✓ adamw chinchilla=1: λmax=2.691  tr=391.2  erank=2.016e+04  λ_128000=0.003876
+  ✓ muon  chinchilla=1: λmax=4.228  tr=1286  erank=5.306e+04  λ_128000=0.008203
+  ✓ adamw chinchilla=128: λmax=16.54  tr=2332  erank=7.538e+04  λ_128000=0.01275
+  ✓ muon  chinchilla=128: λmax=30.92  tr=6036  erank=3.819e+04  λ_128000=0.02695
+  ✓ adamw chinchilla=16: λmax=19.06  tr=2218  erank=2.375e+04  λ_128000=0.01424
+  ✓ muon  chinchilla=16: λmax=39.47  tr=7197  erank=1.007e+04  λ_128000=0.06045
+  ✓ adamw chinchilla=2: λmax=3.067  tr=709.8  erank=2.308e+05  λ_128000=0.002487
+  ✓ muon  chinchilla=2: λmax=5.637  tr=1269  erank=3.156e+04  λ_128000=0.007833
+  ✓ adamw chinchilla=32: λmax=21.8  tr=2299  erank=4.982e+05  λ_128000=0.005164
+  ✓ muon  chinchilla=32: λmax=42.73  tr=7199  erank=7995  λ_128000=0.05803
+  ✓ adamw chinchilla=4: λmax=6.893  tr=1410  erank=2.187e+04  λ_128000=0.01324
+  ✓ muon  chinchilla=4: λmax=9.893  tr=2008  erank=2.559e+04  λ_128000=0.0126
+  ✓ adamw chinchilla=64: λmax=12.77  tr=1791  erank=1.989e+04  λ_128000=0.02033
+  ✓ muon  chinchilla=64: λmax=24.89  tr=5678  erank=3.519e+04  λ_128000=0.02824
+  ✓ adamw chinchilla=8: λmax=7.266  tr=1049  erank=6.812e+04  λ_128000=0.005516
+  ✓ muon  chinchilla=8: λmax=13.14  tr=3045  erank=4.106e+04  λ_128000=0.01588
+wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/final_results.json (16 rows)
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/spectral_density.png
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/trace.png
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/entropy_erank.png
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/participation_ratio_erank.png
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/eigenvalue_at_128000.png
+  wrote /home/catheri4/optimizer-study-copy/results/hessian_spectrum/trace_fraction_top_128000.png
+================================================================
+Done.
+  JSONs:  /home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/
+  Table:  /home/catheri4/optimizer-study-copy/results/hessian_spectrum/final_results.json
+  Plots:  /home/catheri4/optimizer-study-copy/results/hessian_spectrum/spectral_density.png
+          /home/catheri4/optimizer-study-copy/results/hessian_spectrum/entropy_erank.png
+================================================================

@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-"""Run a JolmoModel training job locally on the current node (no Slurm).
+"""Run JolmoModel pretraining locally on the current node (no Slurm).
 
-Usage (from inside an interactive node):
-    python launch_jolmo/run_local.py launch 0          # launch model 0
-    python launch_jolmo/run_local.py launch 0 1 2      # launch models 0,1,2 in parallel
-    python launch_jolmo/run_local.py launch all         # launch all models in parallel
-    python launch_jolmo/run_local.py queue 0 1 2 3      # queue models, run --parallel at a time
-    python launch_jolmo/run_local.py queue all --parallel 2  # run 2 at a time until all done
-    python launch_jolmo/run_local.py drylaunch 0        # print config without running
-    python launch_jolmo/run_local.py list               # list available models
+Uses the same stage names and --artifacts filters as launch_jolmo/launcher.py::
 
-The script reuses the same Project config, data download, and YAML generation
-logic as the Slurm-based launcher, but calls torchrun directly.
+    python -m launch_jolmo.run_local stages
+    python -m launch_jolmo.run_local list pretrain-all-wsd
+    python -m launch_jolmo.run_local list pretrain-all-wsd --optimizer adamw
+    python -m launch_jolmo.run_local queue pretrain-all-wsd --optimizer adamw
+    OPTIM_SIZE=100M python -m launch_jolmo.run_local launch pretrain-adamw-wsd
+
+Commands: launch, drylaunch, queue, list, stages
 """
 
 import argparse
@@ -23,24 +21,105 @@ import yaml
 
 from experiments import Project
 
-Project.init("60m-muonxadamw")
+# Model-size profile selected by $OPTIM_SIZE (default 60M). The project's
+# project.json sets remote_path = the GCS prefix, so this routes all artifacts to
+# the right study bucket (Optim-60M-tuning / Optim-100M-tuning / Optim-300M-tuning),
+# matching launcher.py. pretraining_matrix reads the same profile for MODEL_TYPE /
+# CHINCHILLAS, so they stay in sync. Examples:
+#   OPTIM_SIZE=100M python -m launch_jolmo.run_local launch all
+#   OPTIM_SIZE=300M python -m launch_jolmo.run_local launch pretrain-all-wsd
+from launch_jolmo.sizes import active_profile
+
+_SIZE, _PROFILE = active_profile()
+Project.init(_PROFILE["project"])
 
 from launch_jolmo.pretraining_matrix import (
-    pretrain_adamw_models,
-    pretrain_muon_models,
+    pretrain_adamw_wsd,
+    pretrain_adamw_cosine,
+    pretrain_muon_wsd,
+    pretrain_muon_cosine,
+    pretrain_all_wsd,
+)
+# 60M 4-chinchilla PT Sweep — separate experiment, PTSweep60M-* names (own GCS
+# subtree). Run these with OPTIM_SIZE=60M; see launch_jolmo/pt_sweep_60m_chin4.py.
+from launch_jolmo.pt_sweep_60m_chin4 import (
+    pt60m4_lr_sweep,
+    pt60m4_wd_sweep,
+    pt60m4_bs_sweep,
+    pt60m4_all,
+    pt60m4_cpt_lr_sweep,
+    pt60m4_cpt_wd_sweep,
+    pt60m4_cpt_bs_sweep,
+    pt60m4_cpt_all,
 )
 from launch_jolmo.training import JolmoModel
 from launch_jolmo.utils import local_path, local_cache_path, remote_path
 from launch_jolmo.training import _resolve_chunk_path, _download_chunk_dirs
 
 
-def get_all_models():
-    return list(pretrain_adamw_models) + list(pretrain_muon_models)
+# Named pretraining stages, mirroring the Slurm launcher (launch_jolmo/launcher.py)
+# so the same run commands work locally. `pretrain-all-wsd` is the full LR sweep;
+# the others are the tuned/optimal-LR cells per chinchilla.
+STAGES: "dict[str, list]" = {
+    "pretrain-adamw-wsd":    list(pretrain_adamw_wsd),
+    "pretrain-adamw-cosine": list(pretrain_adamw_cosine),
+    "pretrain-muon-wsd":     list(pretrain_muon_wsd),
+    "pretrain-muon-cosine":  list(pretrain_muon_cosine),
+    "pretrain-all-wsd":      list(pretrain_all_wsd),
+    # --- 60M 4-chinchilla PT Sweep (run in this order) ---
+    "pt60m4-lr-sweep":       list(pt60m4_lr_sweep),
+    "pt60m4-wd-sweep":       list(pt60m4_wd_sweep),
+    "pt60m4-bs-sweep":       list(pt60m4_bs_sweep),
+    "pt60m4-all":            list(pt60m4_all),
+    "pt60m4-cpt-lr-sweep":    list(pt60m4_cpt_lr_sweep),
+    "pt60m4-cpt-wd-sweep":    list(pt60m4_cpt_wd_sweep),
+    "pt60m4-cpt-bs-sweep":    list(pt60m4_cpt_bs_sweep),
+    "pt60m4-cpt-all":         list(pt60m4_cpt_all),
+}
+
+
+def select_models(stage, optimizer=None, head=None, tail=None, index=None):
+    """Resolve a stage name (+ optional filters) into a list of models.
+
+    Mirrors the launcher's selection: a stage plus optional ``--head`` / ``--tail``
+    slicing. ``--optimizer`` is a local convenience filter (adamw/muon) since all
+    pretrain artifacts share the same JolmoModel class name.
+    """
+    if stage not in STAGES:
+        print(f"Error: unknown stage '{stage}'. Available stages:")
+        for name in STAGES:
+            print(f"  - {name}")
+        sys.exit(1)
+
+    models = list(STAGES[stage])
+
+    if optimizer:
+        opts = {o.lower() for o in optimizer}
+        models = [m for m in models if m.optimizer.lower() in opts]
+
+    if head is not None:
+        models = models[:head]
+    if tail is not None:
+        models = models[-tail:]
+
+    if index:
+        picked = []
+        for i in index:
+            if i < 0 or i >= len(models):
+                print(f"Error: index {i} out of range 0-{len(models) - 1} for the selected set")
+                sys.exit(1)
+            picked.append(models[i])
+        models = picked
+
+    return models
 
 
 def print_models(models):
+    # JolmoModel has .model_name; CPTModel (the finetune artifact) names itself
+    # via .run_name instead, so fall back rather than raising AttributeError.
     for i, m in enumerate(models):
-        print(f"  [{i}] {m.model_name}  (optimizer={m.optimizer}, lr={m.learning_rate})")
+        name = getattr(m, "model_name", None) or getattr(m, "run_name", type(m).__name__)
+        print(f"  [{i}] {name}  (optimizer={m.optimizer}, lr={m.learning_rate})")
 
 
 def build_config_and_download(model: JolmoModel, skip_download: bool = False):
@@ -94,29 +173,92 @@ def build_config_and_download(model: JolmoModel, skip_download: bool = False):
     return config_path
 
 
-def parse_model_indices(raw_indices, num_models):
-    """Parse model indices from CLI args. Supports integers and 'all'."""
-    if not raw_indices:
-        # Interactive prompt
-        print("Available models:")
-        print_models(get_all_models())
-        choice = input("\nSelect model index (or comma-separated, or 'all'): ").strip()
-        raw_indices = choice.replace(",", " ").split()
+def _add_stage_args(p):
+    """Shared stage/filter args, mirroring the Slurm launcher CLI."""
+    p.add_argument("stage", help="Pretraining stage name (same as launcher.py, e.g. pretrain-all-wsd)")
+    p.add_argument("--optimizer", nargs="*", choices=["adamw", "muon"], default=None,
+                   help="Filter to optimizer(s) within the stage (local convenience)")
+    p.add_argument("--head", type=int, default=None, help="Run only the first N models in the stage")
+    p.add_argument("--tail", type=int, default=None, help="Run only the last N models in the stage")
+    p.add_argument("--index", type=int, nargs="*", default=None,
+                   help="Run only these indices within the (filtered) stage list")
+    p.add_argument("--skip-download", action="store_true", help="Skip data download")
 
-    indices = []
-    for val in raw_indices:
-        if val.lower() == "all":
-            return list(range(num_models))
-        try:
-            idx = int(val)
-            if idx < 0 or idx >= num_models:
-                print(f"Error: index {idx} out of range 0-{num_models - 1}")
-                sys.exit(1)
-            indices.append(idx)
-        except ValueError:
-            print(f"Invalid index: {val}")
-            sys.exit(1)
-    return indices
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Run JolmoModel pretraining locally on the current node.",
+        epilog=(
+            "Stage names match launch_jolmo/launcher.py. Examples:\n"
+            "  python -m launch_jolmo.run_local list pretrain-all-wsd\n"
+            "  python -m launch_jolmo.run_local launch pretrain-all-wsd --optimizer adamw\n"
+            "  python -m launch_jolmo.run_local queue pretrain-adamw-wsd\n"
+            "  OPTIM_SIZE=100M python -m launch_jolmo.run_local launch pretrain-all-wsd --optimizer adamw"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    subparsers = parser.add_subparsers(dest="command")
+
+    # launch
+    p_launch = subparsers.add_parser("launch", help="Launch training on the current node")
+    _add_stage_args(p_launch)
+    p_launch.add_argument("--nproc", type=int, default=None, help="Override GPUs per model")
+
+    # drylaunch
+    p_dry = subparsers.add_parser("drylaunch", help="Generate config and print it (no training)")
+    _add_stage_args(p_dry)
+
+    # queue
+    p_queue = subparsers.add_parser("queue", help="Queue models, run N at a time sequentially")
+    _add_stage_args(p_queue)
+    p_queue.add_argument("--parallel", type=int, default=1, help="How many models to run at once (default: 1)")
+    p_queue.add_argument("--nproc", type=int, default=None, help="Override GPUs per model")
+
+    # list
+    p_list = subparsers.add_parser("list", help="List models in a stage")
+    p_list.add_argument("stage", help="Pretraining stage name")
+    p_list.add_argument("--optimizer", nargs="*", choices=["adamw", "muon"], default=None,
+                        help="Filter to optimizer(s) within the stage")
+
+    # stages
+    p_stages = subparsers.add_parser("stages", help="List available pretraining stage names")
+
+    args = parser.parse_args()
+
+    print(f"[size={_SIZE}] project={_PROFILE['project']} -> {Project.config.remote_path}")
+
+    if args.command == "stages" or args.command is None:
+        print("Available pretraining stages:")
+        for name, models in STAGES.items():
+            print(f"  {name:25s}  ({len(models)} model(s))")
+        if args.command is None:
+            print("\nCommands: launch, drylaunch, queue, list, stages")
+        return
+
+    if args.command == "list":
+        selected = select_models(args.stage, optimizer=args.optimizer)
+        print(f"[stage={args.stage}] {len(selected)} model(s):")
+        print_models(selected)
+        return
+
+    selected = select_models(
+        args.stage,
+        optimizer=args.optimizer,
+        head=args.head,
+        tail=args.tail,
+        index=args.index,
+    )
+    print(f"[stage={args.stage}] Selected {len(selected)} model(s):")
+    for m in selected:
+        print(f"  - {m.model_name}")
+
+    if args.command == "launch":
+        run(selected, nproc=args.nproc, skip_download=args.skip_download)
+    elif args.command == "queue":
+        queue(selected, parallel=args.parallel, nproc=args.nproc, skip_download=args.skip_download)
+    elif args.command == "drylaunch":
+        for model in selected:
+            dryrun(model, skip_download=args.skip_download)
 
 
 def _run_single(model, nproc=None, skip_download=False, gpu_offset=0):
@@ -244,56 +386,6 @@ def dryrun(model, skip_download=False):
     with open(config_path) as f:
         print(f.read())
     return config_path
-
-
-def main():
-    parser = argparse.ArgumentParser(description="Run JolmoModel training locally on the current node.")
-    subparsers = parser.add_subparsers(dest="command")
-
-    # launch
-    p_launch = subparsers.add_parser("launch", help="Launch training on the current node")
-    p_launch.add_argument("model_indices", nargs="*", help="Model indices, or 'all' (interactive if omitted)")
-    p_launch.add_argument("--skip-download", action="store_true", help="Skip data download")
-    p_launch.add_argument("--nproc", type=int, default=None, help="Override GPUs per model")
-
-    # drylaunch
-    p_dry = subparsers.add_parser("drylaunch", help="Generate config and print it (no training)")
-    p_dry.add_argument("model_indices", nargs="*", help="Model indices, or 'all' (interactive if omitted)")
-    p_dry.add_argument("--skip-download", action="store_true", help="Skip data download")
-
-    # queue
-    p_queue = subparsers.add_parser("queue", help="Queue models, run N at a time sequentially")
-    p_queue.add_argument("model_indices", nargs="*", help="Model indices, or 'all' (interactive if omitted)")
-    p_queue.add_argument("--parallel", type=int, default=1, help="How many models to run at once (default: 1)")
-    p_queue.add_argument("--skip-download", action="store_true", help="Skip data download")
-    p_queue.add_argument("--nproc", type=int, default=None, help="Override GPUs per model")
-
-    # list
-    subparsers.add_parser("list", help="List available models")
-
-    args = parser.parse_args()
-    all_models = get_all_models()
-
-    if args.command == "list" or args.command is None:
-        print("Available models:")
-        print_models(all_models)
-        if args.command is None:
-            print("\nCommands: launch, drylaunch, list")
-        return
-
-    indices = parse_model_indices(args.model_indices, len(all_models))
-    selected = [all_models[i] for i in indices]
-    print(f"Selected {len(selected)} model(s):")
-    for m in selected:
-        print(f"  - {m.model_name}")
-
-    if args.command == "launch":
-        run(selected, nproc=args.nproc, skip_download=args.skip_download)
-    elif args.command == "queue":
-        queue(selected, parallel=args.parallel, nproc=args.nproc, skip_download=args.skip_download)
-    elif args.command == "drylaunch":
-        for model in selected:
-            dryrun(model, skip_download=args.skip_download)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1106 @@
+chinchilla=1
+
+========================================================================
+ANGLE BIN 0-10°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=9.87°  tok=2795 ' says'  seq=485 pos=933
+nll_a=4.792 nll_m=5.369  kl_a=1.519 kl_m=2.602  margin_a=-2.219 margin_m=-1.969
+CONTEXT:
+ you could do? What are your obstacles? Are you willing to do to overcome them and take on your Never?
+My challenge to you – Go do it!
+Previous Post: « A LuLaRoe Catalog?<|endoftext|>Femi Adesina, special adviser to President Muhammadu Buhari on media and publicity, says
+
+--- example 2/20  θ=9.46°  tok=856 ' my'  seq=489 pos=265
+nll_a=2.208 nll_m=2.494  kl_a=0.781 kl_m=0.902  margin_a=-0.625 margin_m=-1.062
+CONTEXT:
+ care. Whatever the military is doing, they got it right and would like to see more done for civilians. I felt supported in my pursuit to continue my while trusting and feeling comfortable with the people caring for my kids at an affordable rate. My child care center now is awesome. I can go to work and know that my
+
+--- example 3/20  θ=9.74°  tok=11302 ' feedback'  seq=495 pos=8
+nll_a=8.915 nll_m=8.576  kl_a=1.115 kl_m=0.992  margin_a=-7.375 margin_m=-7.078
+CONTEXT:
+ the job done right and impart that wisdom through feedback
+
+--- example 4/20  θ=9.65°  tok=13 '.'  seq=511 pos=42
+nll_a=0.994 nll_m=1.236  kl_a=0.532 kl_m=0.699  margin_a=1.000 margin_m=0.438
+CONTEXT:
+ doctor I had no trace of cancer anywhere in my body. I believe God healed me but I still have to deal with the side effects according to my doctor, for another 18 months before its out of my system.
+
+--- example 5/20  θ=9.98°  tok=13 '.'  seq=489 pos=661
+nll_a=1.562 nll_m=1.846  kl_a=2.548 kl_m=2.473  margin_a=0.625 margin_m=0.375
+CONTEXT:
+ trips to israel, including money laundering scheme involving. Greenpeace will never stop fighting for a greener, healthier world for our oceans, forests, food, climate, and democracy. No matter what forces stand in.
+The office of public affairs. Is the single point of contact for all inquiries about the central intelligence agency.
+
+--- example 6/20  θ=9.70°  tok=13633 ' drawing'  seq=491 pos=425
+nll_a=9.487 nll_m=9.145  kl_a=0.659 kl_m=0.678  margin_a=-7.828 margin_m=-7.594
+CONTEXT:
+ monopoly.
+The movement went viral, throughout May and June it helped chip away at Peña Nieto’s double-digit lead in the polls, and it contributed to a late surge by AMLO. Had the PRI candidate gone down in a last-minute upset, #YoSoy132 would have been a huge international story, drawing
+
+--- example 7/20  θ=9.99°  tok=91366 ' Bermuda'  seq=509 pos=483
+nll_a=10.832 nll_m=10.926  kl_a=0.241 kl_m=0.239  margin_a=-6.723 margin_m=-6.793
+CONTEXT:
+books: Chris Andrews, left, with Stephen Edgar reading his launch speech.
+Very 21st Century: Part of the attentive younger crowd at Sappho’s: L to R: Pam Brown (obscured), Sam Moginie, Andy Carruthers, Jess Wilkinson, Chris Edwards, unknown.<|endoftext|>The Bermuda
+
+--- example 8/20  θ=9.86°  tok=627 '.\n'  seq=504 pos=91
+nll_a=5.153 nll_m=4.957  kl_a=0.334 kl_m=0.269  margin_a=-4.250 margin_m=-4.125
+CONTEXT:
+ Commandant National Defence College Major General Andrew Ikenye joins the Bomas of Kenya Cultural Dancers during NDC Cultural Day.
+Meru Cultural Dancers entertain the guests during NDC Cultural Day.<|endoftext|>The Social Collider has arrived. I haven't heard news of any updates, although it was introduced about a year ago.
+
+
+--- example 9/20  θ=9.78°  tok=369 ' for'  seq=484 pos=774
+nll_a=3.647 nll_m=3.606  kl_a=0.564 kl_m=0.449  margin_a=-1.750 margin_m=-1.812
+CONTEXT:
+ opportunities which then transform into higher sales values. A mix of high quality creativity and marketing skills whilst buying the best resources to accomplish these tasks within tight budgetary restrictions is the key to a successful media product.
+Segmentation of the retail offer often means designs have to work through a series of publications. Understanding the different selling platforms for
+
+--- example 10/20  θ=9.97°  tok=4999 '!\n'  seq=501 pos=32
+nll_a=10.678 nll_m=10.849  kl_a=0.494 kl_m=0.537  margin_a=-9.219 margin_m=-9.223
+CONTEXT:
+outeilles.com, we like this kind of Cru Bourgeois, for their quality, finesse and for their affordable price. They live up to the classified growths!
+
+
+--- example 11/20  θ=9.93°  tok=304 ' in'  seq=511 pos=627
+nll_a=4.681 nll_m=4.974  kl_a=3.067 kl_m=3.151  margin_a=-2.125 margin_m=-2.688
+CONTEXT:
+ known about great benefits of Royal Jelly since I was a child. For some reason, there are no beekeepers, who collects and sells it in GA. That's why I was so excited when found eBee Honey website. I've ordered 1 kilo of this fantastic product and it arrived just as promised - in
+
+--- example 12/20  θ=9.75°  tok=389 ' on'  seq=511 pos=248
+nll_a=6.130 nll_m=4.820  kl_a=0.667 kl_m=0.411  margin_a=-4.844 margin_m=-3.125
+CONTEXT:
+ telling people about it. It’s an excellent source of vitamins, minerals and some hormones (helps woman even with menopause). My mom took royal jelly all her life and because of her suggestions I’m taking it now. It even helped me get pregnant for the second time. You will have to take it every morning on
+
+--- example 13/20  θ=9.96°  tok=358 ' I'  seq=484 pos=39
+nll_a=1.933 nll_m=1.982  kl_a=0.450 kl_m=0.422  margin_a=0.438 margin_m=0.188
+CONTEXT:
+2 from midway yesterday. If I did the Lyman I will have two nice pid equipped pots.
+The Lyman was very consistent on temp and control but it was super drippy at times, and I
+
+--- example 14/20  θ=9.56°  tok=627 '.\n'  seq=510 pos=966
+nll_a=2.684 nll_m=1.383  kl_a=0.385 kl_m=0.286  margin_a=-1.562 margin_m=-0.438
+CONTEXT:
+ l can eat it. I did so, and last couple days l had stomach pain and nausea. I stopped eating it for two days, and l started feeling better. Otherwise, the seller Becky is great and very professional. I really hope l will be able to eat it again so l can purchase it again and again.
+
+
+--- example 15/20  θ=9.35°  tok=16180 ' loves'  seq=509 pos=0
+nll_a=8.994 nll_m=10.614  kl_a=0.412 kl_m=0.370  margin_a=-6.426 margin_m=-8.070
+CONTEXT:
+ and loves
+
+--- example 16/20  θ=9.97°  tok=2671 ' options'  seq=498 pos=218
+nll_a=9.539 nll_m=10.200  kl_a=1.609 kl_m=1.123  margin_a=-8.109 margin_m=-8.391
+CONTEXT:
+ degradation of print quality, but you can still carry on till the last drop of ink sheds on the paper. To replace the cartridge, call a technician that offers services of printer repairs.
+In some operating systems, a newly set printer is accepted as the default printer. Fixing this problem requires simply looking for the printing device options
+
+--- example 17/20  θ=9.94°  tok=627 '.\n'  seq=500 pos=545
+nll_a=3.257 nll_m=2.914  kl_a=0.677 kl_m=0.735  margin_a=-2.375 margin_m=-2.438
+CONTEXT:
+ children and a wife. He can dig very very fast under ground. He eats chickens. He has a small nose. Who can my character be?
+It was Fantastic Mr Fox. I got my material from Spotlight with Mum. It was warm and snuggly the material colour was brown. I love being Fantastic Mr Fox.
+
+
+--- example 18/20  θ=9.93°  tok=369 ' for'  seq=488 pos=658
+nll_a=4.604 nll_m=4.437  kl_a=0.522 kl_m=0.480  margin_a=-3.656 margin_m=-3.500
+CONTEXT:
+ timing important? I signed up on my 17th birthday – 7th November 1969.
+I’ve no doubt a few of you who have read my work will have smiled at the thought of me baking. At the present time I have no intentions of creating a new blog based on my new hobby, but for
+
+--- example 19/20  θ=9.96°  tok=12745 ' colour'  seq=500 pos=535
+nll_a=10.494 nll_m=10.801  kl_a=0.746 kl_m=0.998  margin_a=-8.766 margin_m=-9.906
+CONTEXT:
+ He has pointy ears. He has 4 children and a wife. He can dig very very fast under ground. He eats chickens. He has a small nose. Who can my character be?
+It was Fantastic Mr Fox. I got my material from Spotlight with Mum. It was warm and snuggly the material colour
+
+--- example 20/20  θ=9.17°  tok=13 '.'  seq=511 pos=188
+nll_a=1.846 nll_m=1.687  kl_a=1.021 kl_m=0.970  margin_a=0.500 margin_m=0.375
+CONTEXT:
+ you guys!!
+Love their royal jelly. I tried other places before, but either very small amount for lots of money, or it’s mixed with honey. Theirs is pure and all the time I’m taking it I did not get sick and my spring allergy almost none existing. I can’t stop telling people about it.
+
+========================================================================
+ANGLE BIN 10-20°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=10.83°  tok=11 ','  seq=511 pos=877
+nll_a=1.947 nll_m=2.207  kl_a=0.617 kl_m=0.516  margin_a=-0.500 margin_m=-0.875
+CONTEXT:
+ was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions,
+
+--- example 2/20  θ=12.64°  tok=1047 ' had'  seq=511 pos=1019
+nll_a=2.889 nll_m=3.017  kl_a=0.412 kl_m=0.376  margin_a=-1.000 margin_m=-1.250
+CONTEXT:
+ lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never even sneezed. I had
+
+--- example 3/20  θ=12.76°  tok=358 ' I'  seq=511 pos=1011
+nll_a=1.278 nll_m=0.933  kl_a=1.509 kl_m=1.370  margin_a=2.375 margin_m=2.062
+CONTEXT:
+. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I
+
+--- example 4/20  θ=15.27°  tok=10373 ' orders'  seq=511 pos=845
+nll_a=7.534 nll_m=3.692  kl_a=3.873 kl_m=2.524  margin_a=-6.062 margin_m=-2.062
+CONTEXT:
+Great product and wonderful experience.
+I would like to thank Glenn for a wonderful experience and great product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders
+
+--- example 5/20  θ=11.08°  tok=8774 ' kept'  seq=511 pos=897
+nll_a=4.818 nll_m=4.093  kl_a=2.273 kl_m=1.619  margin_a=-2.688 margin_m=-1.312
+CONTEXT:
+ order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept
+
+--- example 6/20  θ=11.45°  tok=323 ' and'  seq=511 pos=837
+nll_a=1.745 nll_m=1.343  kl_a=0.763 kl_m=0.545  margin_a=-0.375 margin_m=0.250
+CONTEXT:
+ very much for such a great product!
+Great product and wonderful experience.
+I would like to thank Glenn for a wonderful experience and great product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and
+
+--- example 7/20  θ=12.78°  tok=323 ' and'  seq=511 pos=990
+nll_a=1.566 nll_m=1.485  kl_a=1.196 kl_m=0.894  margin_a=0.500 margin_m=0.438
+CONTEXT:
+ royal jelly over the first trimester of my pregnancy and I never got sick with cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and
+
+--- example 8/20  θ=13.53°  tok=11155 ' BUT'  seq=511 pos=1009
+nll_a=8.404 nll_m=8.912  kl_a=0.831 kl_m=0.940  margin_a=-7.375 margin_m=-8.031
+CONTEXT:
+ since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT
+
+--- example 9/20  θ=12.87°  tok=2339 ' catch'  seq=511 pos=1004
+nll_a=6.414 nll_m=6.869  kl_a=2.796 kl_m=2.988  margin_a=-4.531 margin_m=-4.875
+CONTEXT:
+ sick with cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch
+
+--- example 10/20  θ=10.49°  tok=2212 ' around'  seq=511 pos=994
+nll_a=5.151 nll_m=4.898  kl_a=1.775 kl_m=1.806  margin_a=-3.750 margin_m=-4.000
+CONTEXT:
+ first trimester of my pregnancy and I never got sick with cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around
+
+--- example 11/20  θ=17.10°  tok=779 ' so'  seq=511 pos=885
+nll_a=0.720 nll_m=0.793  kl_a=0.276 kl_m=0.341  margin_a=0.500 margin_m=0.000
+CONTEXT:
+ his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so
+
+--- example 12/20  θ=17.14°  tok=88701 ' Becky'  seq=511 pos=677
+nll_a=8.736 nll_m=5.736  kl_a=7.585 kl_m=4.926  margin_a=-7.438 margin_m=-4.219
+CONTEXT:
+1 kilo of this fantastic product and it arrived just as promised - in two days. When I got the box, I saw how perfectly everything was packed. The comb honey was double packed, the Royal Jelly came in an insulated box with icepack and was still partially frozen. The packaging itself showed how knowledgeable Glenn and Becky
+
+--- example 13/20  θ=12.69°  tok=2391 ' during'  seq=511 pos=1006
+nll_a=7.103 nll_m=6.324  kl_a=1.164 kl_m=1.146  margin_a=-4.938 margin_m=-3.844
+CONTEXT:
+ cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during
+
+--- example 14/20  θ=12.02°  tok=304 ' in'  seq=511 pos=890
+nll_a=1.469 nll_m=1.142  kl_a=1.199 kl_m=0.904  margin_a=0.812 margin_m=0.938
+CONTEXT:
+ royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in
+
+--- example 15/20  θ=16.54°  tok=291 'ed'  seq=511 pos=1016
+nll_a=0.050 nll_m=0.024  kl_a=0.045 kl_m=0.020  margin_a=4.312 margin_m=4.750
+CONTEXT:
+ of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing around me. I was so worry that I will catch something during pregnancy. BUT! I never even sneezed
+
+--- example 16/20  θ=13.96°  tok=20016 ' spo'  seq=511 pos=863
+nll_a=9.874 nll_m=8.184  kl_a=3.120 kl_m=2.195  margin_a=-9.156 margin_m=-7.906
+CONTEXT:
+ product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spo
+
+--- example 17/20  θ=13.88°  tok=304 ' in'  seq=511 pos=899
+nll_a=2.784 nll_m=2.554  kl_a=1.932 kl_m=1.750  margin_a=-0.938 margin_m=0.625
+CONTEXT:
+ last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly every day with couple spoons of honey. I divided 1 kilo into small portions, each was enough for a week or so, and stored it in small containers in the freezer and kept one in
+
+--- example 18/20  θ=15.18°  tok=287 'ing'  seq=511 pos=989
+nll_a=0.131 nll_m=0.076  kl_a=0.118 kl_m=0.063  margin_a=2.562 margin_m=4.062
+CONTEXT:
+ took royal jelly over the first trimester of my pregnancy and I never got sick with cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing
+
+--- example 19/20  θ=13.04°  tok=682 ' all'  seq=511 pos=803
+nll_a=3.436 nll_m=4.129  kl_a=2.075 kl_m=2.218  margin_a=-1.188 margin_m=-2.812
+CONTEXT:
+ to balance hormones (especially, after the thyroid surgery). I am definitely planning to continue ordering RJ from eBee Honey. Thank you,Glenn and Becky, so very much for such a great product!
+Great product and wonderful experience.
+I would like to thank Glenn for a wonderful experience and great product. Glenn answered all
+
+--- example 20/20  θ=13.23°  tok=11 ','  seq=511 pos=771
+nll_a=2.769 nll_m=2.721  kl_a=0.722 kl_m=0.587  margin_a=-1.188 margin_m=-1.312
+CONTEXT:
+en, and 1/2 tsp of honey, and take it every morning. These three products combined together boost immune system like nothing else. It helps me to balance hormones (especially, after the thyroid surgery). I am definitely planning to continue ordering RJ from eBee Honey. Thank you,Glenn and Becky,
+
+========================================================================
+ANGLE BIN 20-30°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=29.85°  tok=2439 'ons'  seq=511 pos=289
+nll_a=0.365 nll_m=0.176  kl_a=0.366 kl_m=0.173  margin_a=1.562 margin_m=2.062
+CONTEXT:
+ taking it now. It even helped me get pregnant for the second time. You will have to take it every morning on empty stomach religiously though. It take about 2-4 weeks to fully work. Do not drink coffee after for about 2 hours, and only use plastic or wooden spoon as of metal spoons
+
+--- example 2/20  θ=20.44°  tok=972 '18'  seq=510 pos=1014
+nll_a=5.263 nll_m=5.299  kl_a=0.490 kl_m=0.135  margin_a=-3.375 margin_m=-4.188
+CONTEXT:
+ l will be able to eat it again so l can purchase it again and again.
+Product arrives cold and fresh! Love it.
+I've been using royal jelly for almost 2 years because I had metastasized prostate cancer to help with the fatigue and other side effects of the hormone treatment for the cancer. after 18
+
+--- example 3/20  θ=25.60°  tok=582 'ac'  seq=509 pos=908
+nll_a=7.775 nll_m=10.402  kl_a=0.337 kl_m=0.549  margin_a=-7.625 margin_m=-10.250
+CONTEXT:
+ of the UK’s leading Showreel production company came from. Slick Showreels have been producing a wide range of work including music videos, short films and documentaries for the last 5 years.
+“He has worked with award winning directors such as Mat King, Harry Bradbeer, Stuart Orme, Joel Schumac
+
+--- example 4/20  θ=21.55°  tok=18836 'MIT'  seq=510 pos=213
+nll_a=3.360 nll_m=1.538  kl_a=3.223 kl_m=1.446  margin_a=0.062 margin_m=2.188
+CONTEXT:
+ U.S. Department of Commerce.
+She holds her doctorate in Higher Education Management from Penn's Graduate School of Education, her New Jersey Principal Certificate, her Masters in Public Affairs from the Woodrow Wilson School at Princeton University and her Bachelors and Masters in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT
+
+--- example 5/20  θ=23.51°  tok=52441 ' jelly'  seq=511 pos=858
+nll_a=0.028 nll_m=0.006  kl_a=0.030 kl_m=0.017  margin_a=4.312 margin_m=5.188
+CONTEXT:
+ a wonderful experience and great product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon of royal jelly
+
+--- example 6/20  θ=20.64°  tok=16 '1'  seq=510 pos=816
+nll_a=3.450 nll_m=2.193  kl_a=1.016 kl_m=1.253  margin_a=-0.562 margin_m=0.312
+CONTEXT:
+ change on my stretch marks (yet) but It has reduced the appearance of a couple of oven burn scars that I have on my arm. Amazon link here.
+Let me know if you use any of these or have tried them before! What did you think to them?<|endoftext|>Home > Royal Jelly > Royal Jelly - 1
+
+--- example 7/20  θ=24.93°  tok=2971 '/c'  seq=511 pos=526
+nll_a=5.641 nll_m=5.797  kl_a=3.093 kl_m=3.606  margin_a=-2.062 margin_m=-3.531
+CONTEXT:
+ and I am confident not the last one. Once again, Becky was great in communicating to verify the order and shipment details. Once again everything arrived fast and perfectly packed in insulated box, fresh as always. Cannot be more happy than I am now! Thank you!
+We bought Royal Jelly from eBeeHoney b/c
+
+--- example 8/20  θ=20.23°  tok=8375 ' Sal'  seq=506 pos=750
+nll_a=8.287 nll_m=5.748  kl_a=5.320 kl_m=3.989  margin_a=-5.453 margin_m=-2.188
+CONTEXT:
+9 pm PBS 6 will present a special edition of FRONTLINE on “Harvey Weinstein,” following Arizona 360. At 10 pm PBS 6 will air an encore presentation of #ME TOO, NOW WHAT?, the new 5-part series examining sexual harassment in America, with host and executive editor Zainab Sal
+
+--- example 9/20  θ=20.28°  tok=19 '4'  seq=511 pos=261
+nll_a=1.839 nll_m=2.050  kl_a=0.247 kl_m=0.140  margin_a=-1.312 margin_m=-1.688
+CONTEXT:
+ minerals and some hormones (helps woman even with menopause). My mom took royal jelly all her life and because of her suggestions I’m taking it now. It even helped me get pregnant for the second time. You will have to take it every morning on empty stomach religiously though. It take about 2-4
+
+--- example 10/20  θ=21.17°  tok=46605 ' spoon'  seq=511 pos=855
+nll_a=7.043 nll_m=7.037  kl_a=2.978 kl_m=3.438  margin_a=-5.125 margin_m=-6.156
+CONTEXT:
+ thank Glenn for a wonderful experience and great product. Glenn answered all my questions about royal jelly by email. He was very informative, polite and prompt in his responses. I ordered royal jelly twice so far. One order was last summer and I just received another one. Both orders arrived still near frozen. I took half a spoon
+
+--- example 11/20  θ=20.24°  tok=32329 'anth'  seq=509 pos=986
+nll_a=9.942 nll_m=11.807  kl_a=2.568 kl_m=2.918  margin_a=-8.344 margin_m=-10.102
+CONTEXT:
+ the main cast of Bafta award winning film Pride directed by Matthew Warchus.
+For more information about the festival, visit the website, email info@biff.bm, or call 441-293-3456. Tickets are available at biff.ptix.bm.<|endoftext|>Dr. Anu Vedanth
+
+--- example 12/20  θ=24.69°  tok=17313 '293'  seq=509 pos=964
+nll_a=7.523 nll_m=7.704  kl_a=0.903 kl_m=0.820  margin_a=-2.844 margin_m=-3.375
+CONTEXT:
+, Stuart Orme, Joel Schumaccher, Oscar Winning Director Roman Polanski and was part of the main cast of Bafta award winning film Pride directed by Matthew Warchus.
+For more information about the festival, visit the website, email info@biff.bm, or call 441-293
+
+--- example 13/20  θ=21.57°  tok=7595 'ugh'  seq=510 pos=219
+nll_a=3.953 nll_m=4.233  kl_a=2.048 kl_m=1.910  margin_a=-1.438 margin_m=-1.250
+CONTEXT:
+.
+She holds her doctorate in Higher Education Management from Penn's Graduate School of Education, her New Jersey Principal Certificate, her Masters in Public Affairs from the Woodrow Wilson School at Princeton University and her Bachelors and Masters in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT).
+S. L Baugh
+
+--- example 14/20  θ=20.71°  tok=19482 ' Panel'  seq=510 pos=66
+nll_a=0.128 nll_m=0.049  kl_a=0.143 kl_m=0.080  margin_a=3.750 margin_m=5.188
+CONTEXT:
+ She received the 2018 Harvard Hero award for her work in reopening the Cabot Science Library as Interim Director for Science and Engineering Services. She directed the Weigle Information Commons at the Penn Libraries for nine years. Her research on global warming at the Environmental Defense Fund has been recognized by the Intergovernmental Panel
+
+--- example 15/20  θ=21.75°  tok=287 'ing'  seq=511 pos=993
+nll_a=0.015 nll_m=0.016  kl_a=0.014 kl_m=0.015  margin_a=4.438 margin_m=4.875
+CONTEXT:
+ the first trimester of my pregnancy and I never got sick with cold or flu since then. 1 kilo of Royal jelly lasted for me for 2-3 month. I was in nursing school and was constantly exposed to sick people in school and in the hospital. There was always somebody coughing and sneezing
+
+--- example 16/20  θ=21.17°  tok=7905 'TC'  seq=510 pos=103
+nll_a=5.726 nll_m=7.759  kl_a=2.534 kl_m=3.157  margin_a=-3.000 margin_m=-5.156
+CONTEXT:
+ at the Penn Libraries for nine years. Her research on global warming at the Environmental Defense Fund has been recognized by the Intergovernmental Panel of Climate Change (IPCC) as a significant contribution to the 2007 Nobel Peace Prize. At Stockton University, she directed the Southern Regional Educational Technology Training Center (ETTC
+
+--- example 17/20  θ=28.18°  tok=537 'ost'  seq=510 pos=112
+nll_a=0.731 nll_m=1.076  kl_a=0.730 kl_m=1.075  margin_a=1.188 margin_m=0.500
+CONTEXT:
+ research on global warming at the Environmental Defense Fund has been recognized by the Intergovernmental Panel of Climate Change (IPCC) as a significant contribution to the 2007 Nobel Peace Prize. At Stockton University, she directed the Southern Regional Educational Technology Training Center (ETTC), and served as Interim Associate Provost
+
+--- example 18/20  θ=21.90°  tok=39048 ' nominated'  seq=509 pos=502
+nll_a=5.210 nll_m=5.786  kl_a=1.307 kl_m=1.585  margin_a=-3.906 margin_m=-3.969
+CONTEXT:
+ Century: Part of the attentive younger crowd at Sappho’s: L to R: Pam Brown (obscured), Sam Moginie, Andy Carruthers, Jess Wilkinson, Chris Edwards, unknown.<|endoftext|>The Bermuda International Film Festival will be holding a Twitter Chat with Chris Overton, director of the Oscar nominated
+
+--- example 19/20  θ=25.18°  tok=74239 ' Jelly'  seq=511 pos=518
+nll_a=0.318 nll_m=0.097  kl_a=0.196 kl_m=0.106  margin_a=1.062 margin_m=2.312
+CONTEXT:
+ is my second order of the Royal Jelly and I am confident not the last one. Once again, Becky was great in communicating to verify the order and shipment details. Once again everything arrived fast and perfectly packed in insulated box, fresh as always. Cannot be more happy than I am now! Thank you!
+We bought Royal Jelly
+
+--- example 20/20  θ=21.00°  tok=56339 'Presentation'  seq=510 pos=239
+nll_a=11.768 nll_m=9.896  kl_a=1.370 kl_m=1.135  margin_a=-9.406 margin_m=-6.969
+CONTEXT:
+ Jersey Principal Certificate, her Masters in Public Affairs from the Woodrow Wilson School at Princeton University and her Bachelors and Masters in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT).
+S. L Baughcum, J. J Begin, F. Franco, D. L Greene, et al.
+Presentation
+
+========================================================================
+ANGLE BIN 30-40°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=32.25°  tok=12574 'eli'  seq=509 pos=751
+nll_a=0.912 nll_m=1.352  kl_a=0.894 kl_m=1.334  margin_a=0.250 margin_m=-0.750
+CONTEXT:
+ communication.
+“When fresh faced social worker, Joanne turns up we see Libby transform. This once withdrawn four-year-old suddenly feels connected to the world and over a short period of time Joanne and Libby’s relationship blossoms.
+“An insightful short story, inspired by real life events, observing one of the loneli
+
+--- example 2/20  θ=33.12°  tok=16 '1'  seq=505 pos=147
+nll_a=0.114 nll_m=0.245  kl_a=0.111 kl_m=0.243  margin_a=3.188 margin_m=1.375
+CONTEXT:
+ few different different reasons. For instance, a faulty application, ext-ms-win-ntos-pico-l1-1-0.dll has been deleted or misplaced, corrupted by malicious software present on your PC or a damaged Windows registry.
+The program can't start because ext-ms-win-ntos-pico-l1-1
+
+--- example 3/20  θ=32.05°  tok=5744 'DC'  seq=503 pos=1019
+nll_a=0.042 nll_m=0.010  kl_a=0.043 kl_m=0.011  margin_a=5.000 margin_m=7.188
+CONTEXT:
+ the occasion were Germany Ambassador to Kenya Ms Annett Günther, Defence Attaches, senior military and government officers, service personnel and KDF family members.
+Ugandan Cultural Dancers entertain guests.
+The Guests following entertainment dances during the NDC Cultural Day.
+Nyanza Cultural Dancers entertain guests during the NDC
+
+--- example 4/20  θ=36.90°  tok=437 'os'  seq=505 pos=174
+nll_a=0.047 nll_m=0.102  kl_a=0.046 kl_m=0.101  margin_a=4.062 margin_m=2.812
+CONTEXT:
+ has been deleted or misplaced, corrupted by malicious software present on your PC or a damaged Windows registry.
+The program can't start because ext-ms-win-ntos-pico-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.
+Error loading ext-ms-win-ntos
+
+--- example 5/20  θ=34.83°  tok=7350 'plies'  seq=505 pos=627
+nll_a=2.259 nll_m=4.152  kl_a=1.041 kl_m=2.257  margin_a=-0.812 margin_m=-2.562
+CONTEXT:
+@jesus.cam.ac.uk with any enquiries.
+Requests should be in writing or other recorded format.
+Please make your request as specific as possible.
+Refer to the publication scheme below in case answers can be found there.
+Requests for Environmental Information will be dealt with under the Environmental Information Regulations.
+Charges for Environmental Information (applies
+
+--- example 6/20  θ=31.62°  tok=1771 'ains'  seq=508 pos=595
+nll_a=0.059 nll_m=0.022  kl_a=0.059 kl_m=0.022  margin_a=3.312 margin_m=4.938
+CONTEXT:
+ leadership, employees and salesforce members alike have to model the behavior they expect from their teams and keep up their own personal journeys toward greater self-development.
+Direct selling is most often described as being all about relationships, and certainly growing in self-awareness and self-knowledge only enhances those relationships. Engagement on this personal level sustains
+
+--- example 7/20  θ=31.95°  tok=679 '201'  seq=507 pos=707
+nll_a=1.340 nll_m=0.908  kl_a=0.654 kl_m=0.253  margin_a=0.562 margin_m=0.625
+CONTEXT:
+’s title or position and a lot more to do with interpersonal skills. This is an awareness that appears to be growing in the wider world, although within the channel many have always known this to be true. The whole concept of being a field leader stresses leadership through accomplishment rather than by means of a title.
+In September 201
+
+--- example 8/20  θ=31.11°  tok=6292 'ho'  seq=509 pos=301
+nll_a=0.006 nll_m=0.006  kl_a=0.014 kl_m=0.011  margin_a=7.812 margin_m=6.625
+CONTEXT:
+ 2013. The venerable Gleebooks hosted yet another poetry book launch, this time Chris Andrews’ book «Lime Green Chair», winner of the seventh annual Anthony Hecht Poetry Prize. A respectable middle-aged crowd, free wine, messy food.
+Soon afterwards in the rear garden of the neighboring bookstore Sappho
+
+--- example 9/20  θ=38.80°  tok=285 'is'  seq=502 pos=128
+nll_a=3.750 nll_m=7.696  kl_a=3.481 kl_m=7.249  margin_a=-2.375 margin_m=-6.344
+CONTEXT:
+f, M. D.; Rowan, L. C. & Peters, Thomas J. 1991.
+From abstract: A mineral resource survey was conducted in 1987 by the U.S. Geological Survey and the U.S. Bureau of Mines to evaluate mineral resources (known) and mineral resource potential (undis
+
+--- example 10/20  θ=32.95°  tok=15549 '.uk'  seq=505 pos=568
+nll_a=0.084 nll_m=0.129  kl_a=0.091 kl_m=0.134  margin_a=5.125 margin_m=4.312
+CONTEXT:
+The tarmac surfaced car park has 21 spaces available of which, 1 space is designated for disabled parking.
+Preston Brook Village Hall has good road access just off the A56 and less than mile of the M56 motorway, junction 11.<|endoftext|>Plese email foi@jesus.cam.ac.uk
+
+--- example 11/20  θ=36.14°  tok=554 'ure'  seq=506 pos=465
+nll_a=0.004 nll_m=0.052  kl_a=0.004 kl_m=0.051  margin_a=6.750 margin_m=5.125
+CONTEXT:
+ week. MetaJure is ideal both for firms that need a DMS and those that already have one, since it works alongside most traditional systems to make them even more powerful. Set up and installation takes just a few days.
+Illinois State Bar Association members save 15% off of their first year of MetaJure
+
+--- example 12/20  θ=37.92°  tok=48789 '-win'  seq=505 pos=237
+nll_a=2.396 nll_m=0.081  kl_a=2.397 kl_m=0.139  margin_a=1.312 margin_m=5.625
+CONTEXT:
+ntos-pico-l1-1-0.dll. The specified module could not be found.
+ext-ms-win-ntos-pico-l1-1-0.dll is either not designed to run on Windows or it contains an error.
+In the vast majority of cases, the solution is to properly reinstall ext-ms-win
+
+--- example 13/20  θ=34.89°  tok=55381 'Natural'  seq=510 pos=672
+nll_a=0.077 nll_m=0.304  kl_a=0.077 kl_m=0.298  margin_a=3.938 margin_m=1.188
+CONTEXT:
+ but it depends on how much of the product I have actually used. Just like the cellulite cream, it has a dispenser which is easy to control and it is mess free. It has a lovely fragrance, which isn’t too overpowering for a facial moisturiser. Amazon link here.
+Next up is the InstaNatural
+
+--- example 14/20  θ=35.55°  tok=437 'os'  seq=505 pos=240
+nll_a=0.059 nll_m=0.044  kl_a=0.058 kl_m=0.043  margin_a=3.688 margin_m=3.688
+CONTEXT:
+ico-l1-1-0.dll. The specified module could not be found.
+ext-ms-win-ntos-pico-l1-1-0.dll is either not designed to run on Windows or it contains an error.
+In the vast majority of cases, the solution is to properly reinstall ext-ms-win-ntos
+
+--- example 15/20  θ=34.95°  tok=52647 'dal'  seq=502 pos=298
+nll_a=0.147 nll_m=0.003  kl_a=0.158 kl_m=0.033  margin_a=4.125 margin_m=8.562
+CONTEXT:
+ study area has a moderate resource potential for copper and associated silver in strata-bound deposits in green beds and limestone; potential is low in the rest of the study area.
+Mines and mineral resources -- Montana -- Sleeping Giant Wilderness.
+Feb. 20, 2019, 10:41 a.m.
+Tysdal
+
+--- example 16/20  θ=32.13°  tok=45033 'puties'  seq=491 pos=708
+nll_a=0.809 nll_m=0.295  kl_a=0.807 kl_m=0.294  margin_a=0.750 margin_m=1.500
+CONTEXT:
+ for governor of Mexico City (PRD candidate Miguel Angel Mancera received some 63% of the vote); it won governorships in the states of Morelos and Tabasco; and it made significant gains in the congressional races, keeping the PRI from winning an absolute majority in either the Senate or the Chamber of Deputies
+
+--- example 17/20  θ=35.35°  tok=4852 'ald'  seq=506 pos=665
+nll_a=0.383 nll_m=0.373  kl_a=0.379 kl_m=0.368  margin_a=2.250 margin_m=3.438
+CONTEXT:
+ from childhood to adulthood, set against the backdrop of the American Civil War. Later this month, we are proud to premier Independent Lens: Dolores about the indomitable Dolores Huerta, who tirelessly led the fight for racial and labor justice alongside Cesar Chavez, becoming one of the most defiant – and unherald
+
+--- example 18/20  θ=37.42°  tok=55381 'Natural'  seq=510 pos=417
+nll_a=0.158 nll_m=0.344  kl_a=1.283 kl_m=1.479  margin_a=3.312 margin_m=1.125
+CONTEXT:
+ evaluation functionalities as of the fall.<|endoftext|>After I reviewed my first set of InstaNatural products, I was sent the above creams to try out and review. I really enjoyed the facial products and they are still part of my skin care routine, so I was more than happy to try out some more.
+The InstaNatural
+
+--- example 19/20  θ=32.81°  tok=3550 'uper'  seq=496 pos=406
+nll_a=9.047 nll_m=8.307  kl_a=1.738 kl_m=1.411  margin_a=-8.000 margin_m=-6.969
+CONTEXT:
+ approaches of rubbish removal is the composting technique. It is a really simple technique to be utilized by anyone. Composting includes a natural procedure that turns raw materials into incredible nutrients for plants. Lots of people have actually embraced the procedure due to the fact that it turns hazardous rubbish into helpful garden compost.
+Recycling. Recuper
+
+--- example 20/20  θ=32.75°  tok=1611 ' De'  seq=491 pos=707
+nll_a=5.840 nll_m=4.996  kl_a=5.799 kl_m=4.962  margin_a=-5.625 margin_m=-4.875
+CONTEXT:
+ race for governor of Mexico City (PRD candidate Miguel Angel Mancera received some 63% of the vote); it won governorships in the states of Morelos and Tabasco; and it made significant gains in the congressional races, keeping the PRI from winning an absolute majority in either the Senate or the Chamber of De
+
+========================================================================
+ANGLE BIN 40-50°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=42.16°  tok=1003 'ash'  seq=492 pos=1021
+nll_a=0.021 nll_m=0.012  kl_a=0.011 kl_m=0.009  margin_a=4.312 margin_m=5.625
+CONTEXT:
+ unique language of ‘guitar-speak.’"<|endoftext|>Here at BathSashWindows.com we are well known for our impeccable standards in our sash windows works and the way we deal with people. Our most primary work can be categorised as sash window restoration in Bath, while we often find ourselves carrying out sash
+
+--- example 2/20  θ=43.11°  tok=20721 'LR'  seq=460 pos=996
+nll_a=0.160 nll_m=0.079  kl_a=0.347 kl_m=0.310  margin_a=5.312 margin_m=4.000
+CONTEXT:
+ Letter on list dated 18 November 1943.
+LR270 (J) - Received from No.27 Movements Unit, 3 February 1944; missing in action, 9 March 1944; Wing Commander R.J. Bennell killed. Letter on list dated 3 February 1944.
+LR
+
+--- example 3/20  θ=41.89°  tok=9109 'LY'  seq=480 pos=441
+nll_a=0.019 nll_m=0.008  kl_a=0.019 kl_m=0.007  margin_a=4.938 margin_m=7.562
+CONTEXT:
+ and according to Bishop Stephen Sykes, that's the challenge.
+STEPHEN SYKES: The question comes when you need to be clear about what it is that then binds the churches together.
+We share a common faith, but what is that common faith and that's what the dispute�s about.
+FRAN KELLY
+
+--- example 4/20  θ=49.16°  tok=48726 'ettle'  seq=480 pos=639
+nll_a=0.029 nll_m=0.005  kl_a=0.066 kl_m=0.107  margin_a=6.875 margin_m=8.750
+CONTEXT:
+ is the ideal portable cooker for camp cooking. Great for camping, fishing, hiking, backpacking. Uses only natural fuel - no canisters to pack. The Kelly Kettle is a must have in your survival kit of emergency essentials.
+The Kelly Kettle - Boil Water, Cook Fast and Survive! Kelly Kettle
+
+--- example 5/20  θ=43.62°  tok=17313 '293'  seq=457 pos=34
+nll_a=11.150 nll_m=9.475  kl_a=0.942 kl_m=0.944  margin_a=-10.094 margin_m=-8.188
+CONTEXT:
+ 1943. Squadron says that "F" and "U" were transferred this day, but as AL466 was also involved, the precise lettering is uncertain.
+AL293
+
+--- example 6/20  θ=40.36°  tok=1924 'ives'  seq=464 pos=970
+nll_a=0.007 nll_m=0.007  kl_a=0.007 kl_m=0.007  margin_a=6.188 margin_m=5.625
+CONTEXT:
+ percent to 1646.41 million USD worldwide in 2016 from 1563.21 million USD in 2015. Overall, the Electrically Conductive Adhesives market performance is positive, despite the weak economic environment.
+With the increasing in production capacity, expected that the Electrically Conductive Adhesives
+
+--- example 7/20  θ=40.01°  tok=57074 ' Taken'  seq=458 pos=766
+nll_a=2.071 nll_m=0.094  kl_a=1.931 kl_m=0.442  margin_a=1.312 margin_m=5.438
+CONTEXT:
+ give the letter as "S" - clearly assigned following its absence from the squadron, April-May 1944.
+HJ822: - Taken on strength from De Havilland, 9 July 1943; missing from operations, 25/26 July 1943.
+HJ829 (M) - Taken
+
+--- example 8/20  θ=47.29°  tok=3808 'ements'  seq=462 pos=317
+nll_a=0.001 nll_m=0.000  kl_a=0.001 kl_m=0.001  margin_a=8.812 margin_m=8.875
+CONTEXT:
+C) - Taken on strength from No.27 Movements Unit, 27 May 1945; to No.49 Movements Unit, 20 July 1944. Letter on list dated 22 July 1944.
+PZ198: - Delivered to No.418 Squadron from No.27 Movements
+
+--- example 9/20  θ=49.10°  tok=52189 'etting'  seq=499 pos=680
+nll_a=0.002 nll_m=0.002  kl_a=0.045 kl_m=0.100  margin_a=7.062 margin_m=8.688
+CONTEXT:
+ diabetes or a problem with the bladder, may be causing bed-wetting.
+is bothered by their bed-wetting and wants to become dry.
+Bed-wetting can cause feelings of anxiety and embarrassment and lead to low self-esteem. Older children may worry about wetting the bed during sleep overs or at school camps. Bed-wetting
+
+--- example 10/20  θ=49.52°  tok=23141 '818'  seq=460 pos=445
+nll_a=3.698 nll_m=3.181  kl_a=1.987 kl_m=1.543  margin_a=-2.688 margin_m=-1.188
+CONTEXT:
+26 April 1944. Letter on list dated 2 September 1943.
+HX817 (G) - Taken on strength from De Havilland, 23 July 1943; crashed and damaged beyond repair, 27 October 1943. Letter on list dated 2 September 1943.
+HX818
+
+--- example 11/20  θ=45.22°  tok=21089 'VT'  seq=409 pos=696
+nll_a=0.027 nll_m=0.007  kl_a=0.027 kl_m=0.008  margin_a=4.688 margin_m=6.688
+CONTEXT:
+p = 0.005 Fisher exact test for CPVT-β-PMTX vs. CPVT-β-PMTX+Ril and CPVT-β-PMTX vs. CPVT-β-PMTX+Flec, respectively). (D) Representative ECG recordings and summary VT incidence of CPVT
+
+--- example 12/20  θ=45.70°  tok=40232 'aldo'  seq=506 pos=323
+nll_a=0.894 nll_m=0.005  kl_a=0.894 kl_m=0.005  margin_a=2.625 margin_m=7.250
+CONTEXT:
+ this site. We do suggest using the tools below to find Raymond Capaldo.
+You are visiting the placeholder page for Raymond Capaldo. This page is here because someone used our placeholder utility to look for Raymond Capaldo. We created this page automatically in hopes Raymond Capaldo would find it. If you are not Raymond Capaldo
+
+--- example 13/20  θ=40.41°  tok=50923 'ilingual'  seq=503 pos=320
+nll_a=1.313 nll_m=1.237  kl_a=1.179 kl_m=1.615  margin_a=0.812 margin_m=0.625
+CONTEXT:
+ Nashville, TN industry and ready availability of talent, getting some of the best voice over services and that too, at the most reasonable rates is easy in Nashville.
+Moreover, you have the option of contacting your vendor through the Internet, briefing him about your requirements and getting your professionally recorded files delivered by email.
+You have multilingual
+
+--- example 14/20  θ=42.23°  tok=3326 'agn'  seq=489 pos=844
+nll_a=1.614 nll_m=2.143  kl_a=0.772 kl_m=1.145  margin_a=-1.312 margin_m=-2.000
+CONTEXT:
+ S directorate for signals intelligence declares war on the anonymous internet.<|endoftext|>Watch a report by ITV News Anglia's Liz Summers.
+A woman from Wellingborough is calling for greater awareness of a fatal lung condition after waiting two years for her diagnosis.
+Charlotte Harvey had to endure a series of tests, scans and misdiagn
+
+--- example 15/20  θ=44.37°  tok=292 'ic'  seq=468 pos=722
+nll_a=0.007 nll_m=0.016  kl_a=0.011 kl_m=0.014  margin_a=5.938 margin_m=6.938
+CONTEXT:
+ test automation, risk-based testing, and how it can help you test at the speed of DevOps.
+Originally from Vienna, Austria, Matthias has been with Tricentis since 2008. His background in internet technologies and economics at the Technical University of Vienna position him uniquely to work in the American market at Tric
+
+--- example 16/20  θ=40.99°  tok=56208 ' Hav'  seq=460 pos=409
+nll_a=0.018 nll_m=0.002  kl_a=0.019 kl_m=0.002  margin_a=5.812 margin_m=9.250
+CONTEXT:
+ September 1943.
+HX816 (Y) - Taken on strength from De Havilland, 23 July 1943; to No.49 Movements Unit, 26 April 1944. Letter on list dated 2 September 1943.
+HX817 (G) - Taken on strength from De Hav
+
+--- example 17/20  θ=43.86°  tok=48726 'ettle'  seq=480 pos=561
+nll_a=0.022 nll_m=0.015  kl_a=0.037 kl_m=0.025  margin_a=6.500 margin_m=7.125
+CONTEXT:
+ is Fran Kelly in London, for Correspondents Report.<|endoftext|>The Kelly Kettle is the most reliable All-Purpose Kettle for the Outdoors. Available in Stainless Steel or Aluminum versions, the Kelly Kettle can Boil Water for drinking water purification, cooking meals or drinking hot coco outdoors! This is THE Camping Kettle
+
+--- example 18/20  θ=42.60°  tok=6795 'azing'  seq=505 pos=433
+nll_a=2.719 nll_m=2.072  kl_a=2.701 kl_m=2.053  margin_a=-1.750 margin_m=-0.438
+CONTEXT:
+.5m) is fitted with a wall mounted water boiler, fridge/freezer, domestic cooker and serving hatch. Teapots and crockery are available for use. There are standard ladies' and gents' toilets, including a baby change facility. The hall is gas heated and has excellent insulation and double glazing
+
+--- example 19/20  θ=41.78°  tok=27421 'unting'  seq=487 pos=372
+nll_a=0.114 nll_m=0.028  kl_a=0.110 kl_m=0.026  margin_a=3.875 margin_m=4.562
+CONTEXT:
+ use bunting in many different ways. For the 2012 Diamond Jubilee, I felt inspired to produce crown and corgi bunting for a workshop at my local museum in Watford. I am not a rampant royalist, but it's good to share uplifting moments.
+I also made some seaside-inspired bunting
+
+--- example 20/20  θ=44.73°  tok=554 'ure'  seq=506 pos=484
+nll_a=1.430 nll_m=0.096  kl_a=1.427 kl_m=0.095  margin_a=2.500 margin_m=4.562
+CONTEXT:
+ have one, since it works alongside most traditional systems to make them even more powerful. Set up and installation takes just a few days.
+Illinois State Bar Association members save 15% off of their first year of MetaJure.
+206.812.8750 - info@metajure.com - www.metajure
+
+========================================================================
+ANGLE BIN 50-60°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=59.95°  tok=3483 'annot'  seq=378 pos=506
+nll_a=6.988 nll_m=0.186  kl_a=6.429 kl_m=0.663  margin_a=-4.469 margin_m=3.562
+CONTEXT:
+  Id.  Id. at 8.<|endoftext|>https://sep.yimg.com/ay/yhst-33477391359232/black-back-butterfly-fish-chaetodon-melannotus-melannotus-black-backed-butterflyfish-6.jpgBlack Back Butterfly Fish - Chaetodon melannot
+
+--- example 2/20  θ=52.23°  tok=11949 'zt'  seq=453 pos=393
+nll_a=0.014 nll_m=0.026  kl_a=0.015 kl_m=0.026  margin_a=6.438 margin_m=6.625
+CONTEXT:
+ that draws so many renowned country acts from both Poland and abroad and, quite naturally, a huge flock of faithful fans.
+Therefore, I think that from now on our guests and tourists would associate our town not only with the annual Steam Engine Parade but also with "Pure Country" which, became a fixed date in Wolszt
+
+--- example 3/20  θ=50.44°  tok=406 'nt'  seq=505 pos=173
+nll_a=0.333 nll_m=0.005  kl_a=0.332 kl_m=0.005  margin_a=4.000 margin_m=8.125
+CONTEXT:
+.dll has been deleted or misplaced, corrupted by malicious software present on your PC or a damaged Windows registry.
+The program can't start because ext-ms-win-ntos-pico-l1-1-0.dll is missing from your computer. Try reinstalling the program to fix this problem.
+Error loading ext-ms-win-nt
+
+--- example 4/20  θ=53.59°  tok=48726 'ettle'  seq=480 pos=609
+nll_a=0.025 nll_m=0.005  kl_a=0.032 kl_m=0.014  margin_a=6.938 margin_m=8.875
+CONTEXT:
+ water purification, cooking meals or drinking hot coco outdoors! This is THE Camping Kettle for outdoor adventure. Kelly Kettle boils water ultra fast, and is the ideal portable cooker for camp cooking. Great for camping, fishing, hiking, backpacking. Uses only natural fuel - no canisters to pack. The Kelly Kettle
+
+--- example 5/20  θ=50.55°  tok=58650 'ceptors'  seq=440 pos=932
+nll_a=0.282 nll_m=0.299  kl_a=0.259 kl_m=0.256  margin_a=1.875 margin_m=1.250
+CONTEXT:
+ coordinated to better refine the direction of a source. For example, a stronger peak intensity from the end section 94 than from the area 91 may indicate that rotation or reorientation of the receiver platform 24 is necessary to obtain the strongest signal. Generally, reorientation is performed to provide the maximum number of photo-receptors
+
+--- example 6/20  θ=56.35°  tok=12533 '223'  seq=432 pos=766
+nll_a=1.125 nll_m=0.232  kl_a=1.118 kl_m=0.228  margin_a=0.688 margin_m=1.938
+CONTEXT:
+ out of five for ease of finding your way to help.
+GetHuman-223127: I'd give them a five out of five on communication.
+GetHuman-223127: For that I would say one out of five.
+GetHuman: Well there you have it. Some useful feedback and words from GetHuman-223
+
+--- example 7/20  θ=51.27°  tok=61254 'hythm'  seq=403 pos=835
+nll_a=0.002 nll_m=0.041  kl_a=0.539 kl_m=0.069  margin_a=8.062 margin_m=3.250
+CONTEXT:
+ precise mechanistic link between β-adrenergic receptor (β-AR) stimulation and arrhythmogenesis in Ca2+-mediated arrhythmias remains elusive. Several targets for phosphorylation, including Cav1.2, phospholamban (PLB), and RyR2, may be involved in the arrhythm
+
+--- example 8/20  θ=53.73°  tok=12533 '223'  seq=432 pos=618
+nll_a=1.018 nll_m=0.237  kl_a=0.945 kl_m=0.211  margin_a=0.750 margin_m=1.875
+CONTEXT:
+Human: GetHuman-223127 - can you tell our other Groupon customers when your case took place?
+GetHuman-223127: Yeah. It was middle of the night, on November 20th.
+GetHuman-223127: "Service problem" was why I was trying to call.
+GetHuman-223
+
+--- example 9/20  θ=51.19°  tok=112 '�'  seq=132 pos=267
+nll_a=1.073 nll_m=0.363  kl_a=1.014 kl_m=0.461  margin_a=0.750 margin_m=2.750
+CONTEXT:
+も?�リ?�ン?�り?�下?�固?�成?�か?�ト?�プ?�る??��?�？?�日?�ら?�た練習?�て次の?�ー?�練
+
+--- example 10/20  θ=59.58°  tok=36368 'ugging'  seq=430 pos=303
+nll_a=1.204 nll_m=1.045  kl_a=0.749 kl_m=0.571  margin_a=0.125 margin_m=1.125
+CONTEXT:
+. The path turns a corner, disappears into the woods, and it scares us half to death.
+At least I think that’s what ol’ man Polonius said. I can’t recall precisely. I didn’t make a note of it, because what happened next meant it no longer mattered.
+Our guests were shrugging
+
+--- example 11/20  θ=51.50°  tok=4035 'olve'  seq=494 pos=918
+nll_a=0.016 nll_m=0.197  kl_a=0.013 kl_m=0.189  margin_a=4.500 margin_m=2.125
+CONTEXT:
+-growing list of organizations. As we drive success for them, we grow as well, meaning more room for new people to join our team. If you’re ready to learn and grow, you’ll fit in great in our success-driven culture.
+Why Evolve Marketing’s workplace is awesome.
+From their first moments in our Evolve
+
+--- example 12/20  θ=51.48°  tok=7723 'iki'  seq=223 pos=962
+nll_a=0.001 nll_m=0.000  kl_a=0.048 kl_m=0.053  margin_a=8.562 margin_m=10.875
+CONTEXT:
+iki over deteriorating conditions in Iraq.
+The official said discussions in Amman between Bush and Maliki would focus on how to strengthen the Iraqi government so it has the ability to take over more of the responsibility for security, curb the power of private militias and thus reduce sectarian violence."
+Pretty ironic that they're discussing what Maliki
+
+--- example 13/20  θ=53.75°  tok=21519 'ifu'  seq=470 pos=233
+nll_a=0.075 nll_m=0.446  kl_a=0.243 kl_m=0.431  margin_a=4.312 margin_m=2.875
+CONTEXT:
+ of occupations, businesses, facilities, and equipment. We protect the health and safety of Texans and ensure they are served by qualified professionals. We foster a predictable regulatory climate by minimizing government interference.<|endoftext|>It has come to our attention that some people who participated in the Saifu airdrop placed multiple claims to collect additional Saifu
+
+--- example 14/20  θ=50.62°  tok=24606 '991'  seq=461 pos=863
+nll_a=4.617 nll_m=6.809  kl_a=1.880 kl_m=2.358  margin_a=-2.625 margin_m=-4.062
+CONTEXT:
+lskog (armourer) killed.
+NS986: - Taken on strength from No.27 Movements Unit, 2 May 1944; missing from operations, 8 May 1944; F/O D.W.J. Carr and F/L J.M. Connell became prisoners of war.
+NS991
+
+--- example 15/20  θ=50.68°  tok=61945 'HX'  seq=460 pos=168
+nll_a=1.399 nll_m=0.040  kl_a=1.162 kl_m=0.323  margin_a=1.875 margin_m=5.312
+CONTEXT:
+ No.49 Movements Unit, 19 April 1944. Letter on list of 2 September 1943.
+HX808: - Taken on strength from De Havilland, 18 July 1943; missing from operations, 30 July 1943 (F/O A.A. Shepherd killed).
+HX
+
+--- example 16/20  θ=53.44°  tok=3808 'ements'  seq=458 pos=310
+nll_a=0.002 nll_m=0.000  kl_a=0.002 kl_m=0.001  margin_a=8.625 margin_m=8.938
+CONTEXT:
+ Letter obtained from squadron list dated 2 September 1944. NOTE: this aircraft is reported back on operations with No.418 Squadron, 17 April to 24 April 1945, at which time it carried the letter "H".
+HJ771 (U) - Taken on strength from No.27 Movements
+
+--- example 17/20  θ=54.10°  tok=21493 'utt'  seq=468 pos=577
+nll_a=0.022 nll_m=0.008  kl_a=0.022 kl_m=0.008  margin_a=4.688 margin_m=6.625
+CONTEXT:
+ have always fallen short” for technical reasons.
+Another issue is potential additional demand for plutonium-238. NASA’s projected demand for the isotope dropped from 5 to 1.5 kilograms a year after the end of the Constellation program, which forecast the need for power systems to support human lunar exploration, McNutt
+
+--- example 18/20  θ=54.15°  tok=85407 'yb'  seq=238 pos=985
+nll_a=0.150 nll_m=0.148  kl_a=0.148 kl_m=0.145  margin_a=3.812 margin_m=4.375
+CONTEXT:
+birds side.
+Haverfordwest County are unable to catch league leaders Penybont after this evening’s draw but have moved into the top three, two points off of second-placed Cambrian & Clydach Vale. Only Cambrian & Clydach Vale and Cwmamman United can catch up to Penyb
+
+--- example 19/20  θ=53.21°  tok=5366 'ourse'  seq=400 pos=371
+nll_a=0.442 nll_m=0.195  kl_a=0.450 kl_m=0.203  margin_a=3.188 margin_m=4.938
+CONTEXT:
+ by Louise Lacourse for their Christmas cards. This artist is indeed a champion of nature and peace. Her paintings capture happiness, joyfulness, and give them eternity. Her works are deeply set inQuebec’s culture and winters, yet they are also a celebration of humanity and, thus, remain universal.
+Louise Lacourse
+
+--- example 20/20  θ=54.16°  tok=90344 'onium'  seq=468 pos=530
+nll_a=0.002 nll_m=0.005  kl_a=0.002 kl_m=0.005  margin_a=8.188 margin_m=7.438
+CONTEXT:
+ time,” said Ralph McNutt, chief scientist for space science in the space exploration sector at the Applied Physics Laboratory who co-chaired a 2009 study on the future of radioisotope power systems. “The problem is these have always fallen short” for technical reasons.
+Another issue is potential additional demand for plutonium
+
+========================================================================
+ANGLE BIN 60-70°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=60.98°  tok=54382 'quotes'  seq=365 pos=303
+nll_a=0.409 nll_m=0.049  kl_a=0.404 kl_m=0.059  margin_a=4.688 margin_m=5.312
+CONTEXT:
+ send a happy birthday card with a song can find one as well.
+Topbirthdayquotes.com, a website that provides birthday e-greetings card and wishes, is currently working to add a new service called 3D e-greetings card that can be shared through PCs and mobile devices in an eco-friendly way.
+Topbirthdayquotes
+
+--- example 2/20  θ=65.23°  tok=5477 'ador'  seq=490 pos=1021
+nll_a=0.002 nll_m=0.003  kl_a=0.007 kl_m=0.008  margin_a=6.625 margin_m=7.688
+CONTEXT:
+8. (He was leading in the count until a notorious power outage occurred. When the computers came back up, Cárdenas was suddenly behind, never to recover.) However, I covered the 2006 elections from Mexico City, and, while generally sympathetic to the PRD, I never found López Obrador
+
+--- example 3/20  θ=62.13°  tok=71437 'íg'  seq=288 pos=411
+nll_a=0.002 nll_m=0.002  kl_a=0.021 kl_m=0.012  margin_a=10.125 margin_m=8.562
+CONTEXT:
+permatophyta Momordica charantia (bitter gourd) Present Introduced Yes Acevedo-Rodriguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Morinda citrifolia (Indian mulberry) Present Introduced Acevedo-Rodríg
+
+--- example 4/20  θ=61.61°  tok=32424 'sed'  seq=437 pos=357
+nll_a=0.002 nll_m=0.001  kl_a=0.002 kl_m=0.001  margin_a=8.938 margin_m=8.562
+CONTEXT:
+ the pulsed beam based on which portion of the array has a maximum intensity for the pulsed beam. In a further variation, the system comprises attitude sensors and alignment mirrors at both the photon source and photo-receptors, such that the positions of the alignment mirrors are controlled by the attitude sensors to maintain alignment of the pulsed
+
+--- example 5/20  θ=61.78°  tok=664 'ud'  seq=222 pos=784
+nll_a=0.211 nll_m=0.101  kl_a=0.210 kl_m=0.100  margin_a=3.188 margin_m=4.188
+CONTEXT:
+ have thought that this picture, from Reynolds' own state of Tennessee, revealed any of that unseemly bitterness or latent conflicts?
+And look at these happy, smiling faces: no bitterness here!
+I was under the impression that after the Civil War, white Southerners carried out a campaign of terrorism and extrajud
+
+--- example 6/20  θ=61.58°  tok=67545 'arie'  seq=328 pos=782
+nll_a=0.106 nll_m=0.044  kl_a=0.159 kl_m=0.131  margin_a=3.312 margin_m=4.625
+CONTEXT:
+ prices of law practice textbook rentals are typically much less expensive than you will find at the college bookstore because they are yours to keep for the duration of your class, then you return them at the end of the course. Uloop is a place you can rent or buy physical or online law practice textbooks for your classes at Prarie
+
+--- example 7/20  θ=62.65°  tok=71437 'íg'  seq=289 pos=630
+nll_a=0.002 nll_m=0.003  kl_a=0.017 kl_m=0.009  margin_a=9.750 margin_m=7.812
+CONTEXT:
+ Sida acuta (sida) Present Native Acevedo-Rodríguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Sida repens (Javanese fanpetals) Present Introduced Yes Rojas-Sandoval and Acevedo-Rodríg
+
+--- example 8/20  θ=66.97°  tok=71437 'íg'  seq=289 pos=582
+nll_a=0.002 nll_m=0.002  kl_a=0.009 kl_m=0.005  margin_a=9.688 margin_m=8.062
+CONTEXT:
+ota Plantae Spermatophyta Senna occidentalis (coffee senna) Present Native Acevedo-Rodríguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Sida acuta (sida) Present Native Acevedo-Rodríg
+
+--- example 9/20  θ=65.92°  tok=71437 'íg'  seq=288 pos=573
+nll_a=0.002 nll_m=0.002  kl_a=0.030 kl_m=0.017  margin_a=10.062 margin_m=8.375
+CONTEXT:
+aryota Plantae Spermatophyta Opuntia stricta (erect prickly pear) Present Native USDA-ARS, 2007.
+Eukaryota Plantae Spermatophyta Parthenium hysterophorus (parthenium weed) Present Native Acevedo-Rodríg
+
+--- example 10/20  θ=68.17°  tok=61945 'HX'  seq=460 pos=444
+nll_a=0.056 nll_m=0.008  kl_a=0.106 kl_m=0.148  margin_a=5.625 margin_m=7.188
+CONTEXT:
+ 26 April 1944. Letter on list dated 2 September 1943.
+HX817 (G) - Taken on strength from De Havilland, 23 July 1943; crashed and damaged beyond repair, 27 October 1943. Letter on list dated 2 September 1943.
+HX
+
+--- example 11/20  θ=61.29°  tok=88729 'aspers'  seq=192 pos=800
+nll_a=0.046 nll_m=0.054  kl_a=1.021 kl_m=0.330  margin_a=5.375 margin_m=3.188
+CONTEXT:
+ backstage was registered last year on May 3, but was shut down in November before Kaspersky discovered the attack. For this reason, the researchers were unable to obtain a copy of the second-stage back door that was made available to the victims, and no victim equipment could be identified that had contacted that server. Kaspers
+
+--- example 12/20  θ=60.78°  tok=73965 'icina'  seq=336 pos=285
+nll_a=3.866 nll_m=4.762  kl_a=3.252 kl_m=4.016  margin_a=-3.125 margin_m=-4.438
+CONTEXT:
+ delay between connection and disconnection of the terminals. Having satisfied yourself this works, you can then wire these terminals to a relay be it mechanical or solid state , and switch the relay with a micro-controller such as the Arduino. Leicina Special Leicina Special sold as Leicina Spezial in German-speaking countries Specifications Model Leicina
+
+--- example 13/20  θ=61.10°  tok=25710 'ORIZ'  seq=305 pos=90
+nll_a=4.632 nll_m=0.849  kl_a=4.626 kl_m=0.849  margin_a=-2.688 margin_m=2.875
+CONTEXT:
+ PROBLEM, PROMPTLY CONTACT YOUR DOCTOR OR HEALTH CARE PROVIDER.
+NEITHER AHLOT NOR THE MANUFACTURERS OF ANY PRODUCTS, OR THEIR RESPECTIVE AFFILIATES, DIRECTORS, OFFICERS, OR SHAREHOLDERS, OF ANY PRODUCT (INCLUDING, FOR EXAMPLE, ANY VAPORIZ
+
+--- example 14/20  θ=65.35°  tok=15709 'ceptor'  seq=437 pos=504
+nll_a=0.132 nll_m=0.728  kl_a=0.103 kl_m=0.677  margin_a=2.000 margin_m=0.000
+CONTEXT:
+ the lens a distance corresponding to a focal plane for the electromagnetic radiation. At least one sensing molecule of the nano-scale photo-receptor is selected so as to emit one or more electrons upon absorbing the electromagnetic radiation.
+In one variation, the photo-receptor includes a plurality of nano-wires connected to said nano-scale photo-receptor
+
+--- example 15/20  θ=66.63°  tok=47096 'sam'  seq=256 pos=901
+nll_a=0.169 nll_m=0.043  kl_a=0.196 kl_m=0.055  margin_a=2.500 margin_m=5.875
+CONTEXT:
+ heartwarming note, we'll head back to Nairobi after a full day of exploring.
+Local English speaking guide, transportation, entry fees, local lunch.
+All drinks, tips or gratuities for your local guide and driver, items of a personal nature.
+Closure of sites: In rare circumstances, access to the Elsam
+
+--- example 16/20  θ=66.11°  tok=21519 'ifu'  seq=470 pos=251
+nll_a=0.026 nll_m=0.063  kl_a=0.063 kl_m=0.073  margin_a=6.250 margin_m=5.438
+CONTEXT:
+ and ensure they are served by qualified professionals. We foster a predictable regulatory climate by minimizing government interference.<|endoftext|>It has come to our attention that some people who participated in the Saifu airdrop placed multiple claims to collect additional Saifu Tokens. This has put some temporary negative pressure on the price of SFU. Saifu
+
+--- example 17/20  θ=69.40°  tok=42848 'lk'  seq=321 pos=689
+nll_a=1.839 nll_m=0.772  kl_a=1.838 kl_m=0.771  margin_a=1.312 margin_m=1.312
+CONTEXT:
+ that will never expire and can be used as many times as you like! You'll be able to gift discounted chocolate subscriptions to anyone, or sign up for yourself any time in the future.
+For the serious chocoholic! This level includes 15 Golden Mylk bars with Turmeric & Caramelized Coconut Mylk
+
+--- example 18/20  θ=69.26°  tok=71437 'íg'  seq=287 pos=772
+nll_a=0.001 nll_m=0.001  kl_a=0.004 kl_m=0.002  margin_a=10.438 margin_m=8.375
+CONTEXT:
+yta Kalanchoe delagoensis (chandelier plant) Present Introduced Acevedo-Rodríguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Kalanchoe pinnata (cathedral bells) Present Introduced Acevedo-Rodríg
+
+--- example 19/20  θ=69.85°  tok=11949 'zt'  seq=453 pos=666
+nll_a=0.024 nll_m=0.054  kl_a=0.023 kl_m=0.051  margin_a=6.000 margin_m=5.438
+CONTEXT:
+ it contains the double meaning: the ecological purity of the region and the stylistic purity of music.
+In the times of an ill-conceived commercialization and, very often, a total misunderstanding of the very idea of country, we want to show the true value and beauty of this music, set in the superb Wolszt
+
+--- example 20/20  θ=62.24°  tok=58650 'ceptors'  seq=437 pos=226
+nll_a=2.817 nll_m=2.825  kl_a=0.021 kl_m=0.019  margin_a=-2.750 margin_m=-2.750
+CONTEXT:
+-receptor may comprise at least one sensing molecule selected to emit at least one electron upon absorbing electromagnetic radiation of the predetermined frequency. A plurality of nano-wires connected to the nano-scale photo-receptor and the integrator may transmit the electrons to the integrator. A protective coating may cover the front surface of the photo-receptors
+
+========================================================================
+ANGLE BIN 70-80°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=77.29°  tok=34082 'ич'  seq=392 pos=954
+nll_a=0.073 nll_m=0.005  kl_a=0.282 kl_m=0.366  margin_a=3.500 margin_m=7.688
+CONTEXT:
+ съоръжения като спа, масаж са идеално място за почивка след тежък и уморителен ден. Avana Laemchabang Boutique Hotel е добър избор за всич
+
+--- example 2/20  θ=73.91°  tok=458 'ile'  seq=231 pos=809
+nll_a=0.014 nll_m=0.002  kl_a=0.021 kl_m=0.010  margin_a=7.188 margin_m=8.625
+CONTEXT:
+ market. Per share the analysts expect a dividend of 1,53 euros per share. Unilever's dividend yield thus equals 3,24 percent. The average dividend yield of the food producers is a limited 1 percent.
+Tomorrow the Dutch Unilever will report its past quarter results. For this year Unile
+
+--- example 3/20  θ=76.54°  tok=77812 'bern'  seq=366 pos=934
+nll_a=0.232 nll_m=0.072  kl_a=0.232 kl_m=0.077  margin_a=3.938 margin_m=5.188
+CONTEXT:
+ and legs need to have to not only assist bodyweight, they'll additionally be in touch with your floor coverings. Once they look like they'll do problems for your flooring due to the resources employed (like aluminum), then you may want to opt for a distinct type. When buying Brick Champion Convertible Sofa By Ebern
+
+--- example 4/20  θ=70.31°  tok=71437 'íg'  seq=284 pos=668
+nll_a=0.002 nll_m=0.003  kl_a=0.024 kl_m=0.012  margin_a=10.000 margin_m=7.625
+CONTEXT:
+ae Spermatophyta Annona squamosa (sugar apple) Present Introduced Acevedo-Rodriguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Antigonon leptopus (coral vine) Present Introduced Acevedo-Rodríg
+
+--- example 5/20  θ=75.32°  tok=60593 'alten'  seq=494 pos=449
+nll_a=0.251 nll_m=0.121  kl_a=0.289 kl_m=0.143  margin_a=4.312 margin_m=4.938
+CONTEXT:
+) Bentley Motors today announces a new management team structure for its European operations.
+Marco van Aalten (46) returns to the European head office in Munich as Sales Operations Director Europe on August 1, 2018. Van Aalten succeeds Philipp Noack who will take on an international role within Audi AG.
+Van Aalten
+
+--- example 6/20  θ=71.18°  tok=71437 'íg'  seq=287 pos=900
+nll_a=0.001 nll_m=0.001  kl_a=0.005 kl_m=0.003  margin_a=10.312 margin_m=8.438
+CONTEXT:
+yta Leonotis nepetifolia (Christmas candlestick) Present Introduced Acevedo-Rodríguez and Strong, 2014.
+Eukaryota Plantae Spermatophyta Lepidium virginicum (Virginian peppercress) Present Native Acevedo-Rodríg
+
+--- example 7/20  θ=70.00°  tok=89808 'uja'  seq=421 pos=229
+nll_a=0.017 nll_m=0.004  kl_a=0.181 kl_m=0.305  margin_a=5.625 margin_m=7.812
+CONTEXT:
+ pAsuram towards nammAzhvAr “mAthA pithA yuvathaya: (sthOthra rathnam 5)”, he considered nammAzhvAr as his everything. Similarly, maNavALa mAmunigaL tells SrI rAmAnuja
+
+--- example 8/20  θ=70.68°  tok=11289 'itz'  seq=335 pos=437
+nll_a=12.264 nll_m=14.271  kl_a=2.901 kl_m=3.398  margin_a=-10.406 margin_m=-10.746
+CONTEXT:
+. You connect these terminals to open the shutter, and then disconnect them to close the shutter. With 64T and 85 filter inserted you can easily get yourself in Low light situations - no macro.
+Will you pm if you can thanks you. They can handle anything because they got just anything about everything - plus Leitz
+
+--- example 9/20  θ=75.42°  tok=43363 'Dash'  seq=11 pos=107
+nll_a=0.220 nll_m=0.088  kl_a=0.902 kl_m=0.713  margin_a=3.562 margin_m=2.562
+CONTEXT:
+ Brewerkz Singapore.<|endoftext|>DealDash; Because Shopping & Saving Money Is Fun!
+I’ve got a Twitter list and an email folder, both named “Deals & Steals.” I’m always on the lookout for a good deal. Every little bit helps these days, right?
+Lately, I stumbled across DealDash
+
+--- example 10/20  θ=71.73°  tok=73965 'icina'  seq=336 pos=160
+nll_a=0.954 nll_m=2.543  kl_a=0.797 kl_m=0.776  margin_a=0.812 margin_m=-1.688
+CONTEXT:
+ it. The Leicina had support for automatic zoom lenses with motors controlling the focal length and aperture. Time for an M mount Leicina digital special camera? Can Leica once more get ahead of the game and release a Leicina Digital? This has just become available: Although it hasn't been programmed to use the Leicina
+
+--- example 11/20  θ=75.23°  tok=17187 'quent'  seq=388 pos=526
+nll_a=0.527 nll_m=0.001  kl_a=0.526 kl_m=0.001  margin_a=2.062 margin_m=8.250
+CONTEXT:
+Dennis, Wixom, & Roth, 2012). Feasibility analysis also indicates any risks that can be associated with the project. The feasibility analysis has three areas that are covered which are technical, economic and organizational.
+Technical feasibility addresses the potential success of the new system. Kudler Fine Foods Frequent
+
+--- example 12/20  θ=71.05°  tok=85407 'yb'  seq=239 pos=404
+nll_a=0.042 nll_m=0.110  kl_a=0.048 kl_m=0.107  margin_a=6.688 margin_m=4.750
+CONTEXT:
+ but Hall kept the scoreline to a goal advantage.
+The Bluebirds had a golden opportunity late on to equalise. Former Haverfordwest defender Sam Rodon was penalised for a slight foul on Ben Fawcett. Midfielder Elliot Scotcher successfully converted the spot kick for the equaliser.
+Penyb
+
+--- example 13/20  θ=72.61°  tok=37058 'lemetry'  seq=69 pos=491
+nll_a=0.019 nll_m=0.000  kl_a=0.031 kl_m=0.023  margin_a=6.688 margin_m=12.062
+CONTEXT:
+ of these expectations, and could cause actual outcomes and results to differ materially from current expectations. Factors that may materially affect such forward-looking statements include the BioTelemetry’s ability to successfully integrate the companies and expend into chronic care sectors. For further details and a discussion of these and other risks and uncertainties, please see BioTelemetry
+
+--- example 14/20  θ=71.61°  tok=71437 'íg'  seq=287 pos=645
+nll_a=0.001 nll_m=0.001  kl_a=0.004 kl_m=0.002  margin_a=10.375 margin_m=8.375
+CONTEXT:
+ Spermatophyta Jasminum fluminense (Brazilian jasmine) Present Introduced Acevedo-Rodríguez and Strong, 2012.
+Eukaryota Plantae Spermatophyta Jasminum multiflorum (star jasmine) Present Introduced Acevedo-Rodríg
+
+--- example 15/20  θ=72.72°  tok=77812 'bern'  seq=366 pos=829
+nll_a=0.351 nll_m=0.114  kl_a=0.351 kl_m=0.119  margin_a=3.375 margin_m=4.125
+CONTEXT:
+ Champion Convertible Sofa By Ebern Designs , look for good quality wooden joinery. In case a item is fixed together or if nails and anchoring screws are utilized to maintain the piece of furniture jointly, it does not last extended. It is advisable to spend more money to obtain a Brick Champion Convertible Sofa By Ebern
+
+--- example 16/20  θ=72.61°  tok=65036 'ogh'  seq=40 pos=674
+nll_a=0.000 nll_m=0.000  kl_a=0.044 kl_m=0.038  margin_a=12.312 margin_m=9.750
+CONTEXT:
+ and with ease.<|endoftext|>Learn how to prepare the perfect Van Gogh cocktail recipe! For the Van Gogh cocktail fill a shaker with ice.
+Add the pastis, the passion fruit juice, the blue curaçao, the pineapple juice and the lemon juice.
+Shake everything wel and strain your Van Gogh
+
+--- example 17/20  θ=72.30°  tok=3074 'ica'  seq=336 pos=313
+nll_a=2.909 nll_m=1.110  kl_a=2.144 kl_m=1.422  margin_a=-1.062 margin_m=2.375
+CONTEXT:
+ or solid state , and switch the relay with a micro-controller such as the Arduino. Leicina Special Leicina Special sold as Leicina Spezial in German-speaking countries Specifications Model Leicina Special Format s Manufacturer Made in Germany Produced 1972-77 Lens es Schneider Optivaron 1. You can easily use leica
+
+--- example 18/20  θ=75.19°  tok=27323 'flat'  seq=141 pos=496
+nll_a=2.107 nll_m=0.223  kl_a=2.100 kl_m=0.218  margin_a=1.000 margin_m=2.250
+CONTEXT:
+ I have offended you,I ask your pardon.
+> Many thanks for your reply and the books.
+of programs or a Linux distro.<|endoftext|>We’d love your help. Let us know what’s wrong with this preview of Before and After Superflat by Adrian Favell.
+To ask other readers questions about Before and After Superflat
+
+--- example 19/20  θ=79.13°  tok=28657 'ropa'  seq=145 pos=234
+nll_a=0.049 nll_m=0.024  kl_a=0.076 kl_m=0.035  margin_a=6.375 margin_m=6.188
+CONTEXT:
+ There weren't many people there, but there definately were no groups of roleplayers.
+And I know it isnt about "the bloody gold". Out of curiosity, what do you mean by "give it a rest"? PM me - don't hijack this thread please.
+errrr........the ''spirit '' of europa
+
+--- example 20/20  θ=78.07°  tok=82008 'hevik'  seq=53 pos=846
+nll_a=0.117 nll_m=0.189  kl_a=0.069 kl_m=0.132  margin_a=2.125 margin_m=1.812
+CONTEXT:
+ party. Many commentators point out the difficulties presented to the Menshevik faction by getting lumbered with this name. In fact, the Mensheviks were actually the numerically larger faction among rank-and-file party members, but the majority of the party leadership supported Lenin; hence, Lenin's faction took the name "Bolshevik
+
+========================================================================
+ANGLE BIN 80-90°  (n_examples=20)
+========================================================================
+
+--- example 1/20  θ=90.84°  tok=69605 'aoke'  seq=273 pos=395
+nll_a=1.342 nll_m=0.884  kl_a=1.345 kl_m=0.889  margin_a=0.500 margin_m=1.750
+CONTEXT:
+ ending December of 2018. This represents a decrease of 9.3% versus 2017, when the company's sales were 3.36 billion Chinese Renmimbi. The sales level in 2018 was fairly close to the level five years ago: in 2013, Nanjing Gaoke
+
+--- example 2/20  θ=82.90°  tok=85407 'yb'  seq=239 pos=101
+nll_a=0.109 nll_m=0.531  kl_a=0.109 kl_m=0.522  margin_a=4.000 margin_m=3.438
+CONTEXT:
+Penybont almost took the lead on the counter-attack. Cullen Kinsella’s curling effort whistled just wide.
+Just over the half-hour mark, Ben Fawcett had a golden chance from a Jack Wilson cross but it went over Wilson’s bar.
+Against the run of play, Penyb
+
+--- example 3/20  θ=97.12°  tok=82008 'hevik'  seq=53 pos=690
+nll_a=0.170 nll_m=0.130  kl_a=0.086 kl_m=0.059  margin_a=1.750 margin_m=2.188
+CONTEXT:
+heviks, derived from "minority". Shortly after the Bolsheviks seized power during the Russian Revolution of 1917, they changed their name to the All-Russian Communist Party (Bolsheviks), and then at the 1936 Party Congress to the Communist Party of the Soviet Union.
+The word "Bolshevik
+
+--- example 4/20  θ=82.73°  tok=33896 'cade'  seq=476 pos=37
+nll_a=0.019 nll_m=0.002  kl_a=0.028 kl_m=0.022  margin_a=6.062 margin_m=8.000
+CONTEXT:
+ in both Milk Chocolate and White Chocolate varieties.
+Available in 105ml on a stick.<|endoftext|>XSS vulnerabilities in the web-based management interface of Brocade Fibre Channel SAN products running Brocade
+
+--- example 5/20  θ=89.35°  tok=89808 'uja'  seq=420 pos=896
+nll_a=0.006 nll_m=0.001  kl_a=0.144 kl_m=0.212  margin_a=7.062 margin_m=10.250
+CONTEXT:
+ mAmunigaL asks SrI rAmAnuja the reason why he does not bless him by taking away his physical body. Only if that happens, he can have a continual experience of a thought that he has now in this world. maNavALa mAmunigaL considers SrI rAmAnuja
+
+--- example 6/20  θ=88.79°  tok=38767 'ukt'  seq=208 pos=465
+nll_a=0.034 nll_m=0.032  kl_a=0.132 kl_m=0.033  margin_a=5.438 margin_m=3.812
+CONTEXT:
+, only trucks and no other tuktuks were driving by that road. It might just be me having watched too much CSI but it got too scary I had to tell him I left something at the hostel and needed to go back.
+Eventually, I was able to verify that there is indeed a shortcut and the tukt
+
+--- example 7/20  θ=88.92°  tok=33896 'cade'  seq=476 pos=74
+nll_a=0.027 nll_m=0.003  kl_a=0.027 kl_m=0.003  margin_a=6.125 margin_m=8.625
+CONTEXT:
+ 105ml on a stick.<|endoftext|>XSS vulnerabilities in the web-based management interface of Brocade Fibre Channel SAN products running Brocade Fabric OS (FOS) could allow remote unauthenticated attackers to execute arbitrary script code in the context of the interface or allow attackers to access sensitive browser-based information.All versions of Brocade
+
+--- example 8/20  θ=81.41°  tok=31949 'ISS'  seq=445 pos=890
+nll_a=0.369 nll_m=0.154  kl_a=0.465 kl_m=0.223  margin_a=3.688 margin_m=4.562
+CONTEXT:
+ never managed to build it! But many parts of the system were integrated, and those secondary outputs have been really well received."
+Nine tools have been identified as having come from the NeISS cooperation, along with an increased sense of community and cooperation across the University teams involved. Full information on the tools is available on the NeISS
+
+--- example 9/20  θ=91.81°  tok=89808 'uja'  seq=420 pos=954
+nll_a=0.006 nll_m=0.001  kl_a=0.122 kl_m=0.181  margin_a=7.062 margin_m=10.375
+CONTEXT:
+ considers SrI rAmAnuja as his father, his mother, his wife, his children, his eternal wealth and much more. But this thought does not seem to be eternal while being in this earth and is temporal. This is the reason maNavALa mAmunigaL asks SrI rAmAnuja
+
+--- example 10/20  θ=82.95°  tok=24856 'entina'  seq=204 pos=764
+nll_a=0.031 nll_m=0.012  kl_a=0.031 kl_m=0.011  margin_a=5.125 margin_m=5.500
+CONTEXT:
+ excited she felt. Good thing for us was that Wednesday and Thursday would be one hour with us parents in the classroom, her first full day from 8:20am-2:20pm would be Friday.
+Off we went walking to school, and the verdict on that first day was that school was ok. Valentina
+
+--- example 11/20  θ=81.16°  tok=14344 'LES'  seq=361 pos=314
+nll_a=0.125 nll_m=0.021  kl_a=0.141 kl_m=0.323  margin_a=4.250 margin_m=5.562
+CONTEXT:
+Microsoft Excel) the output weffles.csv file can be loaded into many different tools. There is a pre-built weffles.pbix PowerBI Desktop file in the GitHub repo that allows you to use the same data slicer console view I show in this post.
+All the build files are located in the WEFFLES
+
+--- example 12/20  θ=85.66°  tok=3178 'uk'  seq=208 pos=408
+nll_a=6.772 nll_m=7.508  kl_a=0.662 kl_m=0.767  margin_a=-6.750 margin_m=-7.500
+CONTEXT:
+ share.
+My other tuktuk story wasn’t as pleasant unfortunately. It was supposedly the last tuktuk I’ll take before I leave Cambodia had all things gone well. The driver took me to a really dark road and said it was a shortcut to the airport. Suspiciously, only trucks and no other tuk
+
+--- example 13/20  θ=85.51°  tok=89808 'uja'  seq=420 pos=843
+nll_a=0.010 nll_m=0.001  kl_a=0.459 kl_m=0.710  margin_a=6.500 margin_m=9.500
+CONTEXT:
+ as an obstacle, has to drop out. maNavALa mAmunigaL asks why doesn’t this obstacle go away.
+ethirAsA – Oh yathirAja !!!
+ennO – what is the reason that?
+maNavALa mAmunigaL asks SrI rAmAnuja
+
+--- example 14/20  θ=85.96°  tok=31949 'ISS'  seq=445 pos=862
+nll_a=0.582 nll_m=0.670  kl_a=0.734 kl_m=0.715  margin_a=3.125 margin_m=2.250
+CONTEXT:
+ direct from the public. It would let researchers pose what if questions to the public and let the public add their own data... Sadly, we never managed to build it! But many parts of the system were integrated, and those secondary outputs have been really well received."
+Nine tools have been identified as having come from the NeISS
+
+--- example 15/20  θ=93.38°  tok=89808 'uja'  seq=420 pos=992
+nll_a=0.004 nll_m=0.000  kl_a=0.153 kl_m=0.217  margin_a=7.500 margin_m=10.438
+CONTEXT:
+ in this earth and is temporal. This is the reason maNavALa mAmunigaL asks SrI rAmAnuja as to what prevents him in taking him to his fold so that he can have the thought without any interruption.
+maNavALa mAmunigaL addresses SrI rAmAnuja
+
+--- example 16/20  θ=93.48°  tok=24856 'entina'  seq=204 pos=870
+nll_a=0.049 nll_m=0.011  kl_a=0.048 kl_m=0.010  margin_a=5.125 margin_m=5.375
+CONTEXT:
+ good but once Thursday night got here, the sobs came again. Valentina would officially leave my side. It was hard to imagine running around without her by my side and holding my hard, the sobs were on full force. Husband had to reassure me that everything would be ok and she wouldn't cry. Valentina
+
+--- example 17/20  θ=86.19°  tok=89808 'uja'  seq=421 pos=356
+nll_a=0.007 nll_m=0.001  kl_a=0.098 kl_m=0.169  margin_a=6.688 margin_m=9.188
+CONTEXT:
+ rAmAnuja as to why the latter is not blessing him by taking away his physical body this day right away, the very day and the moment in which maNavALa mAmunigaL realized that body is an impediment. maNavALa mAmunigaL requests SrI rAmAnuja
+
+--- example 18/20  θ=88.97°  tok=33896 'cade'  seq=476 pos=114
+nll_a=0.023 nll_m=0.002  kl_a=0.027 kl_m=0.010  margin_a=5.625 margin_m=9.000
+CONTEXT:
+ to execute arbitrary script code in the context of the interface or allow attackers to access sensitive browser-based information.All versions of Brocade Fabric OS are affected.
+Minimizing exposure to this vulnerability can be done by using firewall and ipfilter to limit access to switch web interface to trusted hosts only or disabling webtools access.
+Brocade
+
+--- example 19/20  θ=84.56°  tok=31949 'ISS'  seq=446 pos=207
+nll_a=0.203 nll_m=0.362  kl_a=0.542 kl_m=0.531  margin_a=4.125 margin_m=3.125
+CONTEXT:
+ to the project. At our bi-monthly meetings Neil was instrumental in getting discussions and proper sessions going, and in developing a diagram of what the whole infrastructure ought to look like, how the partners would connect with one another and so on. Without his input and experience, it would have been much more difficult."
+The NeISS
+
+--- example 20/20  θ=80.47°  tok=60593 'alten'  seq=494 pos=508
+nll_a=0.384 nll_m=0.111  kl_a=0.447 kl_m=0.156  margin_a=3.688 margin_m=5.438
+CONTEXT:
+ Audi AG.
+Van Aalten joined Bentley in 2004 as Area Manager for Central Europe, overseeing the sales and franchise development in 12 core markets. Since 2016, he headed the Luxury Division of Volkswagen Group Russia and steered Bentley’s Russian and Eastern European markets. Before his time with Bentley, Van Aalten

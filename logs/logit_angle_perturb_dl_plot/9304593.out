@@ -1,0 +1,60 @@
+Downloading from gs://cmu-gpucloud-catheri4/Optim-60M-tuning/LogitAngleBinPerturbEvaluation → /home/catheri4/optimizer-study-copy/results/LogitAngleBinPerturbEvaluation
+Loading 8 runs
+  ✓ chin=1 tokens=523776
+  ✓ chin=128 tokens=523776
+  ✓ chin=16 tokens=523776
+  ✓ chin=2 tokens=523776
+  ✓ chin=32 tokens=523776
+  ✓ chin=4 tokens=523776
+  ✓ chin=64 tokens=523776
+  ✓ chin=8 tokens=523776
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_0-10/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_0-10/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_0-10/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_0-10/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_10-20/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_10-20/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_10-20/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_10-20/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_20-30/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_20-30/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_20-30/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_20-30/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_30-40/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_30-40/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_30-40/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_30-40/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_40-50/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_40-50/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_40-50/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_40-50/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_50-60/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_50-60/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_50-60/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_50-60/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_60-70/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_60-70/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_60-70/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_60-70/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_70-80/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_70-80/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_70-80/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_70-80/mean_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_80-90/mean_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_80-90/delta_nll_vs_sigma_by_chin.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_80-90/delta_nll_vs_sigma_by_chin_xmax0p1.png
+  wrote /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/bin_80-90/mean_nll_vs_sigma_by_chin_xmax0p1.png
+Done → /home/catheri4/optimizer-study-copy/results/logit_angle_perturb/ (one folder per angle bin)
+total 332
+drwxr-x--- 11 catheri4 catheri4     12 Jul 15 13:24 .
+drwxr-x--- 19 catheri4 catheri4     19 Jul 15 13:23 ..
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:23 bin_0-10
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:23 bin_10-20
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:23 bin_20-30
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:23 bin_30-40
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:23 bin_40-50
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:23 bin_50-60
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:24 bin_60-70
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:24 bin_70-80
+drwxr-x---  2 catheri4 catheri4      6 Jul 15 13:24 bin_80-90
+-rw-r-----  1 catheri4 catheri4 290074 Jul 15 13:23 final_results.json

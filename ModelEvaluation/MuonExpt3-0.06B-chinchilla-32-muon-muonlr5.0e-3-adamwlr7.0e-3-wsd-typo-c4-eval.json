@@ -1,0 +1,93 @@
+{
+  "by_label": {
+    "C4_add_s1": {
+      "loss": 4.835089213305882,
+      "num_tokens": 2437809
+    },
+    "C4_add_s2": {
+      "loss": 5.693118894453711,
+      "num_tokens": 2699697
+    },
+    "C4_add_s3": {
+      "loss": 6.546904231398462,
+      "num_tokens": 3134472
+    },
+    "C4_add_s4": {
+      "loss": 6.997581282550633,
+      "num_tokens": 3569247
+    },
+    "C4_add_s5": {
+      "loss": 7.208476309254952,
+      "num_tokens": 4005045
+    },
+    "C4_clean": {
+      "loss": 3.989372815832595,
+      "num_tokens": 2262876
+    },
+    "C4_drop_s1": {
+      "loss": 4.629663633095342,
+      "num_tokens": 2355969
+    },
+    "C4_drop_s2": {
+      "loss": 5.308394823928689,
+      "num_tokens": 2495097
+    },
+    "C4_drop_s3": {
+      "loss": 5.999762582052083,
+      "num_tokens": 2729364
+    },
+    "C4_drop_s4": {
+      "loss": 6.350259067357513,
+      "num_tokens": 2961585
+    },
+    "C4_drop_s5": {
+      "loss": 6.461441285276927,
+      "num_tokens": 3194829
+    },
+    "C4_keyboard_s1": {
+      "loss": 4.79389294014043,
+      "num_tokens": 2415303
+    },
+    "C4_keyboard_s2": {
+      "loss": 5.609842711364412,
+      "num_tokens": 2641386
+    },
+    "C4_keyboard_s3": {
+      "loss": 6.413868557062893,
+      "num_tokens": 3019896
+    },
+    "C4_keyboard_s4": {
+      "loss": 6.819667808966909,
+      "num_tokens": 3398406
+    },
+    "C4_keyboard_s5": {
+      "loss": 6.982469047719308,
+      "num_tokens": 3775893
+    },
+    "C4_swap_s1": {
+      "loss": 4.713077011221797,
+      "num_tokens": 2417349
+    },
+    "C4_swap_s2": {
+      "loss": 5.4212449567288274,
+      "num_tokens": 2649570
+    },
+    "C4_swap_s3": {
+      "loss": 6.072905386356391,
+      "num_tokens": 3036264
+    },
+    "C4_swap_s4": {
+      "loss": 6.354876126600158,
+      "num_tokens": 3420912
+    },
+    "C4_swap_s5": {
+      "loss": 6.406843565221822,
+      "num_tokens": 3807606
+    }
+  },
+  "model_type": "olmo",
+  "overall": {
+    "loss": 6.025550190757998,
+    "num_tokens": 62428575
+  }
+}

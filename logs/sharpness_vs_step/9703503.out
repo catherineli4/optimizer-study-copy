@@ -1,0 +1,31 @@
+================================================================
+1) Download SharpnessEvaluation from GCS
+================================================================
+Local files: 172
+================================================================
+2) Plot sharpness vs step → /home/catheri4/optimizer-study-copy/results/sharpness_vs_step
+================================================================
+Found 140 max_eigenvalue JSON(s)
+Chinchillas: [1, 2, 4, 8, 16, 32, 64, 128]
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-1-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-1-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-2-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-2-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-4-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-4-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-8-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-8-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-16-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-16-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-32-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-32-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-64-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-64-max_eigenvalue_preconditioned.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-128-max_eigenvalue.png
+  wrote /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-128-max_eigenvalue_preconditioned.png
+================================================================
+Done.
+  JSONs:  /home/catheri4/optimizer-study-copy/results/SharpnessEvaluation/
+  Plots:  /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-*-max_eigenvalue.png
+          /home/catheri4/optimizer-study-copy/results/sharpness_vs_step/chinchilla-*-max_eigenvalue_preconditioned.png
+================================================================
